@@ -11,7 +11,6 @@ const shoppingSchema = new Schema({
             type: String,
             enum: [ "approved", "rejected", "inProgress" ],
             default: "inProgress",
-            required: true,
         },
         shipping: { // guía de la empresa de envío
             type: String,
@@ -22,7 +21,6 @@ const shoppingSchema = new Schema({
         },
         purchase_date: {
             type: Date,
-            required: true,
         },
         purchase: {
             type: [{
@@ -35,7 +33,8 @@ const shoppingSchema = new Schema({
                 size : { type: Number },
                 quantity : { type: Number },
                 gener    : { type: String, enum: ["female", "male"] },
-            }]
+            }],
+            required : true
         },
         mercadoPago: {
             type: {
