@@ -10,9 +10,9 @@ const authSignIn = async (req, res) => {
   try {
     const user = req.body;
 
-    let UserFH = await User.findOne({ email: user.email });
+    let userSnkrs = await User.findOne({ email: user.email });
 
-    if (UserFH === null && user.providerId !== '') {
+    if (userSnkrs === null && user.providerId !== '') {
       const userDB = new User({
         firstName: user.firstName,
         lastName: user.lastName,
@@ -20,22 +20,20 @@ const authSignIn = async (req, res) => {
         email: user.email,
         status: 'active',
       });
-      console.log("🚀 ~ file: userAuthSignIn.js:22 ~ userAuthSignIn ~ userDB:", userDB)
-      UserFH = await userDB.save();
+      userSnkrs = await userDB.save();
     }
 
-    if (UserFH) {
-      if (UserFH && UserFH.status === 'active') {
+    if (userSnkrs) {
+      if (userSnkrs && userSnkrs.status === 'active') {
 
         req.session.auth = {
-          User_id: UserFH._id,
-          firstName: UserFH.firstName,
-          lastName: UserFH.lastName,
-          email: UserFH.email,
-          image: UserFH.image,
-          role: UserFH.role
+          User_id: userSnkrs._id,
+          firstName: userSnkrs.firstName,
+          lastName: userSnkrs.lastName,
+          email: userSnkrs.email,
+          image: userSnkrs.image,
+          role: userSnkrs.role
         }
-
         req.session.save(async (err) => {
           if (err) {
             return res.status(500).json({ message: 'Error al guardar la sesión.' });
@@ -54,18 +52,21 @@ const authSignIn = async (req, res) => {
             const id_session = req.sessionID
             const expires = await handlerDateFinishSession(id_session)
 
+            res.setHeader(SESSION_NAME, handlerTokenIdSession(id_session));
             res.cookie(SESSION_NAME, token, options)
+
             return res.status(200).json({
               _id: handlerTokenIdSession(id_session),
               expires: expires,
               ...req.session.auth
             })
+
           } catch (error) {
             return res.status(500).json({ message: 'Error al generar el token de sesión.' });
           }
         });
 
-      } else if (UserFH.status === 'inactive') {
+      } else if (userSnkrs.status === 'inactive') {
         await handlerSendEmailVerify(user);
         return res.status(200).json({ message: 'A verification email has been sent!' });
       } else {

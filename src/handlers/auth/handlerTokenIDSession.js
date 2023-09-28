@@ -5,7 +5,7 @@ const handlerTokenIdSession = (sessionID) => {
     try {
         const tokenID = jwt.sign({ sessionID },
             JWT_ID_SESSION,
-            { expiresIn: `${SESSION_TIME}m` }); // '30m' para 30 minutos
+            { expiresIn: `${SESSION_TIME}m` });
         return tokenID
     }
     catch (error) {

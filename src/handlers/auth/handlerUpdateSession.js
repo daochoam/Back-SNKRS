@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const { config: { SESSION_TIME } } = require('../../config');
-const { handlerDecodeTokenIDSession, handlerTokenIdSession } = require("../../handlers");
+const { handlerDecodeTokenIDSession, handlerTokenIdSession } = require("..");
 
-const authUpdateSession = async (req, res) => {
+const handlerUpdateSession = async (req, res) => {
     try {
         const sessionID = req.headers.authorization;
 
@@ -46,4 +46,4 @@ const authUpdateSession = async (req, res) => {
     }
 };
 
-module.exports = authUpdateSession;
+module.exports = handlerUpdateSession;
