@@ -46,7 +46,6 @@ app.use(morgan("dev"))
 // Middleware de rutas
 app.use(snkrsRoutes);
 
-
 // Ruta para la documentación Swagger UI
 app.use('/snkrs/doc', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
