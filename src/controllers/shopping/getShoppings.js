@@ -39,20 +39,25 @@ const filterShoppings = async ( id, typeId = "User_id" ) => {
     return shoppings;
 };
 
-const getShoppingByUserId = async (req, res) => {
+const getShoppings = async (req, res) => {
     try {
-        // const { User_id, firstName, lastName } =  req.session.auth;
+        // const { User_id, firstName, lastName, role } =  req.session.auth;
 
         const firstName= "Pepito";
         const lastName = "Lopez";
+        // const role     = "user";
+        const role     = "admin";
         // const User_id = "6514587eb7921ff62d216a69"; // 0 shoppings
         // const User_id = "65136ebf2360169a3dedb99c"; // 1 shoppings
-        const User_id = "651439639eefb47285529a1c"; // 2 shoppings
+        const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
 
-        const shoppingsByUserId = await filterShoppings(User_id);
+        const allShoppings = ( role === "user"
+            ? await filterShoppings(User_id)
+            : await Shopping.find()
+        );
 
-        if (shoppingsByUserId.length > 0)
-            res.status(200).json(shoppingsByUserId)
+        if (allShoppings.length > 0)
+            res.status(200).json(allShoppings)
         else
             res.status(200).json({ "message": `There are no purchases recorded for ${firstName} ${lastName}, please check it` })        
         
@@ -61,4 +66,4 @@ const getShoppingByUserId = async (req, res) => {
     }
 };
 
-module.exports = getShoppingByUserId;
+module.exports = getShoppings;
