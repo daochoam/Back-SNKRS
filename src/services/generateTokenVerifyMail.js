@@ -2,7 +2,7 @@ require("dotenv").config();
 const jwt = require('jsonwebtoken');
 const { config } = require('../config')
 const { firebase } = require("../config");
-const { User } = require("../models")
+const { User } = require("../schemas")
 
 const generateTokenVerifyMail = async (user) => {
     try {

@@ -15,12 +15,12 @@ const userSchema = new Schema({
         unique: true,
         lowercase: true,
         trim: true,
-        validate: {
-            validator: (value) => {
-                return /^((?!^[._%+-])(?![._%+-]{2,})[a-zñ0-9._%+-]){5,29}[a-zñ0-9]+@(([\w-]+)+\.+[\w-]{2,4})$/.test(value);
-            },
-            message: ({ value }) => `${value} it is not a valid mail.`
-        }
+        // validate: {
+        //     validator: (value) => {
+        //         return /^((?!^[._%+-])(?![._%+-]{2,})[a-zñ0-9._%+-]){5,29}[a-zñ0-9]+@(([\w-]+)+\.+[\w-]{2,4})$/.test(value);
+        //     },
+        //     message: ({ value }) => `${value} it is not a valid mail.`
+        // }
     },
     image: {
         type: String,
