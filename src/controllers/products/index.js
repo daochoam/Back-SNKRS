@@ -29,16 +29,19 @@ const createProduct = async (req, res) => {
   const savedProduct = await newProduct.save();
   res.json(savedProduct);
 };
+
 const getProduct = async (req, res) => {
     const product = await Product.findById(req.params.id)
     if(!product) return res.status(404).json({message: 'Product not found'})
     res.json(product)
 };
+
 const deleteProduct = async (req, res) => {
     const product = await Product.findByIdAndDelete(req.params.id)
     if(!product) return res.status(404).json({message: 'Product not found'})
     res.status(204).json({message: 'Nothing to show'})
 };
+
 const updateProduct = async (req, res) => {
     const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
         new: true
