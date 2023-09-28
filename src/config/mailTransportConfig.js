@@ -10,8 +10,8 @@ const mailTransport = nodemailer.createTransport({
     secure: false,
     requireTLS: true,
     auth: {
-        user: config.MAIL_FINDHOTEL,
-        pass: config.PASS_FINDHOTEL,
+        user: config.MAIL_SNKRS,
+        pass: config.PASS_SNKRS,
     },
     tls: {
         rejectUnauthorized: false

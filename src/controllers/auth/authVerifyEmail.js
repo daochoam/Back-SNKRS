@@ -4,10 +4,9 @@ const { handlerSendEmailVerify } = require("../../handlers");
 const authVerifyEmail = async (req, res) => {
     const { email } = req.params
     try {
-
-        const userFindHotel = User.findOne({ email, status: 'inactive' })
-        if (userFindHotel) {
-            await handlerSendEmailVerify(userFindHotel)
+        const userSnkrs = User.findOne({ email, status: 'inactive' })
+        if (userSnkrs) {
+            await handlerSendEmailVerify(userSnkrs)
             return res.status(200).json({ message: "Email Verification Sent!" });
         }
         else {
