@@ -1,13 +1,13 @@
 const updateByShoppingId = require('./updateByShoppingId');
 const deleteByShoppingId = require('./deleteByShoppingId');
+const getShoppings   = require('./getShoppings');
 const createShopping = require('./createShopping');
-const getShoppingByUserId = require('./getShoppingByUserId');
 
 const controller = {
     updateByShoppingId,
     deleteByShoppingId,
     createShopping,
-    getShoppingByUserId,
+    getShoppings,
 };
 
 module.exports = controller;

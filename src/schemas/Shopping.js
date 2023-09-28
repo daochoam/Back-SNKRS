@@ -9,7 +9,7 @@ const shoppingSchema = new Schema({
         },
         status: {
             type: String,
-            enum: ["approved", "rejected", "inProgress"],
+            enum: [ "approved", "rejected", "inProgress" ],
             default: "inProgress",
             required: true,
         },
