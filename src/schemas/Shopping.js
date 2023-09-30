@@ -38,14 +38,14 @@ const shoppingSchema = new Schema({
         },
         mercadoPago: {
             type: {
-                order: { type: String },
+                order: { type: Number },
                 Preference_id : { type: String },
-                mercadoPago_id: { type: String },
+                mercadoPago_id: { type: Number },
             }  
         },
-    },
-    { 
-        timestamps: true 
+},
+    {
+        timestamps: true
     }
 );
 
