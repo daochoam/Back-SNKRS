@@ -41,7 +41,7 @@ const filterShoppings = async ( id, typeId = "User_id" ) => {
 
 const getShoppings = async (req, res) => {
     try {
-        // const { User_id, firstName, lastName, role } =  req.session.auth;        
+        // const { User_id, firstName, lastName, role } =  req.session.auth;
         const queriesObj = req.query;
         let allShoppings = [];
         
