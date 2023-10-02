@@ -1,5 +1,4 @@
-const { Shopping } = require("../../schemas/index");
-const { Product } = require("../../schemas/index");
+const { Shopping, Product } = require("../../schemas/index");
 const crypto = require('crypto');
 const createOrderMP = require('../../services/createOrderMP');
 // const body = {
@@ -14,6 +13,20 @@ const createOrderMP = require('../../services/createOrderMP');
 
 const createShopping = async (req, res) => {
     try {
+        // const { User_id, firstName, lastName, role } =  req.session.auth;
+        // const attributes  = req.body;  
+        
+        //! ----------------- temporal --------
+        // const firstName= "Pepito";
+        // const lastName = "Lopez";
+        // const role     = "user";
+        // const role     = "admin";
+        // const User_id = 6514b834a7f6a9231e02193b; // Dani / 0 shoppings
+        // const User_id = "6514587eb7921ff62d216a69"; // 0 shoppings
+        // const User_id = "65136ebf2360169a3dedb99c"; // 1 shoppings
+        // const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
+        //! ----------------- temporal --------  
+
         const { purchase } = req.body;
         const shoppingAtributes = {
             User_id: req.user._id || "6514b834a7f6a9231e02193b",
@@ -25,7 +38,6 @@ const createShopping = async (req, res) => {
 
         const itemsPreference = purchase.map(async (product) => {
             const { brand, model, price, stock } = await Product.findById(product.Product_id, { image: 0, category: 0, type: 0, __v: 0 }).lean();
-
             shoppingAtributes.payment += price * product.quantity;
             return {
                 title: `${brand} - ${model}`,
@@ -39,8 +51,8 @@ const createShopping = async (req, res) => {
 
         shoppingAtributes.preferenceId = id
 
-        const newShopping = new Shopping(shoppingAtributes);
-        const shopping = await newShopping.save();
+        const newShopping = new Shopping(shoppingAtributes);     
+        const shopping    = await newShopping.save();
 
         if (shopping)
             res.status(201).send(init_point);

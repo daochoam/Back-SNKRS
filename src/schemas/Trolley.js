@@ -1,28 +1,14 @@
 const mongoose = require("mongoose");
 const { Schema, model } = require("mongoose");
 
-const shoppingSchema = new Schema({ 
+const trolleySchema = new Schema({ 
         User_id: {
             type: Schema.Types.ObjectId,
             ref: 'User',
+            unique: true,
             required: true,
         },
-        status: {
-            type: String,
-            enum: [ "approved", "rejected", "inProgress" ],
-            default: "inProgress",
-        },
-        shipping: { // guía de la empresa de envío
-            type: String,
-        },
-        payment: { // valor total de la compra
-            type: Number,
-            required: true,
-        },
-        purchase_date: {
-            type: Date,
-        },
-        purchase: {
+        pickedProducts: {
             type: [{
                 Product_id: {
                     type: Schema.Types.ObjectId,
@@ -31,20 +17,29 @@ const shoppingSchema = new Schema({
                 },
                 color: { type: String },
                 size : { type: Number },
+                price: { type: Number },
                 quantity : { type: Number },
                 gener    : { type: String, enum: ["female", "male", "kid"] },
+                image   : {
+                    type: [
+                      {
+                        id  :  { type: String },
+                        src :  { type: String },
+                        size:  { type: Number },
+                        // color: { type: String },
+                        typeImage: { type: String },
+                      },
+                    ],
+                },
             }],
             required : true
         },
-    orderId: { type: Number },
-    preferenceId: { type: String },
-    mercadoPagoId: { type: Number },
-},
+    },
     {
         timestamps: true
     }
 );
 
 //Creación de modelo
-const Shopping = model("Shopping", shoppingSchema);
-module.exports = Shopping;
+const Trolley = model("Trolley", trolleySchema);
+module.exports = Trolley;
