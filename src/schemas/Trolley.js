@@ -26,7 +26,7 @@ const trolleySchema = new Schema({
                         id  :  { type: String },
                         src :  { type: String },
                         size:  { type: Number },
-                        // color: { type: String },
+                        color: { type: String },
                         typeImage: { type: String },
                       },
                     ],

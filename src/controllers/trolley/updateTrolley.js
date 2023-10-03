@@ -15,14 +15,16 @@ const removePickedProduct = (idPick, trolley) => {
 
 const updateTrolley = async ( req, res ) => {
     try {
+        // const { User_id } = req.locals;
+        const User_id = "6517088344d46facf8d90480";
+        
         const { option } = req.params;
-        const { idTrolley } = req.body;
 
         if( option === "add" || option === "remove"){            
-            let trolleyBefore = await Trolley.findById(idTrolley);
+            let [ trolleyBefore ] = await Trolley.find({"User_id" : User_id});
 
             if(option === "add"){
-                const { pick } = req.body;
+                const pick = req.body;
                 trolleyBefore.pickedProducts.push(pick);
             }
             if(option === "remove"){
@@ -34,7 +36,7 @@ const updateTrolley = async ( req, res ) => {
             const trolleyAfter = await trolleyBefore.save();
             
             if (trolleyAfter)
-                res.status(200).json(trolleyAfter);
+                res.status(200).json(trolleyAfter.pickedProducts);
             else
                 res.status(400).json({ "error": "Something wrong, please check" });
         }
