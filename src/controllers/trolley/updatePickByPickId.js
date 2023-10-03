@@ -2,12 +2,15 @@ const { Trolley } = require("../../schemas/index");
 
 const updatePickByPickId = async ( req, res ) => {
     try {
-        const { attributes }  = req.body;
-        const { idPick, idTrolley } = req.body;
-
-        let   pickFound = {};
-        const trolleyBefore = await Trolley.findById(idTrolley)
+        // const { User_id } = req.locals;
+        const User_id = "6517088344d46facf8d90480";
         
+        const { idPick } = req.params;
+        const attributes = req.body;
+    
+        let   pickFound = {};
+        const [ trolleyBefore ] = await Trolley.find({"User_id": User_id})    
+
         trolleyBefore.pickedProducts.forEach( pick => {
             if (pick._id == idPick){               
                 const update = Object.entries(attributes);
@@ -20,7 +23,7 @@ const updatePickByPickId = async ( req, res ) => {
             const trolleyAfter = await trolleyBefore.save();
     
             if (trolleyAfter)
-                res.status(200).json(trolleyAfter);
+                res.status(200).json(pickFound);
             else
                 res.status(400).json({ "erro": "The pick was not updated correctly" });
         }
