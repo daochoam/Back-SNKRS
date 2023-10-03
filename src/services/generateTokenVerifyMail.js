@@ -1,33 +1,34 @@
-require("dotenv").config();
 const jwt = require('jsonwebtoken');
-const { config } = require('../config')
-const { firebase } = require("../config");
-const { User } = require("../models")
+const { firebase, config: { JWT_MAIL, URL_FRONT } } = require('../config')
+const { User } = require("../schemas")
 
 const generateTokenVerifyMail = async (user) => {
-    try {
-        const userFindHotel = await User.findOne({ email: user.email })
 
-        if (!user.emailVerified || userFindHotel.status === 'inactive') {
+    try {
+        const userSnkrs = await User.findOne({ email: user.email })
+
+        if (!user.emailVerified || userSnkrs.status === 'inactive') {
             const actionCodeSettings = {
-                url: config.URL_FRONT,
+                url: URL_FRONT,
                 handleCodeInApp: true,
             };
-            const authFirebaseToken = await firebase
-                .auth()
-                .generateEmailVerificationLink(
-                    user.email, actionCodeSettings);
+            const authFirebaseToken =
+                await firebase
+                    .auth()
+                    .generateEmailVerificationLink(user.email, actionCodeSettings);
+            console.log("🚀 ~ file: generateTokenVerifyMail.js:22 ~ generateTokenVerifyMail ~ authFirebaseToken:", authFirebaseToken)
 
             const token = jwt.sign({
                 email: user.email,
                 activation: authFirebaseToken
-            }, config.JWT_MAIL, { expiresIn: '7d' });
+            }, JWT_MAIL, { expiresIn: '7d' });
             return token;
 
         } else {
             throw new Error('The email is already verified.');
         }
     } catch (error) {
+        console.log(error.message);
         throw new error.message;
     };
 };

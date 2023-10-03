@@ -42,19 +42,24 @@ const filterShoppings = async ( id, typeId = "User_id" ) => {
 const getShoppings = async (req, res) => {
     try {
         // const { User_id, firstName, lastName, role } =  req.session.auth;
-
+        const queriesObj = req.query;
+        let allShoppings = [];
+        
+        //! ----------------- temporal --------
         const firstName= "Pepito";
         const lastName = "Lopez";
-        // const role     = "user";
-        const role     = "admin";
+        const role     = "user";
+        // const role     = "admin";
         // const User_id = "6514587eb7921ff62d216a69"; // 0 shoppings
         // const User_id = "65136ebf2360169a3dedb99c"; // 1 shoppings
-        const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
+        // const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
+        //! ----------------- temporal --------
 
-        const allShoppings = ( role === "user"
-            ? await filterShoppings(User_id)
-            : await Shopping.find()
-        );
+        if(role === "user"){
+            queriesObj.User_id = User_id;
+            allShoppings = await Shopping.find(queriesObj)
+        } 
+        if(role === "admin") allShoppings = await Shopping.find(queriesObj)                
 
         if (allShoppings.length > 0)
             res.status(200).json(allShoppings)

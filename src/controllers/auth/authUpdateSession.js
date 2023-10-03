@@ -15,7 +15,7 @@ const authUpdateSession = async (req, res) => {
         const Session = db.collection('sessions');
         const userSession = await Session.findOne({ _id: ID });
         if (userSession) {
-            const currentDate = new Date(userSession.expires);
+            const currentDate = new Date();
             const dateExpires = new Date(currentDate.getTime() + SESSION_TIME * 60 * 1000);
 
             const updateDateExpires = {
@@ -28,7 +28,7 @@ const authUpdateSession = async (req, res) => {
             const result = await Session.updateOne({ _id: ID }, updateDateExpires);
             if (result) {
                 res.status(200).json({
-                    _id: handlerTokenIdSession(sessionID),
+                    _id: handlerTokenIdSession(ID),
                     expires: dateExpires,
                     ...userSession.session.auth
                 })

@@ -1,0 +1,6001 @@
+[
+  {
+    "country": "Afghanistan",
+    "flag": "🇦🇫",
+    "capital": "Kabul",
+    "nationality": "Afghan",
+    "timeZone": "UTC+04:30",
+    "location": {
+      "latitude": "33.00000000",
+      "longitude": "65.00000000"
+    },
+    "codes": {
+      "iso2": "AF",
+      "iso3": "AFG",
+      "tld": ".af",
+      "numeric": "004",
+      "phone": "93"
+    },
+    "currency": {
+      "name": "Afghan afghani",
+      "abbreviation": "AFN",
+      "symbol": "؋"
+    },
+    "emojiU": "U+1F1E6 U+1F1EB"
+  },
+  {
+    "country": "Aland Islands",
+    "flag": "🇦🇽",
+    "capital": "Mariehamn",
+    "nationality": "Aland Island",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "60.11666700",
+      "longitude": "19.90000000"
+    },
+    "codes": {
+      "iso2": "AX",
+      "iso3": "ALA",
+      "tld": ".ax",
+      "numeric": "248",
+      "phone": "+358-18"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E6 U+1F1FD"
+  },
+  {
+    "country": "Albania",
+    "flag": "🇦🇱",
+    "capital": "Tirana",
+    "nationality": "Albanian ",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "41.00000000",
+      "longitude": "20.00000000"
+    },
+    "codes": {
+      "iso2": "AL",
+      "iso3": "ALB",
+      "tld": ".al",
+      "numeric": "008",
+      "phone": "355"
+    },
+    "currency": {
+      "name": "Albanian lek",
+      "abbreviation": "ALL",
+      "symbol": "Lek"
+    },
+    "emojiU": "U+1F1E6 U+1F1F1"
+  },
+  {
+    "country": "Algeria",
+    "flag": "🇩🇿",
+    "capital": "Algiers",
+    "nationality": "Algerian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "28.00000000",
+      "longitude": "3.00000000"
+    },
+    "codes": {
+      "iso2": "DZ",
+      "iso3": "DZA",
+      "tld": ".dz",
+      "numeric": "012",
+      "phone": "213"
+    },
+    "currency": {
+      "name": "Algerian dinar",
+      "abbreviation": "DZD",
+      "symbol": "دج"
+    },
+    "emojiU": "U+1F1E9 U+1F1FF"
+  },
+  {
+    "country": "American Samoa",
+    "flag": "🇦🇸",
+    "capital": "Pago Pago",
+    "nationality": "American Samoan",
+    "timeZone": "UTC-11:00",
+    "location": {
+      "latitude": "-14.33333333",
+      "longitude": "-170.00000000"
+    },
+    "codes": {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "tld": ".as",
+      "numeric": "016",
+      "phone": "+1-684"
+    },
+    "currency": {
+      "name": "US Dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1F8"
+  },
+  {
+    "country": "Andorra",
+    "flag": "🇦🇩",
+    "capital": "Andorra la Vella",
+    "nationality": "Andorran",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "42.50000000",
+      "longitude": "1.50000000"
+    },
+    "codes": {
+      "iso2": "AD",
+      "iso3": "AND",
+      "tld": ".ad",
+      "numeric": "020",
+      "phone": "376"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E6 U+1F1E9"
+  },
+  {
+    "country": "Angola",
+    "flag": "🇦🇴",
+    "capital": "Luanda",
+    "nationality": "Angolan",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "-12.50000000",
+      "longitude": "18.50000000"
+    },
+    "codes": {
+      "iso2": "AO",
+      "iso3": "AGO",
+      "tld": ".ao",
+      "numeric": "024",
+      "phone": "244"
+    },
+    "currency": {
+      "name": "Angolan kwanza",
+      "abbreviation": "AOA",
+      "symbol": "Kz"
+    },
+    "emojiU": "U+1F1E6 U+1F1F4"
+  },
+  {
+    "country": "Anguilla",
+    "flag": "🇦🇮",
+    "capital": "The Valley",
+    "nationality": "Anguillan",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.25000000",
+      "longitude": "-63.16666666"
+    },
+    "codes": {
+      "iso2": "AI",
+      "iso3": "AIA",
+      "tld": ".ai",
+      "numeric": "660",
+      "phone": "+1-264"
+    },
+    "currency": {
+      "name": "East Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1EE"
+  },
+  {
+    "country": "Antarctica",
+    "flag": "🇦🇶",
+    "capital": "",
+    "nationality": "Antarctic",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-74.65000000",
+      "longitude": "4.48000000"
+    },
+    "codes": {
+      "iso2": "AQ",
+      "iso3": "ATA",
+      "tld": ".aq",
+      "numeric": "010",
+      "phone": "672"
+    },
+    "currency": {
+      "name": "Antarctican dollar",
+      "abbreviation": "AAD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1F6"
+  },
+  {
+    "country": "Antigua And Barbuda",
+    "flag": "🇦🇬",
+    "capital": "St. John's",
+    "nationality": "Antiguan or Barbudan",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "17.05000000",
+      "longitude": "-61.80000000"
+    },
+    "codes": {
+      "iso2": "AG",
+      "iso3": "ATG",
+      "tld": ".ag",
+      "numeric": "028",
+      "phone": "+1-268"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1EC"
+  },
+  {
+    "country": "Argentina",
+    "flag": "🇦🇷",
+    "capital": "Buenos Aires",
+    "nationality": "Argentine",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-34.00000000",
+      "longitude": "-64.00000000"
+    },
+    "codes": {
+      "iso2": "AR",
+      "iso3": "ARG",
+      "tld": ".ar",
+      "numeric": "032",
+      "phone": "54"
+    },
+    "currency": {
+      "name": "Argentine peso",
+      "abbreviation": "ARS",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1F7"
+  },
+  {
+    "country": "Armenia",
+    "flag": "🇦🇲",
+    "capital": "Yerevan",
+    "nationality": "Armenian",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "40.00000000",
+      "longitude": "45.00000000"
+    },
+    "codes": {
+      "iso2": "AM",
+      "iso3": "ARM",
+      "tld": ".am",
+      "numeric": "051",
+      "phone": "374"
+    },
+    "currency": {
+      "name": "Armenian dram",
+      "abbreviation": "AMD",
+      "symbol": "֏"
+    },
+    "emojiU": "U+1F1E6 U+1F1F2"
+  },
+  {
+    "country": "Aruba",
+    "flag": "🇦🇼",
+    "capital": "Oranjestad",
+    "nationality": "Aruban",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "12.50000000",
+      "longitude": "-69.96666666"
+    },
+    "codes": {
+      "iso2": "AW",
+      "iso3": "ABW",
+      "tld": ".aw",
+      "numeric": "533",
+      "phone": "297"
+    },
+    "currency": {
+      "name": "Aruban florin",
+      "abbreviation": "AWG",
+      "symbol": "ƒ"
+    },
+    "emojiU": "U+1F1E6 U+1F1FC"
+  },
+  {
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "capital": "Canberra",
+    "nationality": "Australian",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-27.00000000",
+      "longitude": "133.00000000"
+    },
+    "codes": {
+      "iso2": "AU",
+      "iso3": "AUS",
+      "tld": ".au",
+      "numeric": "036",
+      "phone": "61"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E6 U+1F1FA"
+  },
+  {
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "capital": "Vienna",
+    "nationality": "Austrian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "47.33333333",
+      "longitude": "13.33333333"
+    },
+    "codes": {
+      "iso2": "AT",
+      "iso3": "AUT",
+      "tld": ".at",
+      "numeric": "040",
+      "phone": "43"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E6 U+1F1F9"
+  },
+  {
+    "country": "Azerbaijan",
+    "flag": "🇦🇿",
+    "capital": "Baku",
+    "nationality": "Azerbaijani, Azeri",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "40.50000000",
+      "longitude": "47.50000000"
+    },
+    "codes": {
+      "iso2": "AZ",
+      "iso3": "AZE",
+      "tld": ".az",
+      "numeric": "031",
+      "phone": "994"
+    },
+    "currency": {
+      "name": "Azerbaijani manat",
+      "abbreviation": "AZN",
+      "symbol": "m"
+    },
+    "emojiU": "U+1F1E6 U+1F1FF"
+  },
+  {
+    "country": "Bahrain",
+    "flag": "🇧🇭",
+    "capital": "Manama",
+    "nationality": "Bahraini",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "26.00000000",
+      "longitude": "50.55000000"
+    },
+    "codes": {
+      "iso2": "BH",
+      "iso3": "BHR",
+      "tld": ".bh",
+      "numeric": "048",
+      "phone": "973"
+    },
+    "currency": {
+      "name": "Bahraini dinar",
+      "abbreviation": "BHD",
+      "symbol": ".د.ب"
+    },
+    "emojiU": "U+1F1E7 U+1F1ED"
+  },
+  {
+    "country": "Bangladesh",
+    "flag": "🇧🇩",
+    "capital": "Dhaka",
+    "nationality": "Bangladeshi",
+    "timeZone": "UTC+06:00",
+    "location": {
+      "latitude": "24.00000000",
+      "longitude": "90.00000000"
+    },
+    "codes": {
+      "iso2": "BD",
+      "iso3": "BGD",
+      "tld": ".bd",
+      "numeric": "050",
+      "phone": "880"
+    },
+    "currency": {
+      "name": "Bangladeshi taka",
+      "abbreviation": "BDT",
+      "symbol": "৳"
+    },
+    "emojiU": "U+1F1E7 U+1F1E9"
+  },
+  {
+    "country": "Barbados",
+    "flag": "🇧🇧",
+    "capital": "Bridgetown",
+    "nationality": "Barbadian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "13.16666666",
+      "longitude": "-59.53333333"
+    },
+    "codes": {
+      "iso2": "BB",
+      "iso3": "BRB",
+      "tld": ".bb",
+      "numeric": "052",
+      "phone": "+1-246"
+    },
+    "currency": {
+      "name": "Barbadian dollar",
+      "abbreviation": "BBD",
+      "symbol": "Bds$"
+    },
+    "emojiU": "U+1F1E7 U+1F1E7"
+  },
+  {
+    "country": "Belarus",
+    "flag": "🇧🇾",
+    "capital": "Minsk",
+    "nationality": "Belarusian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "53.00000000",
+      "longitude": "28.00000000"
+    },
+    "codes": {
+      "iso2": "BY",
+      "iso3": "BLR",
+      "tld": ".by",
+      "numeric": "112",
+      "phone": "375"
+    },
+    "currency": {
+      "name": "Belarusian ruble",
+      "abbreviation": "BYN",
+      "symbol": "Br"
+    },
+    "emojiU": "U+1F1E7 U+1F1FE"
+  },
+  {
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "capital": "Brussels",
+    "nationality": "Belgian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "50.83333333",
+      "longitude": "4.00000000"
+    },
+    "codes": {
+      "iso2": "BE",
+      "iso3": "BEL",
+      "tld": ".be",
+      "numeric": "056",
+      "phone": "32"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E7 U+1F1EA"
+  },
+  {
+    "country": "Belize",
+    "flag": "🇧🇿",
+    "capital": "Belmopan",
+    "nationality": "Belizean",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "17.25000000",
+      "longitude": "-88.75000000"
+    },
+    "codes": {
+      "iso2": "BZ",
+      "iso3": "BLZ",
+      "tld": ".bz",
+      "numeric": "084",
+      "phone": "501"
+    },
+    "currency": {
+      "name": "Belize dollar",
+      "abbreviation": "BZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E7 U+1F1FF"
+  },
+  {
+    "country": "Benin",
+    "flag": "🇧🇯",
+    "capital": "Porto-Novo",
+    "nationality": "Beninese, Beninois",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "9.50000000",
+      "longitude": "2.25000000"
+    },
+    "codes": {
+      "iso2": "BJ",
+      "iso3": "BEN",
+      "tld": ".bj",
+      "numeric": "204",
+      "phone": "229"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1E7 U+1F1EF"
+  },
+  {
+    "country": "Bermuda",
+    "flag": "🇧🇲",
+    "capital": "Hamilton",
+    "nationality": "Bermudian, Bermudan",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "32.33333333",
+      "longitude": "-64.75000000"
+    },
+    "codes": {
+      "iso2": "BM",
+      "iso3": "BMU",
+      "tld": ".bm",
+      "numeric": "060",
+      "phone": "+1-441"
+    },
+    "currency": {
+      "name": "Bermudian dollar",
+      "abbreviation": "BMD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E7 U+1F1F2"
+  },
+  {
+    "country": "Bhutan",
+    "flag": "🇧🇹",
+    "capital": "Thimphu",
+    "nationality": "Bhutanese",
+    "timeZone": "UTC+06:00",
+    "location": {
+      "latitude": "27.50000000",
+      "longitude": "90.50000000"
+    },
+    "codes": {
+      "iso2": "BT",
+      "iso3": "BTN",
+      "tld": ".bt",
+      "numeric": "064",
+      "phone": "975"
+    },
+    "currency": {
+      "name": "Bhutanese ngultrum",
+      "abbreviation": "BTN",
+      "symbol": "Nu."
+    },
+    "emojiU": "U+1F1E7 U+1F1F9"
+  },
+  {
+    "country": "Bolivia",
+    "flag": "🇧🇴",
+    "capital": "Sucre",
+    "nationality": "Bolivian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "-17.00000000",
+      "longitude": "-65.00000000"
+    },
+    "codes": {
+      "iso2": "BO",
+      "iso3": "BOL",
+      "tld": ".bo",
+      "numeric": "068",
+      "phone": "591"
+    },
+    "currency": {
+      "name": "Bolivian boliviano",
+      "abbreviation": "BOB",
+      "symbol": "Bs."
+    },
+    "emojiU": "U+1F1E7 U+1F1F4"
+  },
+  {
+    "country": "Bonaire, Sint Eustatius and Saba",
+    "flag": "🇧🇶",
+    "capital": "Kralendijk",
+    "nationality": "Bonaire",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "12.15000000",
+      "longitude": "-68.26666700"
+    },
+    "codes": {
+      "iso2": "BQ",
+      "iso3": "BES",
+      "tld": ".an",
+      "numeric": "535",
+      "phone": "599"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E7 U+1F1F6"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "capital": "Sarajevo",
+    "nationality": "Bosnian or Herzegovinian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "44.00000000",
+      "longitude": "18.00000000"
+    },
+    "codes": {
+      "iso2": "BA",
+      "iso3": "BIH",
+      "tld": ".ba",
+      "numeric": "070",
+      "phone": "387"
+    },
+    "currency": {
+      "name": "Bosnia and Herzegovina convertible mark",
+      "abbreviation": "BAM",
+      "symbol": "KM"
+    },
+    "emojiU": "U+1F1E7 U+1F1E6"
+  },
+  {
+    "country": "Botswana",
+    "flag": "🇧🇼",
+    "capital": "Gaborone",
+    "nationality": "Motswana, Botswanan",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-22.00000000",
+      "longitude": "24.00000000"
+    },
+    "codes": {
+      "iso2": "BW",
+      "iso3": "BWA",
+      "tld": ".bw",
+      "numeric": "072",
+      "phone": "267"
+    },
+    "currency": {
+      "name": "Botswana pula",
+      "abbreviation": "BWP",
+      "symbol": "P"
+    },
+    "emojiU": "U+1F1E7 U+1F1FC"
+  },
+  {
+    "country": "Bouvet Island",
+    "flag": "🇧🇻",
+    "capital": "",
+    "nationality": "Bouvet Island",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "-54.43333333",
+      "longitude": "3.40000000"
+    },
+    "codes": {
+      "iso2": "BV",
+      "iso3": "BVT",
+      "tld": ".bv",
+      "numeric": "074",
+      "phone": "0055"
+    },
+    "currency": {
+      "name": "Norwegian Krone",
+      "abbreviation": "NOK",
+      "symbol": "kr"
+    },
+    "emojiU": "U+1F1E7 U+1F1FB"
+  },
+  {
+    "country": "Brazil",
+    "flag": "🇧🇷",
+    "capital": "Brasilia",
+    "nationality": "Brazilian",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-10.00000000",
+      "longitude": "-55.00000000"
+    },
+    "codes": {
+      "iso2": "BR",
+      "iso3": "BRA",
+      "tld": ".br",
+      "numeric": "076",
+      "phone": "55"
+    },
+    "currency": {
+      "name": "Brazilian real",
+      "abbreviation": "BRL",
+      "symbol": "R$"
+    },
+    "emojiU": "U+1F1E7 U+1F1F7"
+  },
+  {
+    "country": "British Indian Ocean Territory",
+    "flag": "🇮🇴",
+    "capital": "Diego Garcia",
+    "nationality": "BIOT",
+    "timeZone": "UTC+06:00",
+    "location": {
+      "latitude": "-6.00000000",
+      "longitude": "71.50000000"
+    },
+    "codes": {
+      "iso2": "IO",
+      "iso3": "IOT",
+      "tld": ".io",
+      "numeric": "086",
+      "phone": "246"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EE U+1F1F4"
+  },
+  {
+    "country": "Brunei",
+    "flag": "🇧🇳",
+    "capital": "Bandar Seri Begawan",
+    "nationality": "Bruneian",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "4.50000000",
+      "longitude": "114.66666666"
+    },
+    "codes": {
+      "iso2": "BN",
+      "iso3": "BRN",
+      "tld": ".bn",
+      "numeric": "096",
+      "phone": "673"
+    },
+    "currency": {
+      "name": "Brunei dollar",
+      "abbreviation": "BND",
+      "symbol": "B$"
+    },
+    "emojiU": "U+1F1E7 U+1F1F3"
+  },
+  {
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "capital": "Sofia",
+    "nationality": "Bulgarian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "43.00000000",
+      "longitude": "25.00000000"
+    },
+    "codes": {
+      "iso2": "BG",
+      "iso3": "BGR",
+      "tld": ".bg",
+      "numeric": "100",
+      "phone": "359"
+    },
+    "currency": {
+      "name": "Bulgarian lev",
+      "abbreviation": "BGN",
+      "symbol": "Лв."
+    },
+    "emojiU": "U+1F1E7 U+1F1EC"
+  },
+  {
+    "country": "Burkina Faso",
+    "flag": "🇧🇫",
+    "capital": "Ouagadougou",
+    "nationality": "Burkinabe",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "13.00000000",
+      "longitude": "-2.00000000"
+    },
+    "codes": {
+      "iso2": "BF",
+      "iso3": "BFA",
+      "tld": ".bf",
+      "numeric": "854",
+      "phone": "226"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1E7 U+1F1EB"
+  },
+  {
+    "country": "Burundi",
+    "flag": "🇧🇮",
+    "capital": "Bujumbura",
+    "nationality": "Burundian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-3.50000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "BI",
+      "iso3": "BDI",
+      "tld": ".bi",
+      "numeric": "108",
+      "phone": "257"
+    },
+    "currency": {
+      "name": "Burundian franc",
+      "abbreviation": "BIF",
+      "symbol": "FBu"
+    },
+    "emojiU": "U+1F1E7 U+1F1EE"
+  },
+  {
+    "country": "Cambodia",
+    "flag": "🇰🇭",
+    "capital": "Phnom Penh",
+    "nationality": "Cambodian",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "13.00000000",
+      "longitude": "105.00000000"
+    },
+    "codes": {
+      "iso2": "KH",
+      "iso3": "KHM",
+      "tld": ".kh",
+      "numeric": "116",
+      "phone": "855"
+    },
+    "currency": {
+      "name": "Cambodian riel",
+      "abbreviation": "KHR",
+      "symbol": "KHR"
+    },
+    "emojiU": "U+1F1F0 U+1F1ED"
+  },
+  {
+    "country": "Cameroon",
+    "flag": "🇨🇲",
+    "capital": "Yaounde",
+    "nationality": "Cameroonian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "6.00000000",
+      "longitude": "12.00000000"
+    },
+    "codes": {
+      "iso2": "CM",
+      "iso3": "CMR",
+      "tld": ".cm",
+      "numeric": "120",
+      "phone": "237"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FCFA"
+    },
+    "emojiU": "U+1F1E8 U+1F1F2"
+  },
+  {
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "capital": "Ottawa",
+    "nationality": "Canadian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "60.00000000",
+      "longitude": "-95.00000000"
+    },
+    "codes": {
+      "iso2": "CA",
+      "iso3": "CAN",
+      "tld": ".ca",
+      "numeric": "124",
+      "phone": "1"
+    },
+    "currency": {
+      "name": "Canadian dollar",
+      "abbreviation": "CAD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1E6"
+  },
+  {
+    "country": "Cape Verde",
+    "flag": "🇨🇻",
+    "capital": "Praia",
+    "nationality": "Verdean",
+    "timeZone": "UTC-01:00",
+    "location": {
+      "latitude": "16.00000000",
+      "longitude": "-24.00000000"
+    },
+    "codes": {
+      "iso2": "CV",
+      "iso3": "CPV",
+      "tld": ".cv",
+      "numeric": "132",
+      "phone": "238"
+    },
+    "currency": {
+      "name": "Cape Verdean escudo",
+      "abbreviation": "CVE",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1FB"
+  },
+  {
+    "country": "Cayman Islands",
+    "flag": "🇰🇾",
+    "capital": "George Town",
+    "nationality": "Caymanian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "19.50000000",
+      "longitude": "-80.50000000"
+    },
+    "codes": {
+      "iso2": "KY",
+      "iso3": "CYM",
+      "tld": ".ky",
+      "numeric": "136",
+      "phone": "+1-345"
+    },
+    "currency": {
+      "name": "Cayman Islands dollar",
+      "abbreviation": "KYD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F0 U+1F1FE"
+  },
+  {
+    "country": "Central African Republic",
+    "flag": "🇨🇫",
+    "capital": "Bangui",
+    "nationality": "Central African",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "7.00000000",
+      "longitude": "21.00000000"
+    },
+    "codes": {
+      "iso2": "CF",
+      "iso3": "CAF",
+      "tld": ".cf",
+      "numeric": "140",
+      "phone": "236"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FCFA"
+    },
+    "emojiU": "U+1F1E8 U+1F1EB"
+  },
+  {
+    "country": "Chad",
+    "flag": "🇹🇩",
+    "capital": "N'Djamena",
+    "nationality": "Chadian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "19.00000000"
+    },
+    "codes": {
+      "iso2": "TD",
+      "iso3": "TCD",
+      "tld": ".td",
+      "numeric": "148",
+      "phone": "235"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FCFA"
+    },
+    "emojiU": "U+1F1F9 U+1F1E9"
+  },
+  {
+    "country": "Chile",
+    "flag": "🇨🇱",
+    "capital": "Santiago",
+    "nationality": "Chilean",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-30.00000000",
+      "longitude": "-71.00000000"
+    },
+    "codes": {
+      "iso2": "CL",
+      "iso3": "CHL",
+      "tld": ".cl",
+      "numeric": "152",
+      "phone": "56"
+    },
+    "currency": {
+      "name": "Chilean peso",
+      "abbreviation": "CLP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1F1"
+  },
+  {
+    "country": "China",
+    "flag": "🇨🇳",
+    "capital": "Beijing",
+    "nationality": "Chinese",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "35.00000000",
+      "longitude": "105.00000000"
+    },
+    "codes": {
+      "iso2": "CN",
+      "iso3": "CHN",
+      "tld": ".cn",
+      "numeric": "156",
+      "phone": "86"
+    },
+    "currency": {
+      "name": "Chinese yuan",
+      "abbreviation": "CNY",
+      "symbol": "¥"
+    },
+    "emojiU": "U+1F1E8 U+1F1F3"
+  },
+  {
+    "country": "Christmas Island",
+    "flag": "🇨🇽",
+    "capital": "Flying Fish Cove",
+    "nationality": "Christmas Island",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "-10.50000000",
+      "longitude": "105.66666666"
+    },
+    "codes": {
+      "iso2": "CX",
+      "iso3": "CXR",
+      "tld": ".cx",
+      "numeric": "162",
+      "phone": "61"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1FD"
+  },
+  {
+    "country": "Cocos (Keeling) Islands",
+    "flag": "🇨🇨",
+    "capital": "West Island",
+    "nationality": "Cocos Island",
+    "timeZone": "UTC+06:30",
+    "location": {
+      "latitude": "-12.50000000",
+      "longitude": "96.83333333"
+    },
+    "codes": {
+      "iso2": "CC",
+      "iso3": "CCK",
+      "tld": ".cc",
+      "numeric": "166",
+      "phone": "61"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1E8"
+  },
+  {
+    "country": "Colombia",
+    "flag": "🇨🇴",
+    "capital": "Bogotá",
+    "nationality": "Colombian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "4.00000000",
+      "longitude": "-72.00000000"
+    },
+    "codes": {
+      "iso2": "CO",
+      "iso3": "COL",
+      "tld": ".co",
+      "numeric": "170",
+      "phone": "57"
+    },
+    "currency": {
+      "name": "Colombian peso",
+      "abbreviation": "COP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1F4"
+  },
+  {
+    "country": "Comoros",
+    "flag": "🇰🇲",
+    "capital": "Moroni",
+    "nationality": "Comoran, Comorian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "-12.16666666",
+      "longitude": "44.25000000"
+    },
+    "codes": {
+      "iso2": "KM",
+      "iso3": "COM",
+      "tld": ".km",
+      "numeric": "174",
+      "phone": "269"
+    },
+    "currency": {
+      "name": "Comorian franc",
+      "abbreviation": "KMF",
+      "symbol": "CF"
+    },
+    "emojiU": "U+1F1F0 U+1F1F2"
+  },
+  {
+    "country": "Congo",
+    "flag": "🇨🇬",
+    "capital": "Brazzaville",
+    "nationality": "Congolese",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "-1.00000000",
+      "longitude": "15.00000000"
+    },
+    "codes": {
+      "iso2": "CG",
+      "iso3": "COG",
+      "tld": ".cg",
+      "numeric": "178",
+      "phone": "242"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FC"
+    },
+    "emojiU": "U+1F1E8 U+1F1EC"
+  },
+  {
+    "country": "Cook Islands",
+    "flag": "🇨🇰",
+    "capital": "Avarua",
+    "nationality": "Cook Island",
+    "timeZone": "UTC-10:00",
+    "location": {
+      "latitude": "-21.23333333",
+      "longitude": "-159.76666666"
+    },
+    "codes": {
+      "iso2": "CK",
+      "iso3": "COK",
+      "tld": ".ck",
+      "numeric": "184",
+      "phone": "682"
+    },
+    "currency": {
+      "name": "Cook Islands dollar",
+      "abbreviation": "NZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1F0"
+  },
+  {
+    "country": "Costa Rica",
+    "flag": "🇨🇷",
+    "capital": "San Jose",
+    "nationality": "Costa Rican",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "10.00000000",
+      "longitude": "-84.00000000"
+    },
+    "codes": {
+      "iso2": "CR",
+      "iso3": "CRI",
+      "tld": ".cr",
+      "numeric": "188",
+      "phone": "506"
+    },
+    "currency": {
+      "name": "Costa Rican colón",
+      "abbreviation": "CRC",
+      "symbol": "₡"
+    },
+    "emojiU": "U+1F1E8 U+1F1F7"
+  },
+  {
+    "country": "Cote D'Ivoire (Ivory Coast)",
+    "flag": "🇨🇮",
+    "capital": "Yamoussoukro",
+    "nationality": "Ivorian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "8.00000000",
+      "longitude": "-5.00000000"
+    },
+    "codes": {
+      "iso2": "CI",
+      "iso3": "CIV",
+      "tld": ".ci",
+      "numeric": "384",
+      "phone": "225"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1E8 U+1F1EE"
+  },
+  {
+    "country": "Croatia",
+    "flag": "🇭🇷",
+    "capital": "Zagreb",
+    "nationality": "Croatian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "45.16666666",
+      "longitude": "15.50000000"
+    },
+    "codes": {
+      "iso2": "HR",
+      "iso3": "HRV",
+      "tld": ".hr",
+      "numeric": "191",
+      "phone": "385"
+    },
+    "currency": {
+      "name": "Croatian kuna",
+      "abbreviation": "HRK",
+      "symbol": "kn"
+    },
+    "emojiU": "U+1F1ED U+1F1F7"
+  },
+  {
+    "country": "Cuba",
+    "flag": "🇨🇺",
+    "capital": "Havana",
+    "nationality": "Cuban",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "21.50000000",
+      "longitude": "-80.00000000"
+    },
+    "codes": {
+      "iso2": "CU",
+      "iso3": "CUB",
+      "tld": ".cu",
+      "numeric": "192",
+      "phone": "53"
+    },
+    "currency": {
+      "name": "Cuban peso",
+      "abbreviation": "CUP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E8 U+1F1FA"
+  },
+  {
+    "country": "Curaçao",
+    "flag": "🇨🇼",
+    "capital": "Willemstad",
+    "nationality": "Curacaoan",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "12.11666700",
+      "longitude": "-68.93333300"
+    },
+    "codes": {
+      "iso2": "CW",
+      "iso3": "CUW",
+      "tld": ".cw",
+      "numeric": "531",
+      "phone": "599"
+    },
+    "currency": {
+      "name": "Netherlands Antillean guilder",
+      "abbreviation": "ANG",
+      "symbol": "ƒ"
+    },
+    "emojiU": "U+1F1E8 U+1F1FC"
+  },
+  {
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "capital": "Nicosia",
+    "nationality": "Cypriot",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "35.00000000",
+      "longitude": "33.00000000"
+    },
+    "codes": {
+      "iso2": "CY",
+      "iso3": "CYP",
+      "tld": ".cy",
+      "numeric": "196",
+      "phone": "357"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E8 U+1F1FE"
+  },
+  {
+    "country": "Czech Republic",
+    "flag": "🇨🇿",
+    "capital": "Prague",
+    "nationality": "Czech",
+    "location": {
+      "latitude": "49.75000000",
+      "longitude": "15.50000000"
+    },
+    "codes": {
+      "iso2": "CZ",
+      "iso3": "CZE",
+      "tld": ".cz",
+      "numeric": "203",
+      "phone": "420"
+    },
+    "currency": {
+      "name": "Czech koruna",
+      "abbreviation": "CZK",
+      "symbol": "Kč"
+    },
+    "emojiU": "U+1F1E8 U+1F1FF"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "flag": "🇨🇩",
+    "capital": "Kinshasa",
+    "nationality": "Congolese",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "0.00000000",
+      "longitude": "25.00000000"
+    },
+    "codes": {
+      "iso2": "CD",
+      "iso3": "COD",
+      "tld": ".cd",
+      "numeric": "180",
+      "phone": "243"
+    },
+    "currency": {
+      "name": "Congolese Franc",
+      "abbreviation": "CDF",
+      "symbol": "FC"
+    },
+    "emojiU": "U+1F1E8 U+1F1E9"
+  },
+  {
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "capital": "Copenhagen",
+    "nationality": "Danish",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "56.00000000",
+      "longitude": "10.00000000"
+    },
+    "codes": {
+      "iso2": "DK",
+      "iso3": "DNK",
+      "tld": ".dk",
+      "numeric": "208",
+      "phone": "45"
+    },
+    "currency": {
+      "name": "Danish krone",
+      "abbreviation": "DKK",
+      "symbol": "Kr."
+    },
+    "emojiU": "U+1F1E9 U+1F1F0"
+  },
+  {
+    "country": "Djibouti",
+    "flag": "🇩🇯",
+    "capital": "Djibouti",
+    "nationality": "Djiboutian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "11.50000000",
+      "longitude": "43.00000000"
+    },
+    "codes": {
+      "iso2": "DJ",
+      "iso3": "DJI",
+      "tld": ".dj",
+      "numeric": "262",
+      "phone": "253"
+    },
+    "currency": {
+      "name": "Djiboutian franc",
+      "abbreviation": "DJF",
+      "symbol": "Fdj"
+    },
+    "emojiU": "U+1F1E9 U+1F1EF"
+  },
+  {
+    "country": "Dominica",
+    "flag": "🇩🇲",
+    "capital": "Roseau",
+    "nationality": "Dominican",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "15.41666666",
+      "longitude": "-61.33333333"
+    },
+    "codes": {
+      "iso2": "DM",
+      "iso3": "DMA",
+      "tld": ".dm",
+      "numeric": "212",
+      "phone": "+1-767"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E9 U+1F1F2"
+  },
+  {
+    "country": "Dominican Republic",
+    "flag": "🇩🇴",
+    "capital": "Santo Domingo",
+    "nationality": "Dominican",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "19.00000000",
+      "longitude": "-70.66666666"
+    },
+    "codes": {
+      "iso2": "DO",
+      "iso3": "DOM",
+      "tld": ".do",
+      "numeric": "214",
+      "phone": "+1-809 and 1-829"
+    },
+    "currency": {
+      "name": "Dominican peso",
+      "abbreviation": "DOP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1E9 U+1F1F4"
+  },
+  {
+    "country": "East Timor",
+    "flag": "🇹🇱",
+    "capital": "Dili",
+    "nationality": "Timorese",
+    "timeZone": "UTC+09:00",
+    "location": {
+      "latitude": "-8.83333333",
+      "longitude": "125.91666666"
+    },
+    "codes": {
+      "iso2": "TL",
+      "iso3": "TLS",
+      "tld": ".tl",
+      "numeric": "626",
+      "phone": "670"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1F1"
+  },
+  {
+    "country": "Ecuador",
+    "flag": "🇪🇨",
+    "capital": "Quito",
+    "nationality": "Ecuadorian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "-2.00000000",
+      "longitude": "-77.50000000"
+    },
+    "codes": {
+      "iso2": "EC",
+      "iso3": "ECU",
+      "tld": ".ec",
+      "numeric": "218",
+      "phone": "593"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EA U+1F1E8"
+  },
+  {
+    "country": "Egypt",
+    "flag": "🇪🇬",
+    "capital": "Cairo",
+    "nationality": "Egyptian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "27.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "EG",
+      "iso3": "EGY",
+      "tld": ".eg",
+      "numeric": "818",
+      "phone": "20"
+    },
+    "currency": {
+      "name": "Egyptian pound",
+      "abbreviation": "EGP",
+      "symbol": "ج.م"
+    },
+    "emojiU": "U+1F1EA U+1F1EC"
+  },
+  {
+    "country": "El Salvador",
+    "flag": "🇸🇻",
+    "capital": "San Salvador",
+    "nationality": "Salvadoran",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "13.83333333",
+      "longitude": "-88.91666666"
+    },
+    "codes": {
+      "iso2": "SV",
+      "iso3": "SLV",
+      "tld": ".sv",
+      "numeric": "222",
+      "phone": "503"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F8 U+1F1FB"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "capital": "Malabo",
+    "nationality": "Equatorial Guinean, Equatoguinean",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "2.00000000",
+      "longitude": "10.00000000"
+    },
+    "codes": {
+      "iso2": "GQ",
+      "iso3": "GNQ",
+      "tld": ".gq",
+      "numeric": "226",
+      "phone": "240"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FCFA"
+    },
+    "emojiU": "U+1F1EC U+1F1F6"
+  },
+  {
+    "country": "Eritrea",
+    "flag": "🇪🇷",
+    "capital": "Asmara",
+    "nationality": "Eritrean",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "39.00000000"
+    },
+    "codes": {
+      "iso2": "ER",
+      "iso3": "ERI",
+      "tld": ".er",
+      "numeric": "232",
+      "phone": "291"
+    },
+    "currency": {
+      "name": "Eritrean nakfa",
+      "abbreviation": "ERN",
+      "symbol": "Nfk"
+    },
+    "emojiU": "U+1F1EA U+1F1F7"
+  },
+  {
+    "country": "Estonia",
+    "flag": "🇪🇪",
+    "capital": "Tallinn",
+    "nationality": "Estonian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "59.00000000",
+      "longitude": "26.00000000"
+    },
+    "codes": {
+      "iso2": "EE",
+      "iso3": "EST",
+      "tld": ".ee",
+      "numeric": "233",
+      "phone": "372"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EA U+1F1EA"
+  },
+  {
+    "country": "Ethiopia",
+    "flag": "🇪🇹",
+    "capital": "Addis Ababa",
+    "nationality": "Ethiopian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "8.00000000",
+      "longitude": "38.00000000"
+    },
+    "codes": {
+      "iso2": "ET",
+      "iso3": "ETH",
+      "tld": ".et",
+      "numeric": "231",
+      "phone": "251"
+    },
+    "currency": {
+      "name": "Ethiopian birr",
+      "abbreviation": "ETB",
+      "symbol": "Nkf"
+    },
+    "emojiU": "U+1F1EA U+1F1F9"
+  },
+  {
+    "country": "Falkland Islands",
+    "flag": "🇫🇰",
+    "capital": "Stanley",
+    "nationality": "Falkland Island",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-51.75000000",
+      "longitude": "-59.00000000"
+    },
+    "codes": {
+      "iso2": "FK",
+      "iso3": "FLK",
+      "tld": ".fk",
+      "numeric": "238",
+      "phone": "500"
+    },
+    "currency": {
+      "name": "Falkland Islands pound",
+      "abbreviation": "FKP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EB U+1F1F0"
+  },
+  {
+    "country": "Faroe Islands",
+    "flag": "🇫🇴",
+    "capital": "Torshavn",
+    "nationality": "Faroese",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "62.00000000",
+      "longitude": "-7.00000000"
+    },
+    "codes": {
+      "iso2": "FO",
+      "iso3": "FRO",
+      "tld": ".fo",
+      "numeric": "234",
+      "phone": "298"
+    },
+    "currency": {
+      "name": "Danish krone",
+      "abbreviation": "DKK",
+      "symbol": "Kr."
+    },
+    "emojiU": "U+1F1EB U+1F1F4"
+  },
+  {
+    "country": "Fiji Islands",
+    "flag": "🇫🇯",
+    "capital": "Suva",
+    "nationality": "Fijian",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "-18.00000000",
+      "longitude": "175.00000000"
+    },
+    "codes": {
+      "iso2": "FJ",
+      "iso3": "FJI",
+      "tld": ".fj",
+      "numeric": "242",
+      "phone": "679"
+    },
+    "currency": {
+      "name": "Fijian dollar",
+      "abbreviation": "FJD",
+      "symbol": "FJ$"
+    },
+    "emojiU": "U+1F1EB U+1F1EF"
+  },
+  {
+    "country": "Finland",
+    "flag": "🇫🇮",
+    "capital": "Helsinki",
+    "nationality": "Finnish",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "64.00000000",
+      "longitude": "26.00000000"
+    },
+    "codes": {
+      "iso2": "FI",
+      "iso3": "FIN",
+      "tld": ".fi",
+      "numeric": "246",
+      "phone": "358"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EB U+1F1EE"
+  },
+  {
+    "country": "France",
+    "flag": "🇫🇷",
+    "capital": "Paris",
+    "nationality": "French",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "46.00000000",
+      "longitude": "2.00000000"
+    },
+    "codes": {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "tld": ".fr",
+      "numeric": "250",
+      "phone": "33"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EB U+1F1F7"
+  },
+  {
+    "country": "French Guiana",
+    "flag": "🇬🇫",
+    "capital": "Cayenne",
+    "nationality": "French Guianese",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "4.00000000",
+      "longitude": "-53.00000000"
+    },
+    "codes": {
+      "iso2": "GF",
+      "iso3": "GUF",
+      "tld": ".gf",
+      "numeric": "254",
+      "phone": "594"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EC U+1F1EB"
+  },
+  {
+    "country": "French Polynesia",
+    "flag": "🇵🇫",
+    "capital": "Papeete",
+    "nationality": "French Polynesia",
+    "timeZone": "UTC-09:00",
+    "location": {
+      "latitude": "-15.00000000",
+      "longitude": "-140.00000000"
+    },
+    "codes": {
+      "iso2": "PF",
+      "iso3": "PYF",
+      "tld": ".pf",
+      "numeric": "258",
+      "phone": "689"
+    },
+    "currency": {
+      "name": "CFP franc",
+      "abbreviation": "XPF",
+      "symbol": "₣"
+    },
+    "emojiU": "U+1F1F5 U+1F1EB"
+  },
+  {
+    "country": "French Southern Territories",
+    "flag": "🇹🇫",
+    "capital": "Port-aux-Francais",
+    "nationality": "French Southern Territories",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "-49.25000000",
+      "longitude": "69.16700000"
+    },
+    "codes": {
+      "iso2": "TF",
+      "iso3": "ATF",
+      "tld": ".tf",
+      "numeric": "260",
+      "phone": "262"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F9 U+1F1EB"
+  },
+  {
+    "country": "Gabon",
+    "flag": "🇬🇦",
+    "capital": "Libreville",
+    "nationality": "Gabonese",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "-1.00000000",
+      "longitude": "11.75000000"
+    },
+    "codes": {
+      "iso2": "GA",
+      "iso3": "GAB",
+      "tld": ".ga",
+      "numeric": "266",
+      "phone": "241"
+    },
+    "currency": {
+      "name": "Central African CFA franc",
+      "abbreviation": "XAF",
+      "symbol": "FCFA"
+    },
+    "emojiU": "U+1F1EC U+1F1E6"
+  },
+  {
+    "country": "Gambia The",
+    "flag": "🇬🇲",
+    "capital": "Banjul",
+    "nationality": "Gambian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "13.46666666",
+      "longitude": "-16.56666666"
+    },
+    "codes": {
+      "iso2": "GM",
+      "iso3": "GMB",
+      "tld": ".gm",
+      "numeric": "270",
+      "phone": "220"
+    },
+    "currency": {
+      "name": "Gambian dalasi",
+      "abbreviation": "GMD",
+      "symbol": "D"
+    },
+    "emojiU": "U+1F1EC U+1F1F2"
+  },
+  {
+    "country": "Georgia",
+    "flag": "🇬🇪",
+    "capital": "Tbilisi",
+    "nationality": "Georgian",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "42.00000000",
+      "longitude": "43.50000000"
+    },
+    "codes": {
+      "iso2": "GE",
+      "iso3": "GEO",
+      "tld": ".ge",
+      "numeric": "268",
+      "phone": "995"
+    },
+    "currency": {
+      "name": "Georgian lari",
+      "abbreviation": "GEL",
+      "symbol": "ლ"
+    },
+    "emojiU": "U+1F1EC U+1F1EA"
+  },
+  {
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "capital": "Berlin",
+    "nationality": "German",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "51.00000000",
+      "longitude": "9.00000000"
+    },
+    "codes": {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "tld": ".de",
+      "numeric": "276",
+      "phone": "49"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E9 U+1F1EA"
+  },
+  {
+    "country": "Ghana",
+    "flag": "🇬🇭",
+    "capital": "Accra",
+    "nationality": "Ghanaian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "8.00000000",
+      "longitude": "-2.00000000"
+    },
+    "codes": {
+      "iso2": "GH",
+      "iso3": "GHA",
+      "tld": ".gh",
+      "numeric": "288",
+      "phone": "233"
+    },
+    "currency": {
+      "name": "Ghanaian cedi",
+      "abbreviation": "GHS",
+      "symbol": "GH₵"
+    },
+    "emojiU": "U+1F1EC U+1F1ED"
+  },
+  {
+    "country": "Gibraltar",
+    "flag": "🇬🇮",
+    "capital": "Gibraltar",
+    "nationality": "Gibraltar",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "36.13333333",
+      "longitude": "-5.35000000"
+    },
+    "codes": {
+      "iso2": "GI",
+      "iso3": "GIB",
+      "tld": ".gi",
+      "numeric": "292",
+      "phone": "350"
+    },
+    "currency": {
+      "name": "Gibraltar pound",
+      "abbreviation": "GIP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EC U+1F1EE"
+  },
+  {
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "capital": "Athens",
+    "nationality": "Greek, Hellenic",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "39.00000000",
+      "longitude": "22.00000000"
+    },
+    "codes": {
+      "iso2": "GR",
+      "iso3": "GRC",
+      "tld": ".gr",
+      "numeric": "300",
+      "phone": "30"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EC U+1F1F7"
+  },
+  {
+    "country": "Greenland",
+    "flag": "🇬🇱",
+    "capital": "Nuuk",
+    "nationality": "Greenlandic",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "72.00000000",
+      "longitude": "-40.00000000"
+    },
+    "codes": {
+      "iso2": "GL",
+      "iso3": "GRL",
+      "tld": ".gl",
+      "numeric": "304",
+      "phone": "299"
+    },
+    "currency": {
+      "name": "Danish krone",
+      "abbreviation": "DKK",
+      "symbol": "Kr."
+    },
+    "emojiU": "U+1F1EC U+1F1F1"
+  },
+  {
+    "country": "Grenada",
+    "flag": "🇬🇩",
+    "capital": "St. George's",
+    "nationality": "Grenadian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "12.11666666",
+      "longitude": "-61.66666666"
+    },
+    "codes": {
+      "iso2": "GD",
+      "iso3": "GRD",
+      "tld": ".gd",
+      "numeric": "308",
+      "phone": "+1-473"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EC U+1F1E9"
+  },
+  {
+    "country": "Guadeloupe",
+    "flag": "🇬🇵",
+    "capital": "Basse-Terre",
+    "nationality": "Guadeloupe",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "16.25000000",
+      "longitude": "-61.58333300"
+    },
+    "codes": {
+      "iso2": "GP",
+      "iso3": "GLP",
+      "tld": ".gp",
+      "numeric": "312",
+      "phone": "590"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EC U+1F1F5"
+  },
+  {
+    "country": "Guam",
+    "flag": "🇬🇺",
+    "capital": "Hagatna",
+    "nationality": "Guamanian, Guambat",
+    "timeZone": "UTC+10:00",
+    "location": {
+      "latitude": "13.46666666",
+      "longitude": "144.78333333"
+    },
+    "codes": {
+      "iso2": "GU",
+      "iso3": "GUM",
+      "tld": ".gu",
+      "numeric": "316",
+      "phone": "+1-671"
+    },
+    "currency": {
+      "name": "US Dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EC U+1F1FA"
+  },
+  {
+    "country": "Guatemala",
+    "flag": "🇬🇹",
+    "capital": "Guatemala City",
+    "nationality": "Guatemalan",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "15.50000000",
+      "longitude": "-90.25000000"
+    },
+    "codes": {
+      "iso2": "GT",
+      "iso3": "GTM",
+      "tld": ".gt",
+      "numeric": "320",
+      "phone": "502"
+    },
+    "currency": {
+      "name": "Guatemalan quetzal",
+      "abbreviation": "GTQ",
+      "symbol": "Q"
+    },
+    "emojiU": "U+1F1EC U+1F1F9"
+  },
+  {
+    "country": "Guernsey and Alderney",
+    "flag": "🇬🇬",
+    "capital": "St Peter Port",
+    "nationality": "Channel Island",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "49.46666666",
+      "longitude": "-2.58333333"
+    },
+    "codes": {
+      "iso2": "GG",
+      "iso3": "GGY",
+      "tld": ".gg",
+      "numeric": "831",
+      "phone": "+44-1481"
+    },
+    "currency": {
+      "name": "British pound",
+      "abbreviation": "GBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EC U+1F1EC"
+  },
+  {
+    "country": "Guinea",
+    "flag": "🇬🇳",
+    "capital": "Conakry",
+    "nationality": "Guinean",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "11.00000000",
+      "longitude": "-10.00000000"
+    },
+    "codes": {
+      "iso2": "GN",
+      "iso3": "GIN",
+      "tld": ".gn",
+      "numeric": "324",
+      "phone": "224"
+    },
+    "currency": {
+      "name": "Guinean franc",
+      "abbreviation": "GNF",
+      "symbol": "FG"
+    },
+    "emojiU": "U+1F1EC U+1F1F3"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "flag": "🇬🇼",
+    "capital": "Bissau",
+    "nationality": "Bissau-Guinean",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "12.00000000",
+      "longitude": "-15.00000000"
+    },
+    "codes": {
+      "iso2": "GW",
+      "iso3": "GNB",
+      "tld": ".gw",
+      "numeric": "624",
+      "phone": "245"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1EC U+1F1FC"
+  },
+  {
+    "country": "Guyana",
+    "flag": "🇬🇾",
+    "capital": "Georgetown",
+    "nationality": "Guyanese",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "5.00000000",
+      "longitude": "-59.00000000"
+    },
+    "codes": {
+      "iso2": "GY",
+      "iso3": "GUY",
+      "tld": ".gy",
+      "numeric": "328",
+      "phone": "592"
+    },
+    "currency": {
+      "name": "Guyanese dollar",
+      "abbreviation": "GYD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EC U+1F1FE"
+  },
+  {
+    "country": "Haiti",
+    "flag": "🇭🇹",
+    "capital": "Port-au-Prince",
+    "nationality": "Haitian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "19.00000000",
+      "longitude": "-72.41666666"
+    },
+    "codes": {
+      "iso2": "HT",
+      "iso3": "HTI",
+      "tld": ".ht",
+      "numeric": "332",
+      "phone": "509"
+    },
+    "currency": {
+      "name": "Haitian gourde",
+      "abbreviation": "HTG",
+      "symbol": "G"
+    },
+    "emojiU": "U+1F1ED U+1F1F9"
+  },
+  {
+    "country": "Heard Island and McDonald Islands",
+    "flag": "🇭🇲",
+    "capital": "",
+    "nationality": "Heard Island or McDonald Islands",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "-53.10000000",
+      "longitude": "72.51666666"
+    },
+    "codes": {
+      "iso2": "HM",
+      "iso3": "HMD",
+      "tld": ".hm",
+      "numeric": "334",
+      "phone": "672"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1ED U+1F1F2"
+  },
+  {
+    "country": "Honduras",
+    "flag": "🇭🇳",
+    "capital": "Tegucigalpa",
+    "nationality": "Honduran",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "-86.50000000"
+    },
+    "codes": {
+      "iso2": "HN",
+      "iso3": "HND",
+      "tld": ".hn",
+      "numeric": "340",
+      "phone": "504"
+    },
+    "currency": {
+      "name": "Honduran lempira",
+      "abbreviation": "HNL",
+      "symbol": "L"
+    },
+    "emojiU": "U+1F1ED U+1F1F3"
+  },
+  {
+    "country": "Hong Kong S.A.R.",
+    "flag": "🇭🇰",
+    "capital": "Hong Kong",
+    "nationality": "Hong Kong, Hong Kongese",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "22.25000000",
+      "longitude": "114.16666666"
+    },
+    "codes": {
+      "iso2": "HK",
+      "iso3": "HKG",
+      "tld": ".hk",
+      "numeric": "344",
+      "phone": "852"
+    },
+    "currency": {
+      "name": "Hong Kong dollar",
+      "abbreviation": "HKD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1ED U+1F1F0"
+  },
+  {
+    "country": "Hungary",
+    "flag": "🇭🇺",
+    "capital": "Budapest",
+    "nationality": "Hungarian, Magyar",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "47.00000000",
+      "longitude": "20.00000000"
+    },
+    "codes": {
+      "iso2": "HU",
+      "iso3": "HUN",
+      "tld": ".hu",
+      "numeric": "348",
+      "phone": "36"
+    },
+    "currency": {
+      "name": "Hungarian forint",
+      "abbreviation": "HUF",
+      "symbol": "Ft"
+    },
+    "emojiU": "U+1F1ED U+1F1FA"
+  },
+  {
+    "country": "Iceland",
+    "flag": "🇮🇸",
+    "capital": "Reykjavik",
+    "nationality": "Icelandic",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "65.00000000",
+      "longitude": "-18.00000000"
+    },
+    "codes": {
+      "iso2": "IS",
+      "iso3": "ISL",
+      "tld": ".is",
+      "numeric": "352",
+      "phone": "354"
+    },
+    "currency": {
+      "name": "Icelandic króna",
+      "abbreviation": "ISK",
+      "symbol": "kr"
+    },
+    "emojiU": "U+1F1EE U+1F1F8"
+  },
+  {
+    "country": "India",
+    "flag": "🇮🇳",
+    "capital": "New Delhi",
+    "nationality": "Indian",
+    "timeZone": "UTC+05:30",
+    "location": {
+      "latitude": "20.00000000",
+      "longitude": "77.00000000"
+    },
+    "codes": {
+      "iso2": "IN",
+      "iso3": "IND",
+      "tld": ".in",
+      "numeric": "356",
+      "phone": "91"
+    },
+    "currency": {
+      "name": "Indian rupee",
+      "abbreviation": "INR",
+      "symbol": "₹"
+    },
+    "emojiU": "U+1F1EE U+1F1F3"
+  },
+  {
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "capital": "Jakarta",
+    "nationality": "Indonesian",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "-5.00000000",
+      "longitude": "120.00000000"
+    },
+    "codes": {
+      "iso2": "ID",
+      "iso3": "IDN",
+      "tld": ".id",
+      "numeric": "360",
+      "phone": "62"
+    },
+    "currency": {
+      "name": "Indonesian rupiah",
+      "abbreviation": "IDR",
+      "symbol": "Rp"
+    },
+    "emojiU": "U+1F1EE U+1F1E9"
+  },
+  {
+    "country": "Iran",
+    "flag": "🇮🇷",
+    "capital": "Tehran",
+    "nationality": "Iranian, Persian",
+    "timeZone": "UTC+03:30",
+    "location": {
+      "latitude": "32.00000000",
+      "longitude": "53.00000000"
+    },
+    "codes": {
+      "iso2": "IR",
+      "iso3": "IRN",
+      "tld": ".ir",
+      "numeric": "364",
+      "phone": "98"
+    },
+    "currency": {
+      "name": "Iranian rial",
+      "abbreviation": "IRR",
+      "symbol": "﷼"
+    },
+    "emojiU": "U+1F1EE U+1F1F7"
+  },
+  {
+    "country": "Iraq",
+    "flag": "🇮🇶",
+    "capital": "Baghdad",
+    "nationality": "Iraqi",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "33.00000000",
+      "longitude": "44.00000000"
+    },
+    "codes": {
+      "iso2": "IQ",
+      "iso3": "IRQ",
+      "tld": ".iq",
+      "numeric": "368",
+      "phone": "964"
+    },
+    "currency": {
+      "name": "Iraqi dinar",
+      "abbreviation": "IQD",
+      "symbol": "د.ع"
+    },
+    "emojiU": "U+1F1EE U+1F1F6"
+  },
+  {
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "capital": "Dublin",
+    "nationality": "Irish",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "53.00000000",
+      "longitude": "-8.00000000"
+    },
+    "codes": {
+      "iso2": "IE",
+      "iso3": "IRL",
+      "tld": ".ie",
+      "numeric": "372",
+      "phone": "353"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EE U+1F1EA"
+  },
+  {
+    "country": "Israel",
+    "flag": "🇮🇱",
+    "capital": "Jerusalem",
+    "nationality": "Israeli",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "31.50000000",
+      "longitude": "34.75000000"
+    },
+    "codes": {
+      "iso2": "IL",
+      "iso3": "ISR",
+      "tld": ".il",
+      "numeric": "376",
+      "phone": "972"
+    },
+    "currency": {
+      "name": "Israeli new shekel",
+      "abbreviation": "ILS",
+      "symbol": "₪"
+    },
+    "emojiU": "U+1F1EE U+1F1F1"
+  },
+  {
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "capital": "Rome",
+    "nationality": "Italian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "42.83333333",
+      "longitude": "12.83333333"
+    },
+    "codes": {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "tld": ".it",
+      "numeric": "380",
+      "phone": "39"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EE U+1F1F9"
+  },
+  {
+    "country": "Jamaica",
+    "flag": "🇯🇲",
+    "capital": "Kingston",
+    "nationality": "Jamaican",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "18.25000000",
+      "longitude": "-77.50000000"
+    },
+    "codes": {
+      "iso2": "JM",
+      "iso3": "JAM",
+      "tld": ".jm",
+      "numeric": "388",
+      "phone": "+1-876"
+    },
+    "currency": {
+      "name": "Jamaican dollar",
+      "abbreviation": "JMD",
+      "symbol": "J$"
+    },
+    "emojiU": "U+1F1EF U+1F1F2"
+  },
+  {
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "capital": "Tokyo",
+    "nationality": "Japanese",
+    "timeZone": "UTC+09:00",
+    "location": {
+      "latitude": "36.00000000",
+      "longitude": "138.00000000"
+    },
+    "codes": {
+      "iso2": "JP",
+      "iso3": "JPN",
+      "tld": ".jp",
+      "numeric": "392",
+      "phone": "81"
+    },
+    "currency": {
+      "name": "Japanese yen",
+      "abbreviation": "JPY",
+      "symbol": "¥"
+    },
+    "emojiU": "U+1F1EF U+1F1F5"
+  },
+  {
+    "country": "Jersey",
+    "flag": "🇯🇪",
+    "capital": "Saint Helier",
+    "nationality": "Channel Island",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "49.25000000",
+      "longitude": "-2.16666666"
+    },
+    "codes": {
+      "iso2": "JE",
+      "iso3": "JEY",
+      "tld": ".je",
+      "numeric": "832",
+      "phone": "+44-1534"
+    },
+    "currency": {
+      "name": "British pound",
+      "abbreviation": "GBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EF U+1F1EA"
+  },
+  {
+    "country": "Jordan",
+    "flag": "🇯🇴",
+    "capital": "Amman",
+    "nationality": "Jordanian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "31.00000000",
+      "longitude": "36.00000000"
+    },
+    "codes": {
+      "iso2": "JO",
+      "iso3": "JOR",
+      "tld": ".jo",
+      "numeric": "400",
+      "phone": "962"
+    },
+    "currency": {
+      "name": "Jordanian dinar",
+      "abbreviation": "JOD",
+      "symbol": "ا.د"
+    },
+    "emojiU": "U+1F1EF U+1F1F4"
+  },
+  {
+    "country": "Kazakhstan",
+    "flag": "🇰🇿",
+    "capital": "Astana",
+    "nationality": "Kazakhstani, Kazakh",
+    "timeZone": "UTC+06:00",
+    "location": {
+      "latitude": "48.00000000",
+      "longitude": "68.00000000"
+    },
+    "codes": {
+      "iso2": "KZ",
+      "iso3": "KAZ",
+      "tld": ".kz",
+      "numeric": "398",
+      "phone": "7"
+    },
+    "currency": {
+      "name": "Kazakhstani tenge",
+      "abbreviation": "KZT",
+      "symbol": "лв"
+    },
+    "emojiU": "U+1F1F0 U+1F1FF"
+  },
+  {
+    "country": "Kenya",
+    "flag": "🇰🇪",
+    "capital": "Nairobi",
+    "nationality": "Kenyan",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "1.00000000",
+      "longitude": "38.00000000"
+    },
+    "codes": {
+      "iso2": "KE",
+      "iso3": "KEN",
+      "tld": ".ke",
+      "numeric": "404",
+      "phone": "254"
+    },
+    "currency": {
+      "name": "Kenyan shilling",
+      "abbreviation": "KES",
+      "symbol": "KSh"
+    },
+    "emojiU": "U+1F1F0 U+1F1EA"
+  },
+  {
+    "country": "Kiribati",
+    "flag": "🇰🇮",
+    "capital": "Tarawa",
+    "nationality": "I-Kiribati",
+    "timeZone": "UTC+13:00",
+    "location": {
+      "latitude": "1.41666666",
+      "longitude": "173.00000000"
+    },
+    "codes": {
+      "iso2": "KI",
+      "iso3": "KIR",
+      "tld": ".ki",
+      "numeric": "296",
+      "phone": "686"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F0 U+1F1EE"
+  },
+  {
+    "country": "Kosovo",
+    "flag": "🇽🇰",
+    "capital": "Pristina",
+    "nationality": "Kosovar, Kosovan",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "42.56129090",
+      "longitude": "20.34030350"
+    },
+    "codes": {
+      "iso2": "XK",
+      "iso3": "XKX",
+      "tld": ".xk",
+      "numeric": "926",
+      "phone": "383"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1FD U+1F1F0"
+  },
+  {
+    "country": "Kuwait",
+    "flag": "🇰🇼",
+    "capital": "Kuwait City",
+    "nationality": "Kuwaiti",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "29.50000000",
+      "longitude": "45.75000000"
+    },
+    "codes": {
+      "iso2": "KW",
+      "iso3": "KWT",
+      "tld": ".kw",
+      "numeric": "414",
+      "phone": "965"
+    },
+    "currency": {
+      "name": "Kuwaiti dinar",
+      "abbreviation": "KWD",
+      "symbol": "ك.د"
+    },
+    "emojiU": "U+1F1F0 U+1F1FC"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "flag": "🇰🇬",
+    "capital": "Bishkek",
+    "nationality": "Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz",
+    "timeZone": "UTC+06:00",
+    "location": {
+      "latitude": "41.00000000",
+      "longitude": "75.00000000"
+    },
+    "codes": {
+      "iso2": "KG",
+      "iso3": "KGZ",
+      "tld": ".kg",
+      "numeric": "417",
+      "phone": "996"
+    },
+    "currency": {
+      "name": "Kyrgyzstani som",
+      "abbreviation": "KGS",
+      "symbol": "лв"
+    },
+    "emojiU": "U+1F1F0 U+1F1EC"
+  },
+  {
+    "country": "Laos",
+    "flag": "🇱🇦",
+    "capital": "Vientiane",
+    "nationality": "Lao, Laotian",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "18.00000000",
+      "longitude": "105.00000000"
+    },
+    "codes": {
+      "iso2": "LA",
+      "iso3": "LAO",
+      "tld": ".la",
+      "numeric": "418",
+      "phone": "856"
+    },
+    "currency": {
+      "name": "Lao kip",
+      "abbreviation": "LAK",
+      "symbol": "₭"
+    },
+    "emojiU": "U+1F1F1 U+1F1E6"
+  },
+  {
+    "country": "Latvia",
+    "flag": "🇱🇻",
+    "capital": "Riga",
+    "nationality": "Latvian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "57.00000000",
+      "longitude": "25.00000000"
+    },
+    "codes": {
+      "iso2": "LV",
+      "iso3": "LVA",
+      "tld": ".lv",
+      "numeric": "428",
+      "phone": "371"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F1 U+1F1FB"
+  },
+  {
+    "country": "Lebanon",
+    "flag": "🇱🇧",
+    "capital": "Beirut",
+    "nationality": "Lebanese",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "33.83333333",
+      "longitude": "35.83333333"
+    },
+    "codes": {
+      "iso2": "LB",
+      "iso3": "LBN",
+      "tld": ".lb",
+      "numeric": "422",
+      "phone": "961"
+    },
+    "currency": {
+      "name": "Lebanese pound",
+      "abbreviation": "LBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1F1 U+1F1E7"
+  },
+  {
+    "country": "Lesotho",
+    "flag": "🇱🇸",
+    "capital": "Maseru",
+    "nationality": "Basotho",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-29.50000000",
+      "longitude": "28.50000000"
+    },
+    "codes": {
+      "iso2": "LS",
+      "iso3": "LSO",
+      "tld": ".ls",
+      "numeric": "426",
+      "phone": "266"
+    },
+    "currency": {
+      "name": "Lesotho loti",
+      "abbreviation": "LSL",
+      "symbol": "L"
+    },
+    "emojiU": "U+1F1F1 U+1F1F8"
+  },
+  {
+    "country": "Liberia",
+    "flag": "🇱🇷",
+    "capital": "Monrovia",
+    "nationality": "Liberian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "6.50000000",
+      "longitude": "-9.50000000"
+    },
+    "codes": {
+      "iso2": "LR",
+      "iso3": "LBR",
+      "tld": ".lr",
+      "numeric": "430",
+      "phone": "231"
+    },
+    "currency": {
+      "name": "Liberian dollar",
+      "abbreviation": "LRD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F1 U+1F1F7"
+  },
+  {
+    "country": "Libya",
+    "flag": "🇱🇾",
+    "capital": "Tripolis",
+    "nationality": "Libyan",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "25.00000000",
+      "longitude": "17.00000000"
+    },
+    "codes": {
+      "iso2": "LY",
+      "iso3": "LBY",
+      "tld": ".ly",
+      "numeric": "434",
+      "phone": "218"
+    },
+    "currency": {
+      "name": "Libyan dinar",
+      "abbreviation": "LYD",
+      "symbol": "د.ل"
+    },
+    "emojiU": "U+1F1F1 U+1F1FE"
+  },
+  {
+    "country": "Liechtenstein",
+    "flag": "🇱🇮",
+    "capital": "Vaduz",
+    "nationality": "Liechtenstein",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "47.26666666",
+      "longitude": "9.53333333"
+    },
+    "codes": {
+      "iso2": "LI",
+      "iso3": "LIE",
+      "tld": ".li",
+      "numeric": "438",
+      "phone": "423"
+    },
+    "currency": {
+      "name": "Swiss franc",
+      "abbreviation": "CHF",
+      "symbol": "CHf"
+    },
+    "emojiU": "U+1F1F1 U+1F1EE"
+  },
+  {
+    "country": "Lithuania",
+    "flag": "🇱🇹",
+    "capital": "Vilnius",
+    "nationality": "Lithuanian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "56.00000000",
+      "longitude": "24.00000000"
+    },
+    "codes": {
+      "iso2": "LT",
+      "iso3": "LTU",
+      "tld": ".lt",
+      "numeric": "440",
+      "phone": "370"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F1 U+1F1F9"
+  },
+  {
+    "country": "Luxembourg",
+    "flag": "🇱🇺",
+    "capital": "Luxembourg",
+    "nationality": "Luxembourg, Luxembourgish",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "49.75000000",
+      "longitude": "6.16666666"
+    },
+    "codes": {
+      "iso2": "LU",
+      "iso3": "LUX",
+      "tld": ".lu",
+      "numeric": "442",
+      "phone": "352"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F1 U+1F1FA"
+  },
+  {
+    "country": "Macau S.A.R.",
+    "flag": "🇲🇴",
+    "capital": "Macao",
+    "nationality": "Macanese, Chinese",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "22.16666666",
+      "longitude": "113.55000000"
+    },
+    "codes": {
+      "iso2": "MO",
+      "iso3": "MAC",
+      "tld": ".mo",
+      "numeric": "446",
+      "phone": "853"
+    },
+    "currency": {
+      "name": "Macanese pataca",
+      "abbreviation": "MOP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F2 U+1F1F4"
+  },
+  {
+    "country": "Madagascar",
+    "flag": "🇲🇬",
+    "capital": "Antananarivo",
+    "nationality": "Malagasy",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "-20.00000000",
+      "longitude": "47.00000000"
+    },
+    "codes": {
+      "iso2": "MG",
+      "iso3": "MDG",
+      "tld": ".mg",
+      "numeric": "450",
+      "phone": "261"
+    },
+    "currency": {
+      "name": "Malagasy ariary",
+      "abbreviation": "MGA",
+      "symbol": "Ar"
+    },
+    "emojiU": "U+1F1F2 U+1F1EC"
+  },
+  {
+    "country": "Malawi",
+    "flag": "🇲🇼",
+    "capital": "Lilongwe",
+    "nationality": "Malawian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-13.50000000",
+      "longitude": "34.00000000"
+    },
+    "codes": {
+      "iso2": "MW",
+      "iso3": "MWI",
+      "tld": ".mw",
+      "numeric": "454",
+      "phone": "265"
+    },
+    "currency": {
+      "name": "Malawian kwacha",
+      "abbreviation": "MWK",
+      "symbol": "MK"
+    },
+    "emojiU": "U+1F1F2 U+1F1FC"
+  },
+  {
+    "country": "Malaysia",
+    "flag": "🇲🇾",
+    "capital": "Kuala Lumpur",
+    "nationality": "Malaysian",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "2.50000000",
+      "longitude": "112.50000000"
+    },
+    "codes": {
+      "iso2": "MY",
+      "iso3": "MYS",
+      "tld": ".my",
+      "numeric": "458",
+      "phone": "60"
+    },
+    "currency": {
+      "name": "Malaysian ringgit",
+      "abbreviation": "MYR",
+      "symbol": "RM"
+    },
+    "emojiU": "U+1F1F2 U+1F1FE"
+  },
+  {
+    "country": "Maldives",
+    "flag": "🇲🇻",
+    "capital": "Male",
+    "nationality": "Maldivian",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "3.25000000",
+      "longitude": "73.00000000"
+    },
+    "codes": {
+      "iso2": "MV",
+      "iso3": "MDV",
+      "tld": ".mv",
+      "numeric": "462",
+      "phone": "960"
+    },
+    "currency": {
+      "name": "Maldivian rufiyaa",
+      "abbreviation": "MVR",
+      "symbol": "Rf"
+    },
+    "emojiU": "U+1F1F2 U+1F1FB"
+  },
+  {
+    "country": "Mali",
+    "flag": "🇲🇱",
+    "capital": "Bamako",
+    "nationality": "Malian, Malinese",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "17.00000000",
+      "longitude": "-4.00000000"
+    },
+    "codes": {
+      "iso2": "ML",
+      "iso3": "MLI",
+      "tld": ".ml",
+      "numeric": "466",
+      "phone": "223"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1F2 U+1F1F1"
+  },
+  {
+    "country": "Malta",
+    "flag": "🇲🇹",
+    "capital": "Valletta",
+    "nationality": "Maltese",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "35.83333333",
+      "longitude": "14.58333333"
+    },
+    "codes": {
+      "iso2": "MT",
+      "iso3": "MLT",
+      "tld": ".mt",
+      "numeric": "470",
+      "phone": "356"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F2 U+1F1F9"
+  },
+  {
+    "country": "Man (Isle of)",
+    "flag": "🇮🇲",
+    "capital": "Douglas, Isle of Man",
+    "nationality": "Manx",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "54.25000000",
+      "longitude": "-4.50000000"
+    },
+    "codes": {
+      "iso2": "IM",
+      "iso3": "IMN",
+      "tld": ".im",
+      "numeric": "833",
+      "phone": "+44-1624"
+    },
+    "currency": {
+      "name": "British pound",
+      "abbreviation": "GBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EE U+1F1F2"
+  },
+  {
+    "country": "Marshall Islands",
+    "flag": "🇲🇭",
+    "capital": "Majuro",
+    "nationality": "Marshallese",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "9.00000000",
+      "longitude": "168.00000000"
+    },
+    "codes": {
+      "iso2": "MH",
+      "iso3": "MHL",
+      "tld": ".mh",
+      "numeric": "584",
+      "phone": "692"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F2 U+1F1ED"
+  },
+  {
+    "country": "Martinique",
+    "flag": "🇲🇶",
+    "capital": "Fort-de-France",
+    "nationality": "Martiniquais, Martinican",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "14.66666700",
+      "longitude": "-61.00000000"
+    },
+    "codes": {
+      "iso2": "MQ",
+      "iso3": "MTQ",
+      "tld": ".mq",
+      "numeric": "474",
+      "phone": "596"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F2 U+1F1F6"
+  },
+  {
+    "country": "Mauritania",
+    "flag": "🇲🇷",
+    "capital": "Nouakchott",
+    "nationality": "Mauritanian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "20.00000000",
+      "longitude": "-12.00000000"
+    },
+    "codes": {
+      "iso2": "MR",
+      "iso3": "MRT",
+      "tld": ".mr",
+      "numeric": "478",
+      "phone": "222"
+    },
+    "currency": {
+      "name": "Mauritanian ouguiya",
+      "abbreviation": "MRO",
+      "symbol": "MRU"
+    },
+    "emojiU": "U+1F1F2 U+1F1F7"
+  },
+  {
+    "country": "Mauritius",
+    "flag": "🇲🇺",
+    "capital": "Port Louis",
+    "nationality": "Mauritian",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "-20.28333333",
+      "longitude": "57.55000000"
+    },
+    "codes": {
+      "iso2": "MU",
+      "iso3": "MUS",
+      "tld": ".mu",
+      "numeric": "480",
+      "phone": "230"
+    },
+    "currency": {
+      "name": "Mauritian rupee",
+      "abbreviation": "MUR",
+      "symbol": "₨"
+    },
+    "emojiU": "U+1F1F2 U+1F1FA"
+  },
+  {
+    "country": "Mayotte",
+    "flag": "🇾🇹",
+    "capital": "Mamoudzou",
+    "nationality": "Mahoran",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "-12.83333333",
+      "longitude": "45.16666666"
+    },
+    "codes": {
+      "iso2": "YT",
+      "iso3": "MYT",
+      "tld": ".yt",
+      "numeric": "175",
+      "phone": "262"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1FE U+1F1F9"
+  },
+  {
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "capital": "Ciudad de México",
+    "nationality": "Mexican",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "23.00000000",
+      "longitude": "-102.00000000"
+    },
+    "codes": {
+      "iso2": "MX",
+      "iso3": "MEX",
+      "tld": ".mx",
+      "numeric": "484",
+      "phone": "52"
+    },
+    "currency": {
+      "name": "Mexican peso",
+      "abbreviation": "MXN",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F2 U+1F1FD"
+  },
+  {
+    "country": "Micronesia",
+    "flag": "🇫🇲",
+    "capital": "Palikir",
+    "nationality": "Micronesian",
+    "timeZone": "UTC+10:00",
+    "location": {
+      "latitude": "6.91666666",
+      "longitude": "158.25000000"
+    },
+    "codes": {
+      "iso2": "FM",
+      "iso3": "FSM",
+      "tld": ".fm",
+      "numeric": "583",
+      "phone": "691"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1EB U+1F1F2"
+  },
+  {
+    "country": "Moldova",
+    "flag": "🇲🇩",
+    "capital": "Chisinau",
+    "nationality": "Moldovan",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "47.00000000",
+      "longitude": "29.00000000"
+    },
+    "codes": {
+      "iso2": "MD",
+      "iso3": "MDA",
+      "tld": ".md",
+      "numeric": "498",
+      "phone": "373"
+    },
+    "currency": {
+      "name": "Moldovan leu",
+      "abbreviation": "MDL",
+      "symbol": "L"
+    },
+    "emojiU": "U+1F1F2 U+1F1E9"
+  },
+  {
+    "country": "Monaco",
+    "flag": "🇲🇨",
+    "capital": "Monaco",
+    "nationality": "Monegasque, Monacan",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "43.73333333",
+      "longitude": "7.40000000"
+    },
+    "codes": {
+      "iso2": "MC",
+      "iso3": "MCO",
+      "tld": ".mc",
+      "numeric": "492",
+      "phone": "377"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F2 U+1F1E8"
+  },
+  {
+    "country": "Mongolia",
+    "flag": "🇲🇳",
+    "capital": "Ulan Bator",
+    "nationality": "Mongolian",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "46.00000000",
+      "longitude": "105.00000000"
+    },
+    "codes": {
+      "iso2": "MN",
+      "iso3": "MNG",
+      "tld": ".mn",
+      "numeric": "496",
+      "phone": "976"
+    },
+    "currency": {
+      "name": "Mongolian tögrög",
+      "abbreviation": "MNT",
+      "symbol": "₮"
+    },
+    "emojiU": "U+1F1F2 U+1F1F3"
+  },
+  {
+    "country": "Montenegro",
+    "flag": "🇲🇪",
+    "capital": "Podgorica",
+    "nationality": "Montenegrin",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "42.50000000",
+      "longitude": "19.30000000"
+    },
+    "codes": {
+      "iso2": "ME",
+      "iso3": "MNE",
+      "tld": ".me",
+      "numeric": "499",
+      "phone": "382"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F2 U+1F1EA"
+  },
+  {
+    "country": "Montserrat",
+    "flag": "🇲🇸",
+    "capital": "Plymouth",
+    "nationality": "Montserratian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "16.75000000",
+      "longitude": "-62.20000000"
+    },
+    "codes": {
+      "iso2": "MS",
+      "iso3": "MSR",
+      "tld": ".ms",
+      "numeric": "500",
+      "phone": "+1-664"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F2 U+1F1F8"
+  },
+  {
+    "country": "Morocco",
+    "flag": "🇲🇦",
+    "capital": "Rabat",
+    "nationality": "Moroccan",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "32.00000000",
+      "longitude": "-5.00000000"
+    },
+    "codes": {
+      "iso2": "MA",
+      "iso3": "MAR",
+      "tld": ".ma",
+      "numeric": "504",
+      "phone": "212"
+    },
+    "currency": {
+      "name": "Moroccan dirham",
+      "abbreviation": "MAD",
+      "symbol": "DH"
+    },
+    "emojiU": "U+1F1F2 U+1F1E6"
+  },
+  {
+    "country": "Mozambique",
+    "flag": "🇲🇿",
+    "capital": "Maputo",
+    "nationality": "Mozambican",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-18.25000000",
+      "longitude": "35.00000000"
+    },
+    "codes": {
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "tld": ".mz",
+      "numeric": "508",
+      "phone": "258"
+    },
+    "currency": {
+      "name": "Mozambican metical",
+      "abbreviation": "MZN",
+      "symbol": "MT"
+    },
+    "emojiU": "U+1F1F2 U+1F1FF"
+  },
+  {
+    "country": "Myanmar",
+    "flag": "🇲🇲",
+    "capital": "Nay Pyi Taw",
+    "nationality": "Burmese",
+    "timeZone": "UTC+06:30",
+    "location": {
+      "latitude": "22.00000000",
+      "longitude": "98.00000000"
+    },
+    "codes": {
+      "iso2": "MM",
+      "iso3": "MMR",
+      "tld": ".mm",
+      "numeric": "104",
+      "phone": "95"
+    },
+    "currency": {
+      "name": "Burmese kyat",
+      "abbreviation": "MMK",
+      "symbol": "K"
+    },
+    "emojiU": "U+1F1F2 U+1F1F2"
+  },
+  {
+    "country": "Namibia",
+    "flag": "🇳🇦",
+    "capital": "Windhoek",
+    "nationality": "Namibian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-22.00000000",
+      "longitude": "17.00000000"
+    },
+    "codes": {
+      "iso2": "NA",
+      "iso3": "NAM",
+      "tld": ".na",
+      "numeric": "516",
+      "phone": "264"
+    },
+    "currency": {
+      "name": "Namibian dollar",
+      "abbreviation": "NAD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F3 U+1F1E6"
+  },
+  {
+    "country": "Nauru",
+    "flag": "🇳🇷",
+    "capital": "Yaren",
+    "nationality": "Nauruan",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "-0.53333333",
+      "longitude": "166.91666666"
+    },
+    "codes": {
+      "iso2": "NR",
+      "iso3": "NRU",
+      "tld": ".nr",
+      "numeric": "520",
+      "phone": "674"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F3 U+1F1F7"
+  },
+  {
+    "country": "Nepal",
+    "flag": "🇳🇵",
+    "capital": "Kathmandu",
+    "nationality": "Nepali, Nepalese",
+    "timeZone": "UTC+05:45",
+    "location": {
+      "latitude": "28.00000000",
+      "longitude": "84.00000000"
+    },
+    "codes": {
+      "iso2": "NP",
+      "iso3": "NPL",
+      "tld": ".np",
+      "numeric": "524",
+      "phone": "977"
+    },
+    "currency": {
+      "name": "Nepalese rupee",
+      "abbreviation": "NPR",
+      "symbol": "₨"
+    },
+    "emojiU": "U+1F1F3 U+1F1F5"
+  },
+  {
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "capital": "Amsterdam",
+    "nationality": "Dutch, Netherlandic",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "52.50000000",
+      "longitude": "5.75000000"
+    },
+    "codes": {
+      "iso2": "NL",
+      "iso3": "NLD",
+      "tld": ".nl",
+      "numeric": "528",
+      "phone": "31"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F3 U+1F1F1"
+  },
+  {
+    "country": "New Caledonia",
+    "flag": "🇳🇨",
+    "capital": "Noumea",
+    "nationality": "New Caledonian",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-21.50000000",
+      "longitude": "165.50000000"
+    },
+    "codes": {
+      "iso2": "NC",
+      "iso3": "NCL",
+      "tld": ".nc",
+      "numeric": "540",
+      "phone": "687"
+    },
+    "currency": {
+      "name": "CFP franc",
+      "abbreviation": "XPF",
+      "symbol": "₣"
+    },
+    "emojiU": "U+1F1F3 U+1F1E8"
+  },
+  {
+    "country": "New Zealand",
+    "flag": "🇳🇿",
+    "capital": "Wellington",
+    "nationality": "New Zealand, NZ",
+    "timeZone": "UTC+13:00",
+    "location": {
+      "latitude": "-41.00000000",
+      "longitude": "174.00000000"
+    },
+    "codes": {
+      "iso2": "NZ",
+      "iso3": "NZL",
+      "tld": ".nz",
+      "numeric": "554",
+      "phone": "64"
+    },
+    "currency": {
+      "name": "New Zealand dollar",
+      "abbreviation": "NZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F3 U+1F1FF"
+  },
+  {
+    "country": "Nicaragua",
+    "flag": "🇳🇮",
+    "capital": "Managua",
+    "nationality": "Nicaraguan",
+    "timeZone": "UTC-06:00",
+    "location": {
+      "latitude": "13.00000000",
+      "longitude": "-85.00000000"
+    },
+    "codes": {
+      "iso2": "NI",
+      "iso3": "NIC",
+      "tld": ".ni",
+      "numeric": "558",
+      "phone": "505"
+    },
+    "currency": {
+      "name": "Nicaraguan córdoba",
+      "abbreviation": "NIO",
+      "symbol": "C$"
+    },
+    "emojiU": "U+1F1F3 U+1F1EE"
+  },
+  {
+    "country": "Niger",
+    "flag": "🇳🇪",
+    "capital": "Niamey",
+    "nationality": "Nigerien",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "16.00000000",
+      "longitude": "8.00000000"
+    },
+    "codes": {
+      "iso2": "NE",
+      "iso3": "NER",
+      "tld": ".ne",
+      "numeric": "562",
+      "phone": "227"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1F3 U+1F1EA"
+  },
+  {
+    "country": "Nigeria",
+    "flag": "🇳🇬",
+    "capital": "Abuja",
+    "nationality": "Nigerian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "10.00000000",
+      "longitude": "8.00000000"
+    },
+    "codes": {
+      "iso2": "NG",
+      "iso3": "NGA",
+      "tld": ".ng",
+      "numeric": "566",
+      "phone": "234"
+    },
+    "currency": {
+      "name": "Nigerian naira",
+      "abbreviation": "NGN",
+      "symbol": "₦"
+    },
+    "emojiU": "U+1F1F3 U+1F1EC"
+  },
+  {
+    "country": "Niue",
+    "flag": "🇳🇺",
+    "capital": "Alofi",
+    "nationality": "Niuean",
+    "timeZone": "UTC-11:00",
+    "location": {
+      "latitude": "-19.03333333",
+      "longitude": "-169.86666666"
+    },
+    "codes": {
+      "iso2": "NU",
+      "iso3": "NIU",
+      "tld": ".nu",
+      "numeric": "570",
+      "phone": "683"
+    },
+    "currency": {
+      "name": "New Zealand dollar",
+      "abbreviation": "NZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F3 U+1F1FA"
+  },
+  {
+    "country": "Norfolk Island",
+    "flag": "🇳🇫",
+    "capital": "Kingston",
+    "nationality": "Norfolk Island",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "-29.03333333",
+      "longitude": "167.95000000"
+    },
+    "codes": {
+      "iso2": "NF",
+      "iso3": "NFK",
+      "tld": ".nf",
+      "numeric": "574",
+      "phone": "672"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F3 U+1F1EB"
+  },
+  {
+    "country": "North Korea",
+    "flag": "🇰🇵",
+    "capital": "Pyongyang",
+    "nationality": "North Korean",
+    "timeZone": "UTC+09:00",
+    "location": {
+      "latitude": "40.00000000",
+      "longitude": "127.00000000"
+    },
+    "codes": {
+      "iso2": "KP",
+      "iso3": "PRK",
+      "tld": ".kp",
+      "numeric": "408",
+      "phone": "850"
+    },
+    "currency": {
+      "name": "North Korean Won",
+      "abbreviation": "KPW",
+      "symbol": "₩"
+    },
+    "emojiU": "U+1F1F0 U+1F1F5"
+  },
+  {
+    "country": "North Macedonia",
+    "flag": "🇲🇰",
+    "capital": "Skopje",
+    "nationality": "Macedonian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "41.83333333",
+      "longitude": "22.00000000"
+    },
+    "codes": {
+      "iso2": "MK",
+      "iso3": "MKD",
+      "tld": ".mk",
+      "numeric": "807",
+      "phone": "389"
+    },
+    "currency": {
+      "name": "Denar",
+      "abbreviation": "MKD",
+      "symbol": "ден"
+    },
+    "emojiU": "U+1F1F2 U+1F1F0"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "flag": "🇲🇵",
+    "capital": "Saipan",
+    "nationality": "Northern Marianan",
+    "timeZone": "UTC+10:00",
+    "location": {
+      "latitude": "15.20000000",
+      "longitude": "145.75000000"
+    },
+    "codes": {
+      "iso2": "MP",
+      "iso3": "MNP",
+      "tld": ".mp",
+      "numeric": "580",
+      "phone": "+1-670"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F2 U+1F1F5"
+  },
+  {
+    "country": "Norway",
+    "flag": "🇳🇴",
+    "capital": "Oslo",
+    "nationality": "Norwegian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "62.00000000",
+      "longitude": "10.00000000"
+    },
+    "codes": {
+      "iso2": "NO",
+      "iso3": "NOR",
+      "tld": ".no",
+      "numeric": "578",
+      "phone": "47"
+    },
+    "currency": {
+      "name": "Norwegian krone",
+      "abbreviation": "NOK",
+      "symbol": "kr"
+    },
+    "emojiU": "U+1F1F3 U+1F1F4"
+  },
+  {
+    "country": "Oman",
+    "flag": "🇴🇲",
+    "capital": "Muscat",
+    "nationality": "Omani",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "21.00000000",
+      "longitude": "57.00000000"
+    },
+    "codes": {
+      "iso2": "OM",
+      "iso3": "OMN",
+      "tld": ".om",
+      "numeric": "512",
+      "phone": "968"
+    },
+    "currency": {
+      "name": "Omani rial",
+      "abbreviation": "OMR",
+      "symbol": ".ع.ر"
+    },
+    "emojiU": "U+1F1F4 U+1F1F2"
+  },
+  {
+    "country": "Pakistan",
+    "flag": "🇵🇰",
+    "capital": "Islamabad",
+    "nationality": "Pakistani",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "30.00000000",
+      "longitude": "70.00000000"
+    },
+    "codes": {
+      "iso2": "PK",
+      "iso3": "PAK",
+      "tld": ".pk",
+      "numeric": "586",
+      "phone": "92"
+    },
+    "currency": {
+      "name": "Pakistani rupee",
+      "abbreviation": "PKR",
+      "symbol": "₨"
+    },
+    "emojiU": "U+1F1F5 U+1F1F0"
+  },
+  {
+    "country": "Palau",
+    "flag": "🇵🇼",
+    "capital": "Melekeok",
+    "nationality": "Palauan",
+    "timeZone": "UTC+09:00",
+    "location": {
+      "latitude": "7.50000000",
+      "longitude": "134.50000000"
+    },
+    "codes": {
+      "iso2": "PW",
+      "iso3": "PLW",
+      "tld": ".pw",
+      "numeric": "585",
+      "phone": "680"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F5 U+1F1FC"
+  },
+  {
+    "country": "Palestinian Territory Occupied",
+    "flag": "🇵🇸",
+    "capital": "East Jerusalem",
+    "nationality": "Palestinian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "31.90000000",
+      "longitude": "35.20000000"
+    },
+    "codes": {
+      "iso2": "PS",
+      "iso3": "PSE",
+      "tld": ".ps",
+      "numeric": "275",
+      "phone": "970"
+    },
+    "currency": {
+      "name": "Israeli new shekel",
+      "abbreviation": "ILS",
+      "symbol": "₪"
+    },
+    "emojiU": "U+1F1F5 U+1F1F8"
+  },
+  {
+    "country": "Panama",
+    "flag": "🇵🇦",
+    "capital": "Panama City",
+    "nationality": "Panamanian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "9.00000000",
+      "longitude": "-80.00000000"
+    },
+    "codes": {
+      "iso2": "PA",
+      "iso3": "PAN",
+      "tld": ".pa",
+      "numeric": "591",
+      "phone": "507"
+    },
+    "currency": {
+      "name": "Panamanian balboa",
+      "abbreviation": "PAB",
+      "symbol": "B/."
+    },
+    "emojiU": "U+1F1F5 U+1F1E6"
+  },
+  {
+    "country": "Papua new Guinea",
+    "flag": "🇵🇬",
+    "capital": "Port Moresby",
+    "nationality": "Papua New Guinean, Papuan",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-6.00000000",
+      "longitude": "147.00000000"
+    },
+    "codes": {
+      "iso2": "PG",
+      "iso3": "PNG",
+      "tld": ".pg",
+      "numeric": "598",
+      "phone": "675"
+    },
+    "currency": {
+      "name": "Papua New Guinean kina",
+      "abbreviation": "PGK",
+      "symbol": "K"
+    },
+    "emojiU": "U+1F1F5 U+1F1EC"
+  },
+  {
+    "country": "Paraguay",
+    "flag": "🇵🇾",
+    "capital": "Asuncion",
+    "nationality": "Paraguayan",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-23.00000000",
+      "longitude": "-58.00000000"
+    },
+    "codes": {
+      "iso2": "PY",
+      "iso3": "PRY",
+      "tld": ".py",
+      "numeric": "600",
+      "phone": "595"
+    },
+    "currency": {
+      "name": "Paraguayan guarani",
+      "abbreviation": "PYG",
+      "symbol": "₲"
+    },
+    "emojiU": "U+1F1F5 U+1F1FE"
+  },
+  {
+    "country": "Peru",
+    "flag": "🇵🇪",
+    "capital": "Lima",
+    "nationality": "Peruvian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "-10.00000000",
+      "longitude": "-76.00000000"
+    },
+    "codes": {
+      "iso2": "PE",
+      "iso3": "PER",
+      "tld": ".pe",
+      "numeric": "604",
+      "phone": "51"
+    },
+    "currency": {
+      "name": "Peruvian sol",
+      "abbreviation": "PEN",
+      "symbol": "S/."
+    },
+    "emojiU": "U+1F1F5 U+1F1EA"
+  },
+  {
+    "country": "Philippines",
+    "flag": "🇵🇭",
+    "capital": "Manila",
+    "nationality": "Philippine, Filipino",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "13.00000000",
+      "longitude": "122.00000000"
+    },
+    "codes": {
+      "iso2": "PH",
+      "iso3": "PHL",
+      "tld": ".ph",
+      "numeric": "608",
+      "phone": "63"
+    },
+    "currency": {
+      "name": "Philippine peso",
+      "abbreviation": "PHP",
+      "symbol": "₱"
+    },
+    "emojiU": "U+1F1F5 U+1F1ED"
+  },
+  {
+    "country": "Pitcairn Island",
+    "flag": "🇵🇳",
+    "capital": "Adamstown",
+    "nationality": "Pitcairn Island",
+    "timeZone": "UTC-08:00",
+    "location": {
+      "latitude": "-25.06666666",
+      "longitude": "-130.10000000"
+    },
+    "codes": {
+      "iso2": "PN",
+      "iso3": "PCN",
+      "tld": ".pn",
+      "numeric": "612",
+      "phone": "870"
+    },
+    "currency": {
+      "name": "New Zealand dollar",
+      "abbreviation": "NZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F5 U+1F1F3"
+  },
+  {
+    "country": "Poland",
+    "flag": "🇵🇱",
+    "capital": "Warsaw",
+    "nationality": "Polish",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "52.00000000",
+      "longitude": "20.00000000"
+    },
+    "codes": {
+      "iso2": "PL",
+      "iso3": "POL",
+      "tld": ".pl",
+      "numeric": "616",
+      "phone": "48"
+    },
+    "currency": {
+      "name": "Polish złoty",
+      "abbreviation": "PLN",
+      "symbol": "zł"
+    },
+    "emojiU": "U+1F1F5 U+1F1F1"
+  },
+  {
+    "country": "Portugal",
+    "flag": "🇵🇹",
+    "capital": "Lisbon",
+    "nationality": "Portuguese",
+    "timeZone": "UTC-01:00",
+    "location": {
+      "latitude": "39.50000000",
+      "longitude": "-8.00000000"
+    },
+    "codes": {
+      "iso2": "PT",
+      "iso3": "PRT",
+      "tld": ".pt",
+      "numeric": "620",
+      "phone": "351"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F5 U+1F1F9"
+  },
+  {
+    "country": "Puerto Rico",
+    "flag": "🇵🇷",
+    "capital": "San Juan",
+    "nationality": "Puerto Rican",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.25000000",
+      "longitude": "-66.50000000"
+    },
+    "codes": {
+      "iso2": "PR",
+      "iso3": "PRI",
+      "tld": ".pr",
+      "numeric": "630",
+      "phone": "+1-787 and 1-939"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F5 U+1F1F7"
+  },
+  {
+    "country": "Qatar",
+    "flag": "🇶🇦",
+    "capital": "Doha",
+    "nationality": "Qatari",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "25.50000000",
+      "longitude": "51.25000000"
+    },
+    "codes": {
+      "iso2": "QA",
+      "iso3": "QAT",
+      "tld": ".qa",
+      "numeric": "634",
+      "phone": "974"
+    },
+    "currency": {
+      "name": "Qatari riyal",
+      "abbreviation": "QAR",
+      "symbol": "ق.ر"
+    },
+    "emojiU": "U+1F1F6 U+1F1E6"
+  },
+  {
+    "country": "Reunion",
+    "flag": "🇷🇪",
+    "capital": "Saint-Denis",
+    "nationality": "Reunionese, Reunionnais",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "-21.15000000",
+      "longitude": "55.50000000"
+    },
+    "codes": {
+      "iso2": "RE",
+      "iso3": "REU",
+      "tld": ".re",
+      "numeric": "638",
+      "phone": "262"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F7 U+1F1EA"
+  },
+  {
+    "country": "Romania",
+    "flag": "🇷🇴",
+    "capital": "Bucharest",
+    "nationality": "Romanian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "46.00000000",
+      "longitude": "25.00000000"
+    },
+    "codes": {
+      "iso2": "RO",
+      "iso3": "ROU",
+      "tld": ".ro",
+      "numeric": "642",
+      "phone": "40"
+    },
+    "currency": {
+      "name": "Romanian leu",
+      "abbreviation": "RON",
+      "symbol": "lei"
+    },
+    "emojiU": "U+1F1F7 U+1F1F4"
+  },
+  {
+    "country": "Russia",
+    "flag": "🇷🇺",
+    "capital": "Moscow",
+    "nationality": "Russian",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "60.00000000",
+      "longitude": "100.00000000"
+    },
+    "codes": {
+      "iso2": "RU",
+      "iso3": "RUS",
+      "tld": ".ru",
+      "numeric": "643",
+      "phone": "7"
+    },
+    "currency": {
+      "name": "Russian ruble",
+      "abbreviation": "RUB",
+      "symbol": "₽"
+    },
+    "emojiU": "U+1F1F7 U+1F1FA"
+  },
+  {
+    "country": "Rwanda",
+    "flag": "🇷🇼",
+    "capital": "Kigali",
+    "nationality": "Rwandan",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-2.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "RW",
+      "iso3": "RWA",
+      "tld": ".rw",
+      "numeric": "646",
+      "phone": "250"
+    },
+    "currency": {
+      "name": "Rwandan franc",
+      "abbreviation": "RWF",
+      "symbol": "FRw"
+    },
+    "emojiU": "U+1F1F7 U+1F1FC"
+  },
+  {
+    "country": "Saint Helena",
+    "flag": "🇸🇭",
+    "capital": "Jamestown",
+    "nationality": "Saint Helenian",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "-15.95000000",
+      "longitude": "-5.70000000"
+    },
+    "codes": {
+      "iso2": "SH",
+      "iso3": "SHN",
+      "tld": ".sh",
+      "numeric": "654",
+      "phone": "290"
+    },
+    "currency": {
+      "name": "Saint Helena pound",
+      "abbreviation": "SHP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1F8 U+1F1ED"
+  },
+  {
+    "country": "Saint Kitts And Nevis",
+    "flag": "🇰🇳",
+    "capital": "Basseterre",
+    "nationality": "Kittitian or Nevisian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "17.33333333",
+      "longitude": "-62.75000000"
+    },
+    "codes": {
+      "iso2": "KN",
+      "iso3": "KNA",
+      "tld": ".kn",
+      "numeric": "659",
+      "phone": "+1-869"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F0 U+1F1F3"
+  },
+  {
+    "country": "Saint Lucia",
+    "flag": "🇱🇨",
+    "capital": "Castries",
+    "nationality": "Saint Lucian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "13.88333333",
+      "longitude": "-60.96666666"
+    },
+    "codes": {
+      "iso2": "LC",
+      "iso3": "LCA",
+      "tld": ".lc",
+      "numeric": "662",
+      "phone": "+1-758"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F1 U+1F1E8"
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "flag": "🇵🇲",
+    "capital": "Saint-Pierre",
+    "nationality": "Saint-Pierrais or Miquelonnais",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "46.83333333",
+      "longitude": "-56.33333333"
+    },
+    "codes": {
+      "iso2": "PM",
+      "iso3": "SPM",
+      "tld": ".pm",
+      "numeric": "666",
+      "phone": "508"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F5 U+1F1F2"
+  },
+  {
+    "country": "Saint Vincent And The Grenadines",
+    "flag": "🇻🇨",
+    "capital": "Kingstown",
+    "nationality": "Saint Vincentian, Vincentian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "13.25000000",
+      "longitude": "-61.20000000"
+    },
+    "codes": {
+      "iso2": "VC",
+      "iso3": "VCT",
+      "tld": ".vc",
+      "numeric": "670",
+      "phone": "+1-784"
+    },
+    "currency": {
+      "name": "Eastern Caribbean dollar",
+      "abbreviation": "XCD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FB U+1F1E8"
+  },
+  {
+    "country": "Saint-Barthelemy",
+    "flag": "🇧🇱",
+    "capital": "Gustavia",
+    "nationality": "Barthelemois",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.50000000",
+      "longitude": "-63.41666666"
+    },
+    "codes": {
+      "iso2": "BL",
+      "iso3": "BLM",
+      "tld": ".bl",
+      "numeric": "652",
+      "phone": "590"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1E7 U+1F1F1"
+  },
+  {
+    "country": "Saint-Martin (French part)",
+    "flag": "🇲🇫",
+    "capital": "Marigot",
+    "nationality": "Saint-Martinoise",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.08333333",
+      "longitude": "-63.95000000"
+    },
+    "codes": {
+      "iso2": "MF",
+      "iso3": "MAF",
+      "tld": ".mf",
+      "numeric": "663",
+      "phone": "590"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F2 U+1F1EB"
+  },
+  {
+    "country": "Samoa",
+    "flag": "🇼🇸",
+    "capital": "Apia",
+    "nationality": "Samoan",
+    "timeZone": "UTC+14:00",
+    "location": {
+      "latitude": "-13.58333333",
+      "longitude": "-172.33333333"
+    },
+    "codes": {
+      "iso2": "WS",
+      "iso3": "WSM",
+      "tld": ".ws",
+      "numeric": "882",
+      "phone": "685"
+    },
+    "currency": {
+      "name": "Samoan tālā",
+      "abbreviation": "WST",
+      "symbol": "SAT"
+    },
+    "emojiU": "U+1F1FC U+1F1F8"
+  },
+  {
+    "country": "San Marino",
+    "flag": "🇸🇲",
+    "capital": "San Marino",
+    "nationality": "Sammarinese",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "43.76666666",
+      "longitude": "12.41666666"
+    },
+    "codes": {
+      "iso2": "SM",
+      "iso3": "SMR",
+      "tld": ".sm",
+      "numeric": "674",
+      "phone": "378"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F8 U+1F1F2"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "flag": "🇸🇹",
+    "capital": "Sao Tome",
+    "nationality": "Sao Tomean",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "1.00000000",
+      "longitude": "7.00000000"
+    },
+    "codes": {
+      "iso2": "ST",
+      "iso3": "STP",
+      "tld": ".st",
+      "numeric": "678",
+      "phone": "239"
+    },
+    "currency": {
+      "name": "Dobra",
+      "abbreviation": "STD",
+      "symbol": "Db"
+    },
+    "emojiU": "U+1F1F8 U+1F1F9"
+  },
+  {
+    "country": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "capital": "Riyadh",
+    "nationality": "Saudi, Saudi Arabian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "25.00000000",
+      "longitude": "45.00000000"
+    },
+    "codes": {
+      "iso2": "SA",
+      "iso3": "SAU",
+      "tld": ".sa",
+      "numeric": "682",
+      "phone": "966"
+    },
+    "currency": {
+      "name": "Saudi riyal",
+      "abbreviation": "SAR",
+      "symbol": "﷼"
+    },
+    "emojiU": "U+1F1F8 U+1F1E6"
+  },
+  {
+    "country": "Senegal",
+    "flag": "🇸🇳",
+    "capital": "Dakar",
+    "nationality": "Senegalese",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "14.00000000",
+      "longitude": "-14.00000000"
+    },
+    "codes": {
+      "iso2": "SN",
+      "iso3": "SEN",
+      "tld": ".sn",
+      "numeric": "686",
+      "phone": "221"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1F8 U+1F1F3"
+  },
+  {
+    "country": "Serbia",
+    "flag": "🇷🇸",
+    "capital": "Belgrade",
+    "nationality": "Serbian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "44.00000000",
+      "longitude": "21.00000000"
+    },
+    "codes": {
+      "iso2": "RS",
+      "iso3": "SRB",
+      "tld": ".rs",
+      "numeric": "688",
+      "phone": "381"
+    },
+    "currency": {
+      "name": "Serbian dinar",
+      "abbreviation": "RSD",
+      "symbol": "din"
+    },
+    "emojiU": "U+1F1F7 U+1F1F8"
+  },
+  {
+    "country": "Seychelles",
+    "flag": "🇸🇨",
+    "capital": "Victoria",
+    "nationality": "Seychellois",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "-4.58333333",
+      "longitude": "55.66666666"
+    },
+    "codes": {
+      "iso2": "SC",
+      "iso3": "SYC",
+      "tld": ".sc",
+      "numeric": "690",
+      "phone": "248"
+    },
+    "currency": {
+      "name": "Seychellois rupee",
+      "abbreviation": "SCR",
+      "symbol": "SRe"
+    },
+    "emojiU": "U+1F1F8 U+1F1E8"
+  },
+  {
+    "country": "Sierra Leone",
+    "flag": "🇸🇱",
+    "capital": "Freetown",
+    "nationality": "Sierra Leonean",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "8.50000000",
+      "longitude": "-11.50000000"
+    },
+    "codes": {
+      "iso2": "SL",
+      "iso3": "SLE",
+      "tld": ".sl",
+      "numeric": "694",
+      "phone": "232"
+    },
+    "currency": {
+      "name": "Sierra Leonean leone",
+      "abbreviation": "SLL",
+      "symbol": "Le"
+    },
+    "emojiU": "U+1F1F8 U+1F1F1"
+  },
+  {
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "capital": "Singapur",
+    "nationality": "Singaporean",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "1.36666666",
+      "longitude": "103.80000000"
+    },
+    "codes": {
+      "iso2": "SG",
+      "iso3": "SGP",
+      "tld": ".sg",
+      "numeric": "702",
+      "phone": "65"
+    },
+    "currency": {
+      "name": "Singapore dollar",
+      "abbreviation": "SGD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F8 U+1F1EC"
+  },
+  {
+    "country": "Sint Maarten (Dutch part)",
+    "flag": "🇸🇽",
+    "capital": "Philipsburg",
+    "nationality": "Sint Maarten",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.03333300",
+      "longitude": "-63.05000000"
+    },
+    "codes": {
+      "iso2": "SX",
+      "iso3": "SXM",
+      "tld": ".sx",
+      "numeric": "534",
+      "phone": "1721"
+    },
+    "currency": {
+      "name": "Netherlands Antillean guilder",
+      "abbreviation": "ANG",
+      "symbol": "ƒ"
+    },
+    "emojiU": "U+1F1F8 U+1F1FD"
+  },
+  {
+    "country": "Slovakia",
+    "flag": "🇸🇰",
+    "capital": "Bratislava",
+    "nationality": "Slovak",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "48.66666666",
+      "longitude": "19.50000000"
+    },
+    "codes": {
+      "iso2": "SK",
+      "iso3": "SVK",
+      "tld": ".sk",
+      "numeric": "703",
+      "phone": "421"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F8 U+1F1F0"
+  },
+  {
+    "country": "Slovenia",
+    "flag": "🇸🇮",
+    "capital": "Ljubljana",
+    "nationality": "Slovenian, Slovene",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "46.11666666",
+      "longitude": "14.81666666"
+    },
+    "codes": {
+      "iso2": "SI",
+      "iso3": "SVN",
+      "tld": ".si",
+      "numeric": "705",
+      "phone": "386"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1F8 U+1F1EE"
+  },
+  {
+    "country": "Solomon Islands",
+    "flag": "🇸🇧",
+    "capital": "Honiara",
+    "nationality": "Solomon Island",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-8.00000000",
+      "longitude": "159.00000000"
+    },
+    "codes": {
+      "iso2": "SB",
+      "iso3": "SLB",
+      "tld": ".sb",
+      "numeric": "090",
+      "phone": "677"
+    },
+    "currency": {
+      "name": "Solomon Islands dollar",
+      "abbreviation": "SBD",
+      "symbol": "Si$"
+    },
+    "emojiU": "U+1F1F8 U+1F1E7"
+  },
+  {
+    "country": "Somalia",
+    "flag": "🇸🇴",
+    "capital": "Mogadishu",
+    "nationality": "Somali, Somalian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "10.00000000",
+      "longitude": "49.00000000"
+    },
+    "codes": {
+      "iso2": "SO",
+      "iso3": "SOM",
+      "tld": ".so",
+      "numeric": "706",
+      "phone": "252"
+    },
+    "currency": {
+      "name": "Somali shilling",
+      "abbreviation": "SOS",
+      "symbol": "Sh.so."
+    },
+    "emojiU": "U+1F1F8 U+1F1F4"
+  },
+  {
+    "country": "South Africa",
+    "flag": "🇿🇦",
+    "capital": "Pretoria",
+    "nationality": "South African",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-29.00000000",
+      "longitude": "24.00000000"
+    },
+    "codes": {
+      "iso2": "ZA",
+      "iso3": "ZAF",
+      "tld": ".za",
+      "numeric": "710",
+      "phone": "27"
+    },
+    "currency": {
+      "name": "South African rand",
+      "abbreviation": "ZAR",
+      "symbol": "R"
+    },
+    "emojiU": "U+1F1FF U+1F1E6"
+  },
+  {
+    "country": "South Georgia",
+    "flag": "🇬🇸",
+    "capital": "Grytviken",
+    "nationality": "South Georgia or South Sandwich Islands",
+    "timeZone": "UTC-02:00",
+    "location": {
+      "latitude": "-54.50000000",
+      "longitude": "-37.00000000"
+    },
+    "codes": {
+      "iso2": "GS",
+      "iso3": "SGS",
+      "tld": ".gs",
+      "numeric": "239",
+      "phone": "500"
+    },
+    "currency": {
+      "name": "British pound",
+      "abbreviation": "GBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EC U+1F1F8"
+  },
+  {
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "capital": "Seoul",
+    "nationality": "South Korean",
+    "timeZone": "UTC+09:00",
+    "location": {
+      "latitude": "37.00000000",
+      "longitude": "127.50000000"
+    },
+    "codes": {
+      "iso2": "KR",
+      "iso3": "KOR",
+      "tld": ".kr",
+      "numeric": "410",
+      "phone": "82"
+    },
+    "currency": {
+      "name": "Won",
+      "abbreviation": "KRW",
+      "symbol": "₩"
+    },
+    "emojiU": "U+1F1F0 U+1F1F7"
+  },
+  {
+    "country": "South Sudan",
+    "flag": "🇸🇸",
+    "capital": "Juba",
+    "nationality": "South Sudanese",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "7.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "SS",
+      "iso3": "SSD",
+      "tld": ".ss",
+      "numeric": "728",
+      "phone": "211"
+    },
+    "currency": {
+      "name": "South Sudanese pound",
+      "abbreviation": "SSP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1F8 U+1F1F8"
+  },
+  {
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "capital": "Madrid",
+    "nationality": "Spanish",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "40.00000000",
+      "longitude": "-4.00000000"
+    },
+    "codes": {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "tld": ".es",
+      "numeric": "724",
+      "phone": "34"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1EA U+1F1F8"
+  },
+  {
+    "country": "Sri Lanka",
+    "flag": "🇱🇰",
+    "capital": "Colombo",
+    "nationality": "Sri Lankan",
+    "timeZone": "UTC+05:30",
+    "location": {
+      "latitude": "7.00000000",
+      "longitude": "81.00000000"
+    },
+    "codes": {
+      "iso2": "LK",
+      "iso3": "LKA",
+      "tld": ".lk",
+      "numeric": "144",
+      "phone": "94"
+    },
+    "currency": {
+      "name": "Sri Lankan rupee",
+      "abbreviation": "LKR",
+      "symbol": "Rs"
+    },
+    "emojiU": "U+1F1F1 U+1F1F0"
+  },
+  {
+    "country": "Sudan",
+    "flag": "🇸🇩",
+    "capital": "Khartoum",
+    "nationality": "Sudanese",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "SD",
+      "iso3": "SDN",
+      "tld": ".sd",
+      "numeric": "729",
+      "phone": "249"
+    },
+    "currency": {
+      "name": "Sudanese pound",
+      "abbreviation": "SDG",
+      "symbol": ".س.ج"
+    },
+    "emojiU": "U+1F1F8 U+1F1E9"
+  },
+  {
+    "country": "Suriname",
+    "flag": "🇸🇷",
+    "capital": "Paramaribo",
+    "nationality": "Surinamese",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "4.00000000",
+      "longitude": "-56.00000000"
+    },
+    "codes": {
+      "iso2": "SR",
+      "iso3": "SUR",
+      "tld": ".sr",
+      "numeric": "740",
+      "phone": "597"
+    },
+    "currency": {
+      "name": "Surinamese dollar",
+      "abbreviation": "SRD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F8 U+1F1F7"
+  },
+  {
+    "country": "Svalbard And Jan Mayen Islands",
+    "flag": "🇸🇯",
+    "capital": "Longyearbyen",
+    "nationality": "Svalbard",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "78.00000000",
+      "longitude": "20.00000000"
+    },
+    "codes": {
+      "iso2": "SJ",
+      "iso3": "SJM",
+      "tld": ".sj",
+      "numeric": "744",
+      "phone": "47"
+    },
+    "currency": {
+      "name": "Norwegian Krone",
+      "abbreviation": "NOK",
+      "symbol": "kr"
+    },
+    "emojiU": "U+1F1F8 U+1F1EF"
+  },
+  {
+    "country": "Swaziland",
+    "flag": "🇸🇿",
+    "capital": "Mbabane",
+    "nationality": "Swazi",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-26.50000000",
+      "longitude": "31.50000000"
+    },
+    "codes": {
+      "iso2": "SZ",
+      "iso3": "SWZ",
+      "tld": ".sz",
+      "numeric": "748",
+      "phone": "268"
+    },
+    "currency": {
+      "name": "Lilangeni",
+      "abbreviation": "SZL",
+      "symbol": "E"
+    },
+    "emojiU": "U+1F1F8 U+1F1FF"
+  },
+  {
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "capital": "Stockholm",
+    "nationality": "Swedish",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "62.00000000",
+      "longitude": "15.00000000"
+    },
+    "codes": {
+      "iso2": "SE",
+      "iso3": "SWE",
+      "tld": ".se",
+      "numeric": "752",
+      "phone": "46"
+    },
+    "currency": {
+      "name": "Swedish krona",
+      "abbreviation": "SEK",
+      "symbol": "kr"
+    },
+    "emojiU": "U+1F1F8 U+1F1EA"
+  },
+  {
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "capital": "Bern",
+    "nationality": "Swiss",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "47.00000000",
+      "longitude": "8.00000000"
+    },
+    "codes": {
+      "iso2": "CH",
+      "iso3": "CHE",
+      "tld": ".ch",
+      "numeric": "756",
+      "phone": "41"
+    },
+    "currency": {
+      "name": "Swiss franc",
+      "abbreviation": "CHF",
+      "symbol": "CHf"
+    },
+    "emojiU": "U+1F1E8 U+1F1ED"
+  },
+  {
+    "country": "Syria",
+    "flag": "🇸🇾",
+    "capital": "Damascus",
+    "nationality": "Syrian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "35.00000000",
+      "longitude": "38.00000000"
+    },
+    "codes": {
+      "iso2": "SY",
+      "iso3": "SYR",
+      "tld": ".sy",
+      "numeric": "760",
+      "phone": "963"
+    },
+    "currency": {
+      "name": "Syrian pound",
+      "abbreviation": "SYP",
+      "symbol": "LS"
+    },
+    "emojiU": "U+1F1F8 U+1F1FE"
+  },
+  {
+    "country": "Taiwan",
+    "flag": "🇹🇼",
+    "capital": "Taipei",
+    "nationality": "Chinese, Taiwanese",
+    "timeZone": "UTC+08:00",
+    "location": {
+      "latitude": "23.50000000",
+      "longitude": "121.00000000"
+    },
+    "codes": {
+      "iso2": "TW",
+      "iso3": "TWN",
+      "tld": ".tw",
+      "numeric": "158",
+      "phone": "886"
+    },
+    "currency": {
+      "name": "New Taiwan dollar",
+      "abbreviation": "TWD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1FC"
+  },
+  {
+    "country": "Tajikistan",
+    "flag": "🇹🇯",
+    "capital": "Dushanbe",
+    "nationality": "Tajikistani",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "39.00000000",
+      "longitude": "71.00000000"
+    },
+    "codes": {
+      "iso2": "TJ",
+      "iso3": "TJK",
+      "tld": ".tj",
+      "numeric": "762",
+      "phone": "992"
+    },
+    "currency": {
+      "name": "Tajikistani somoni",
+      "abbreviation": "TJS",
+      "symbol": "SM"
+    },
+    "emojiU": "U+1F1F9 U+1F1EF"
+  },
+  {
+    "country": "Tanzania",
+    "flag": "🇹🇿",
+    "capital": "Dodoma",
+    "nationality": "Tanzanian",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "-6.00000000",
+      "longitude": "35.00000000"
+    },
+    "codes": {
+      "iso2": "TZ",
+      "iso3": "TZA",
+      "tld": ".tz",
+      "numeric": "834",
+      "phone": "255"
+    },
+    "currency": {
+      "name": "Tanzanian shilling",
+      "abbreviation": "TZS",
+      "symbol": "TSh"
+    },
+    "emojiU": "U+1F1F9 U+1F1FF"
+  },
+  {
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "capital": "Bangkok",
+    "nationality": "Thai",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "100.00000000"
+    },
+    "codes": {
+      "iso2": "TH",
+      "iso3": "THA",
+      "tld": ".th",
+      "numeric": "764",
+      "phone": "66"
+    },
+    "currency": {
+      "name": "Thai baht",
+      "abbreviation": "THB",
+      "symbol": "฿"
+    },
+    "emojiU": "U+1F1F9 U+1F1ED"
+  },
+  {
+    "country": "The Bahamas",
+    "flag": "🇧🇸",
+    "capital": "Nassau",
+    "nationality": "Bahamian",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "24.25000000",
+      "longitude": "-76.00000000"
+    },
+    "codes": {
+      "iso2": "BS",
+      "iso3": "BHS",
+      "tld": ".bs",
+      "numeric": "044",
+      "phone": "+1-242"
+    },
+    "currency": {
+      "name": "Bahamian dollar",
+      "abbreviation": "BSD",
+      "symbol": "B$"
+    },
+    "emojiU": "U+1F1E7 U+1F1F8"
+  },
+  {
+    "country": "Togo",
+    "flag": "🇹🇬",
+    "capital": "Lome",
+    "nationality": "Togolese",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "8.00000000",
+      "longitude": "1.16666666"
+    },
+    "codes": {
+      "iso2": "TG",
+      "iso3": "TGO",
+      "tld": ".tg",
+      "numeric": "768",
+      "phone": "228"
+    },
+    "currency": {
+      "name": "West African CFA franc",
+      "abbreviation": "XOF",
+      "symbol": "CFA"
+    },
+    "emojiU": "U+1F1F9 U+1F1EC"
+  },
+  {
+    "country": "Tokelau",
+    "flag": "🇹🇰",
+    "capital": "",
+    "nationality": "Tokelauan",
+    "timeZone": "UTC+13:00",
+    "location": {
+      "latitude": "-9.00000000",
+      "longitude": "-172.00000000"
+    },
+    "codes": {
+      "iso2": "TK",
+      "iso3": "TKL",
+      "tld": ".tk",
+      "numeric": "772",
+      "phone": "690"
+    },
+    "currency": {
+      "name": "New Zealand dollar",
+      "abbreviation": "NZD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1F0"
+  },
+  {
+    "country": "Tonga",
+    "flag": "🇹🇴",
+    "capital": "Nuku'alofa",
+    "nationality": "Tongan",
+    "timeZone": "UTC+13:00",
+    "location": {
+      "latitude": "-20.00000000",
+      "longitude": "-175.00000000"
+    },
+    "codes": {
+      "iso2": "TO",
+      "iso3": "TON",
+      "tld": ".to",
+      "numeric": "776",
+      "phone": "676"
+    },
+    "currency": {
+      "name": "Tongan paʻanga",
+      "abbreviation": "TOP",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1F4"
+  },
+  {
+    "country": "Trinidad And Tobago",
+    "flag": "🇹🇹",
+    "capital": "Port of Spain",
+    "nationality": "Trinidadian or Tobagonian",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "11.00000000",
+      "longitude": "-61.00000000"
+    },
+    "codes": {
+      "iso2": "TT",
+      "iso3": "TTO",
+      "tld": ".tt",
+      "numeric": "780",
+      "phone": "+1-868"
+    },
+    "currency": {
+      "name": "Trinidad and Tobago dollar",
+      "abbreviation": "TTD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1F9"
+  },
+  {
+    "country": "Tunisia",
+    "flag": "🇹🇳",
+    "capital": "Tunis",
+    "nationality": "Tunisian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "34.00000000",
+      "longitude": "9.00000000"
+    },
+    "codes": {
+      "iso2": "TN",
+      "iso3": "TUN",
+      "tld": ".tn",
+      "numeric": "788",
+      "phone": "216"
+    },
+    "currency": {
+      "name": "Tunisian dinar",
+      "abbreviation": "TND",
+      "symbol": "ت.د"
+    },
+    "emojiU": "U+1F1F9 U+1F1F3"
+  },
+  {
+    "country": "Turkey",
+    "flag": "🇹🇷",
+    "capital": "Ankara",
+    "nationality": "Turkish",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "39.00000000",
+      "longitude": "35.00000000"
+    },
+    "codes": {
+      "iso2": "TR",
+      "iso3": "TUR",
+      "tld": ".tr",
+      "numeric": "792",
+      "phone": "90"
+    },
+    "currency": {
+      "name": "Turkish lira",
+      "abbreviation": "TRY",
+      "symbol": "₺"
+    },
+    "emojiU": "U+1F1F9 U+1F1F7"
+  },
+  {
+    "country": "Turkmenistan",
+    "flag": "🇹🇲",
+    "capital": "Ashgabat",
+    "nationality": "Turkmen",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "40.00000000",
+      "longitude": "60.00000000"
+    },
+    "codes": {
+      "iso2": "TM",
+      "iso3": "TKM",
+      "tld": ".tm",
+      "numeric": "795",
+      "phone": "993"
+    },
+    "currency": {
+      "name": "Turkmenistan manat",
+      "abbreviation": "TMT",
+      "symbol": "T"
+    },
+    "emojiU": "U+1F1F9 U+1F1F2"
+  },
+  {
+    "country": "Turks And Caicos Islands",
+    "flag": "🇹🇨",
+    "capital": "Cockburn Town",
+    "nationality": "Turks and Caicos Island",
+    "timeZone": "UTC-05:00",
+    "location": {
+      "latitude": "21.75000000",
+      "longitude": "-71.58333333"
+    },
+    "codes": {
+      "iso2": "TC",
+      "iso3": "TCA",
+      "tld": ".tc",
+      "numeric": "796",
+      "phone": "+1-649"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1E8"
+  },
+  {
+    "country": "Tuvalu",
+    "flag": "🇹🇻",
+    "capital": "Funafuti",
+    "nationality": "Tuvaluan",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "-8.00000000",
+      "longitude": "178.00000000"
+    },
+    "codes": {
+      "iso2": "TV",
+      "iso3": "TUV",
+      "tld": ".tv",
+      "numeric": "798",
+      "phone": "688"
+    },
+    "currency": {
+      "name": "Australian dollar",
+      "abbreviation": "AUD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1F9 U+1F1FB"
+  },
+  {
+    "country": "Uganda",
+    "flag": "🇺🇬",
+    "capital": "Kampala",
+    "nationality": "Ugandan",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "1.00000000",
+      "longitude": "32.00000000"
+    },
+    "codes": {
+      "iso2": "UG",
+      "iso3": "UGA",
+      "tld": ".ug",
+      "numeric": "800",
+      "phone": "256"
+    },
+    "currency": {
+      "name": "Ugandan shilling",
+      "abbreviation": "UGX",
+      "symbol": "USh"
+    },
+    "emojiU": "U+1F1FA U+1F1EC"
+  },
+  {
+    "country": "Ukraine",
+    "flag": "🇺🇦",
+    "capital": "Kyiv",
+    "nationality": "Ukrainian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "49.00000000",
+      "longitude": "32.00000000"
+    },
+    "codes": {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "tld": ".ua",
+      "numeric": "804",
+      "phone": "380"
+    },
+    "currency": {
+      "name": "Ukrainian hryvnia",
+      "abbreviation": "UAH",
+      "symbol": "₴"
+    },
+    "emojiU": "U+1F1FA U+1F1E6"
+  },
+  {
+    "country": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "capital": "Abu Dhabi",
+    "nationality": "Emirati, Emirian, Emiri",
+    "timeZone": "UTC+04:00",
+    "location": {
+      "latitude": "24.00000000",
+      "longitude": "54.00000000"
+    },
+    "codes": {
+      "iso2": "AE",
+      "iso3": "ARE",
+      "tld": ".ae",
+      "numeric": "784",
+      "phone": "971"
+    },
+    "currency": {
+      "name": "United Arab Emirates dirham",
+      "abbreviation": "AED",
+      "symbol": "إ.د"
+    },
+    "emojiU": "U+1F1E6 U+1F1EA"
+  },
+  {
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "capital": "London",
+    "nationality": "British, UK",
+    "timeZone": "UTC±00",
+    "location": {
+      "latitude": "54.00000000",
+      "longitude": "-2.00000000"
+    },
+    "codes": {
+      "iso2": "GB",
+      "iso3": "GBR",
+      "tld": ".uk",
+      "numeric": "826",
+      "phone": "44"
+    },
+    "currency": {
+      "name": "British pound",
+      "abbreviation": "GBP",
+      "symbol": "£"
+    },
+    "emojiU": "U+1F1EC U+1F1E7"
+  },
+  {
+    "country": "United States",
+    "flag": "🇺🇸",
+    "capital": "Washington",
+    "nationality": "American",
+    "timeZone": "UTC-10:00",
+    "location": {
+      "latitude": "38.00000000",
+      "longitude": "-97.00000000"
+    },
+    "codes": {
+      "iso2": "US",
+      "iso3": "USA",
+      "tld": ".us",
+      "numeric": "840",
+      "phone": "1"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FA U+1F1F8"
+  },
+  {
+    "country": "United States Minor Outlying Islands",
+    "flag": "🇺🇲",
+    "capital": "",
+    "nationality": "American",
+    "timeZone": "UTC-11:00",
+    "location": {
+      "latitude": "0.00000000",
+      "longitude": "0.00000000"
+    },
+    "codes": {
+      "iso2": "UM",
+      "iso3": "UMI",
+      "tld": ".us",
+      "numeric": "581",
+      "phone": "1"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FA U+1F1F2"
+  },
+  {
+    "country": "Uruguay",
+    "flag": "🇺🇾",
+    "capital": "Montevideo",
+    "nationality": "Uruguayan",
+    "timeZone": "UTC-03:00",
+    "location": {
+      "latitude": "-33.00000000",
+      "longitude": "-56.00000000"
+    },
+    "codes": {
+      "iso2": "UY",
+      "iso3": "URY",
+      "tld": ".uy",
+      "numeric": "858",
+      "phone": "598"
+    },
+    "currency": {
+      "name": "Uruguayan peso",
+      "abbreviation": "UYU",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FA U+1F1FE"
+  },
+  {
+    "country": "Uzbekistan",
+    "flag": "🇺🇿",
+    "capital": "Tashkent",
+    "nationality": "Uzbekistani, Uzbek",
+    "timeZone": "UTC+05:00",
+    "location": {
+      "latitude": "41.00000000",
+      "longitude": "64.00000000"
+    },
+    "codes": {
+      "iso2": "UZ",
+      "iso3": "UZB",
+      "tld": ".uz",
+      "numeric": "860",
+      "phone": "998"
+    },
+    "currency": {
+      "name": "Uzbekistani soʻm",
+      "abbreviation": "UZS",
+      "symbol": "лв"
+    },
+    "emojiU": "U+1F1FA U+1F1FF"
+  },
+  {
+    "country": "Vanuatu",
+    "flag": "🇻🇺",
+    "capital": "Port Vila",
+    "nationality": "Ni-Vanuatu, Vanuatuan",
+    "timeZone": "UTC+11:00",
+    "location": {
+      "latitude": "-16.00000000",
+      "longitude": "167.00000000"
+    },
+    "codes": {
+      "iso2": "VU",
+      "iso3": "VUT",
+      "tld": ".vu",
+      "numeric": "548",
+      "phone": "678"
+    },
+    "currency": {
+      "name": "Vanuatu vatu",
+      "abbreviation": "VUV",
+      "symbol": "VT"
+    },
+    "emojiU": "U+1F1FB U+1F1FA"
+  },
+  {
+    "country": "Vatican City State (Holy See)",
+    "flag": "🇻🇦",
+    "capital": "Vatican City",
+    "nationality": "Vatican",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "41.90000000",
+      "longitude": "12.45000000"
+    },
+    "codes": {
+      "iso2": "VA",
+      "iso3": "VAT",
+      "tld": ".va",
+      "numeric": "336",
+      "phone": "379"
+    },
+    "currency": {
+      "name": "Euro",
+      "abbreviation": "EUR",
+      "symbol": "€"
+    },
+    "emojiU": "U+1F1FB U+1F1E6"
+  },
+  {
+    "country": "Venezuela",
+    "flag": "🇻🇪",
+    "capital": "Caracas",
+    "nationality": "Venezuelan",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "8.00000000",
+      "longitude": "-66.00000000"
+    },
+    "codes": {
+      "iso2": "VE",
+      "iso3": "VEN",
+      "tld": ".ve",
+      "numeric": "862",
+      "phone": "58"
+    },
+    "currency": {
+      "name": "Bolívar",
+      "abbreviation": "VES",
+      "symbol": "Bs"
+    },
+    "emojiU": "U+1F1FB U+1F1EA"
+  },
+  {
+    "country": "Vietnam",
+    "flag": "🇻🇳",
+    "capital": "Hanoi",
+    "nationality": "Vietnamese",
+    "timeZone": "UTC+07:00",
+    "location": {
+      "latitude": "16.16666666",
+      "longitude": "107.83333333"
+    },
+    "codes": {
+      "iso2": "VN",
+      "iso3": "VNM",
+      "tld": ".vn",
+      "numeric": "704",
+      "phone": "84"
+    },
+    "currency": {
+      "name": "Vietnamese đồng",
+      "abbreviation": "VND",
+      "symbol": "₫"
+    },
+    "emojiU": "U+1F1FB U+1F1F3"
+  },
+  {
+    "country": "Virgin Islands (British)",
+    "flag": "🇻🇬",
+    "capital": "Road Town",
+    "nationality": "British Virgin Island",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.43138300",
+      "longitude": "-64.62305000"
+    },
+    "codes": {
+      "iso2": "VG",
+      "iso3": "VGB",
+      "tld": ".vg",
+      "numeric": "092",
+      "phone": "+1-284"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FB U+1F1EC"
+  },
+  {
+    "country": "Virgin Islands (US)",
+    "flag": "🇻🇮",
+    "capital": "Charlotte Amalie",
+    "nationality": "U.S. Virgin Island",
+    "timeZone": "UTC-04:00",
+    "location": {
+      "latitude": "18.34000000",
+      "longitude": "-64.93000000"
+    },
+    "codes": {
+      "iso2": "VI",
+      "iso3": "VIR",
+      "tld": ".vi",
+      "numeric": "850",
+      "phone": "+1-340"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "abbreviation": "USD",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FB U+1F1EE"
+  },
+  {
+    "country": "Wallis And Futuna Islands",
+    "flag": "🇼🇫",
+    "capital": "Mata Utu",
+    "nationality": "Wallis and Futuna, Wallisian or Futunan",
+    "timeZone": "UTC+12:00",
+    "location": {
+      "latitude": "-13.30000000",
+      "longitude": "-176.20000000"
+    },
+    "codes": {
+      "iso2": "WF",
+      "iso3": "WLF",
+      "tld": ".wf",
+      "numeric": "876",
+      "phone": "681"
+    },
+    "currency": {
+      "name": "CFP franc",
+      "abbreviation": "XPF",
+      "symbol": "₣"
+    },
+    "emojiU": "U+1F1FC U+1F1EB"
+  },
+  {
+    "country": "Western Sahara",
+    "flag": "🇪🇭",
+    "capital": "El-Aaiun",
+    "nationality": "Sahrawi, Sahrawian, Sahraouian",
+    "timeZone": "UTC+01:00",
+    "location": {
+      "latitude": "24.50000000",
+      "longitude": "-13.00000000"
+    },
+    "codes": {
+      "iso2": "EH",
+      "iso3": "ESH",
+      "tld": ".eh",
+      "numeric": "732",
+      "phone": "212"
+    },
+    "currency": {
+      "name": "Moroccan Dirham",
+      "abbreviation": "MAD",
+      "symbol": "MAD"
+    },
+    "emojiU": "U+1F1EA U+1F1ED"
+  },
+  {
+    "country": "Yemen",
+    "flag": "🇾🇪",
+    "capital": "Sanaa",
+    "nationality": "Yemeni",
+    "timeZone": "UTC+03:00",
+    "location": {
+      "latitude": "15.00000000",
+      "longitude": "48.00000000"
+    },
+    "codes": {
+      "iso2": "YE",
+      "iso3": "YEM",
+      "tld": ".ye",
+      "numeric": "887",
+      "phone": "967"
+    },
+    "currency": {
+      "name": "Yemeni rial",
+      "abbreviation": "YER",
+      "symbol": "﷼"
+    },
+    "emojiU": "U+1F1FE U+1F1EA"
+  },
+  {
+    "country": "Zambia",
+    "flag": "🇿🇲",
+    "capital": "Lusaka",
+    "nationality": "Zambian",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-15.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "ZM",
+      "iso3": "ZMB",
+      "tld": ".zm",
+      "numeric": "894",
+      "phone": "260"
+    },
+    "currency": {
+      "name": "Zambian kwacha",
+      "abbreviation": "ZMW",
+      "symbol": "ZK"
+    },
+    "emojiU": "U+1F1FF U+1F1F2"
+  },
+  {
+    "country": "Zimbabwe",
+    "flag": "🇿🇼",
+    "capital": "Harare",
+    "nationality": "Zimbabwean",
+    "timeZone": "UTC+02:00",
+    "location": {
+      "latitude": "-20.00000000",
+      "longitude": "30.00000000"
+    },
+    "codes": {
+      "iso2": "ZW",
+      "iso3": "ZWE",
+      "tld": ".zw",
+      "numeric": "716",
+      "phone": "263"
+    },
+    "currency": {
+      "name": "Zimbabwe Dollar",
+      "abbreviation": "ZWL",
+      "symbol": "$"
+    },
+    "emojiU": "U+1F1FF U+1F1FC"
+  }
+]

@@ -4,5 +4,8 @@ node_modules
 firebase.json
 storage.rules
 package-lock.json
+storage.rules
+firebase.json
 firebase-SNKRS.json
+
 *.env

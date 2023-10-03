@@ -10,8 +10,10 @@ const authSignUp = async (req, res) => {
             lastName,
             email: user.email
         });
-        const userFindHotel = await userCreate.save()
-        if (userFindHotel) {
+
+
+        const userSnkrs = await userCreate.save()
+        if (userSnkrs) {
             await handlerSendEmailVerify(user)
             return res.status(200).json({ message: "The user has been successfully registered, a verification email has been sent!" });
         } else {
