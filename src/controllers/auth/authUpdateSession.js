@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const { config: { SESSION_TIME } } = require('../../config');
-const { handlerDecodeTokenIDSession, handlerTokenIdSession } = require("..");
+const { handlerDecodeTokenIDSession, handlerTokenIdSession } = require("../../handlers");
 
-const handlerUpdateSession = async (req, res) => {
+const authUpdateSession = async (req, res) => {
     try {
         const sessionID = req.headers.authorization;
 
@@ -15,7 +15,7 @@ const handlerUpdateSession = async (req, res) => {
         const Session = db.collection('sessions');
         const userSession = await Session.findOne({ _id: ID });
         if (userSession) {
-            const currentDate = new Date(userSession.expires);
+            const currentDate = new Date();
             const dateExpires = new Date(currentDate.getTime() + SESSION_TIME * 60 * 1000);
 
             const updateDateExpires = {
@@ -28,7 +28,7 @@ const handlerUpdateSession = async (req, res) => {
             const result = await Session.updateOne({ _id: ID }, updateDateExpires);
             if (result) {
                 res.status(200).json({
-                    _id: handlerTokenIdSession(sessionID),
+                    _id: handlerTokenIdSession(ID),
                     expires: dateExpires,
                     ...userSession.session.auth
                 })
@@ -46,4 +46,4 @@ const handlerUpdateSession = async (req, res) => {
     }
 };
 
-module.exports = handlerUpdateSession;
+module.exports = authUpdateSession;
