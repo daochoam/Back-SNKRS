@@ -3,9 +3,13 @@ const { Schema, model } = require("mongoose");
 const userSchema = new Schema({
     firstName: {
         type: String,
-        required: false,
+        required: true,
     },
     lastName: {
+        type: String,
+        required: true,
+    },
+    nit: {
         type: String,
         required: false,
     },
@@ -15,32 +19,32 @@ const userSchema = new Schema({
         unique: true,
         lowercase: true,
         trim: true,
-        // validate: {
-        //     validator: (value) => {
-        //         return /^((?!^[._%+-])(?![._%+-]{2,})[a-zñ0-9._%+-]){5,29}[a-zñ0-9]+@(([\w-]+)+\.+[\w-]{2,4})$/.test(value);
-        //     },
-        //     message: ({ value }) => `${value} it is not a valid mail.`
-        // }
     },
     image: {
-        type: String,
+        type: [
+            {
+                id: { type: String },
+                src: { type: String },
+                typeImage: { type: String },
+            }
+        ]
     },
-    age: {
-        type: Number,
-        min: 18,
-        max: 120,
-        validate: {
-            validator: (value) => {
-                return Number.isInteger(value);
-            },
-            message: ({ value }) => `${value} no es una edad válida.`
-        }
-    },
-    phone: {
-        type: Number,
-    },
+    birthday: { type: String },
     address: {
-        type: String,
+        type: [{
+            country: { type: String },
+            state: { type: String },
+            city: { type: String },
+            address: { type: String },
+            additional: { type: String },
+            zip_code: { type: Number },
+            phone: { type: Number },
+            status: {
+                type: String,
+                enum: ['active', 'inactive'],
+                default: "inactive",
+            },
+        }]
     },
     role: {
         type: String,
@@ -55,6 +59,25 @@ const userSchema = new Schema({
 
 }, { timestamps: true });
 
-//Creación de modelo
+/* 
+    ? Verifica si hay una direccion activa, si no la hay o el registro esta vacio, la primera direccion
+    ? del registro direcciones queda activa por defecto
+*/
+userSchema.pre('save', async function (next) {
+    const user = this;
+    const addressCount = user.address.length;
+
+    if (addressCount === 0) {
+        user.address[0].status = 'active';
+    } else {
+        const hasActiveAddress = user.address.some(address => address.status === 'active');
+        if (!hasActiveAddress) {
+            user.address[0].status = 'active';
+        }
+    }
+    next();
+});
+
+
 const User = model("User", userSchema);
 module.exports = User;

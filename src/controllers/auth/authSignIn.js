@@ -52,9 +52,7 @@ const authSignIn = async (req, res) => {
             const id_session = req.sessionID
             const expires = await handlerDateFinishSession(id_session)
 
-            res.setHeader(SESSION_NAME, handlerTokenIdSession(id_session));
             res.cookie(SESSION_NAME, token, options)
-
             return res.status(200).json({
               _id: handlerTokenIdSession(id_session),
               expires: expires,

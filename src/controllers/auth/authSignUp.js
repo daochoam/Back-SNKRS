@@ -10,6 +10,8 @@ const authSignUp = async (req, res) => {
             lastName,
             email: user.email
         });
+
+
         const userSnkrs = await userCreate.save()
         if (userSnkrs) {
             await handlerSendEmailVerify(user)

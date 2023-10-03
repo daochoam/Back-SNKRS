@@ -7,6 +7,7 @@ const {
     authSignIn,
     authSignOut,
     authSignUp,
+    authUpdateSession,
     authVerifyEmail,
     authVerifySession,
 } = require('../controllers/auth')
@@ -17,6 +18,7 @@ authRoutes.post("/sign-in", deleteSessionsByEmail, authSignIn)
 authRoutes.post("/sign-out", authSignOut)
 authRoutes.post("/sign-up", authSignUp)
 authRoutes.get("/session", authVerifySession)
+authRoutes.put("/session", authUpdateSession)
 authRoutes.post("/verify-email/:email", authVerifyEmail)
 authRoutes.get("/:userActive", authActiveAccount);
 

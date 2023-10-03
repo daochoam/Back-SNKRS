@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const authVerifySession = async (req, res) => {
     try {
         const sessionID = req.headers.authorization;
+        console.log("🚀 ~ file: authVerifySession.js:6 ~ authVerifySession ~ sessionID:", sessionID)
 
         if (!sessionID) {
             return res.status(401).json({ message: 'Missing authorization token' });
         }
-
         const ID = handlerDecodeTokenIDSession(sessionID);
 
         const db = mongoose.connection;
