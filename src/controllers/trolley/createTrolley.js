@@ -2,8 +2,8 @@ const { Trolley, Product } = require("../../schemas/index");
 
 const createTrolley = async (req, res) => {
     try {       
-        // const { User_id } = req.locals;
-        const User_id = "6517088344d46facf8d90480";
+        const { User_id } = req.locals;
+        // const User_id = "6517088344d46facf8d90480";
 
         const pickedProducts = req.body;
 
