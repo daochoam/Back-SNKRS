@@ -1,5 +1,8 @@
 node_modules
 .vscode
+
+firebase.json
+storage.rules
 package-lock.json
 firebase-SNKRS.json
 *.env
