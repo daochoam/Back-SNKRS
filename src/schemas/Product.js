@@ -20,13 +20,13 @@ const productSchema = new mongoose.Schema({
   stock: {
     type: [
       {
-        size: Number,
+        size: { type: Number },
         gender: {
-          type: String,
-          enum: ["male", "female"],
+          type: { type: String },
+          enum: { type: ["male", "female"] },
         },
         color: [String],
-        quantity: Number,
+        quantity: { type: Number },
       },
     ],
   },
