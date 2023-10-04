@@ -13,8 +13,8 @@ snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
 snkrsRoutes.use('/shopping', shoppingRoutes)
 snkrsRoutes.use('/webhooks', webhooks)
-// snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
-snkrsRoutes.use('/trolley', trolleyRoutes)
+snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
+// snkrsRoutes.use('/trolley', trolleyRoutes)
 
 
 module.exports = snkrsRoutes
