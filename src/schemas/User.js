@@ -29,7 +29,7 @@ const userSchema = new Schema({
             }
         ]
     },
-    birthday: { type: String },
+    birthday: { type: Date },
     address: {
         type: [{
             country: { type: String },
