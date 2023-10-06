@@ -23,6 +23,11 @@ const updateTrolley = async (req, res) => {
         if (option === "add" || option === "remove") {
             let [trolleyBefore] = await Trolley.find({ "User_id": User_id });
 
+            if(trolleyBefore === undefined){
+                const newTrolley = new Trolley({ User_id, pickedProducts: [] });
+                trolleyBefore = await newTrolley.save();
+            }            
+
             if (option === "add") {
                 const pick = req.body;
                 trolleyBefore.pickedProducts.push(pick);
