@@ -1,15 +1,19 @@
 const createTrolley = require('./createTrolley');
 const updateTrolley = require('./updateTrolley');
-const deleteByTrolleyId  = require('./deleteByTrolleyId');
+const emptyTrolley  = require('./emptyTrolley');
+const deleteTrolley = require('./deleteTrolley');
 const updatePickByPickId = require('./updatePickByPickId');
 const getTrolleyByUserId = require('./getTrolleyByUserId');
+const updateQuantityByPickId = require('./updateQuantityByPickId');
 
 const controller = {
     createTrolley,
     updateTrolley,
-    deleteByTrolleyId,
+    emptyTrolley,
+    deleteTrolley,
     updatePickByPickId,
     getTrolleyByUserId,
+    updateQuantityByPickId,
 };
 
 module.exports = controller;
