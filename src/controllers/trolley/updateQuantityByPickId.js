@@ -34,7 +34,7 @@ const updateQuantityByPickId = async (req, res) => {
                 res.status(400).json({ "erro": "The pick was not found" });
         }
         else
-            res.status(400).json({ "error": The operation -- > ${ operation } < --is not valid });
+            res.status(400).json({ error: `The operation -- > ${operation} < --is not valid ` });
 
 } catch (error) {
     res.status(400).json({ error: error.message });
