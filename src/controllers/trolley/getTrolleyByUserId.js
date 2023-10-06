@@ -2,9 +2,10 @@ const { Trolley } = require("../../schemas/index");
 
 const getTrolleyByUserId = async (req, res) => {
     try {
+
         const { User_id } = req.locals;
 
-        const [ trolley ] = await Trolley.find({ User_id });
+        const [trolley] = await Trolley.find({ User_id });
 
         if (trolley)
             res.status(200).json(trolley.pickedProducts);

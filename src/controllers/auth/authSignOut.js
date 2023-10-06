@@ -13,6 +13,7 @@ const authSignOut = async (req, res) => {
         const db = mongoose.connection;
         const Session = db.collection('sessions');
         const { deletedCount } = await Session.deleteOne({ _id: ID })
+        console.log("🚀 ~ file: authSignOut.js:17 ~ authSignOut ~ deletedCount:", deletedCount)
         if (deletedCount) {
             return res.status(200).json({ message: 'Session successfully closed' })
         }

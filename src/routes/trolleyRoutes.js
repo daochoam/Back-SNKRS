@@ -11,4 +11,5 @@ trolleyRoutes.put ('/quantityPick/:operation/:idPick', controller.updateQuantity
 trolleyRoutes.delete('/empty', controller.emptyTrolley);
 trolleyRoutes.delete('/delete', controller.deleteTrolley);
 
+
 module.exports = trolleyRoutes;
