@@ -5,7 +5,12 @@ const getTrolleyByUserId = async (req, res) => {
 
         const { User_id } = req.locals;
 
-        const [trolley] = await Trolley.find({ User_id });
+        let [ trolley ] = await Trolley.find({ User_id });
+
+        if(trolley === undefined){
+            const newTrolley = new Trolley({ User_id, pickedProducts: [] });
+            trolley = await newTrolley.save();
+        }   
 
         if (trolley)
             res.status(200).json(trolley.pickedProducts);
