@@ -42,7 +42,7 @@ const filterShoppings = async ( id, typeId = "User_id" ) => {
 const getShoppings = async (req, res) => {
     try {
         const { User_id, firstName, lastName, role } =  req.locals;
-        const queriesObj = req.query;
+        let queriesObj   = req.query;
         let allShoppings = [];
         
         //! ----------------- temporal solo para pruebas en insomnia --------
