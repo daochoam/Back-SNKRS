@@ -2,26 +2,28 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const countrySchema = new Schema({
-    country: {
-        type: String,
-        required: true,
-        unique: true
+    country: { type: String },
+    flag: { type: String },
+    capital: { type: String },
+    nationality: { type: String },
+    timeZone: { type: String },
+    location: {
+        latitude: { type: String },
+        longitude: { type: String },
     },
-    ccTLD: {
-        type: String,
-        required: true,
-        unique: true
+    codes: {
+        iso2: { type: String },
+        iso3: { type: String },
+        tld: { type: String },
+        numeric: { type: String },
+        phone: { type: String },
     },
-    phone_code: {
-        type: Number,
-        required: true,
+    currency: {
+        name: { type: String },
+        abbreviation: { type: String },
+        symbol: { type: String },
     },
-    flag: {
-        type: {
-            straight: { type: String },
-            wavy: { type: String },
-        }
-    }
+    emojiU: { type: String },
 });
 
 const Country = mongoose.model('Country', countrySchema);
