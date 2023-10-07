@@ -1,11 +1,8 @@
-const jwt = require('jsonwebtoken');
-const { firebase, config: { JWT_MAIL, URL_FRONT } } = require('../config')
-const { User } = require("../schemas")
+const { User, Shopping } = require('../schemas')
 
-const generateTokenVerifyMail = async (user) => {
-
+const generateTokenVerifyPurchase = async (email, Shopping_id) => {
     try {
-        const userSnkrs = await User.findOne({ email: user.email })
+        const user = await Shopping.find({ _id: Shopping_id, User_idemail: email })
 
         if (!user.emailVerified || userSnkrs.status === 'inactive') {
             const actionCodeSettings = {
@@ -30,6 +27,7 @@ const generateTokenVerifyMail = async (user) => {
         console.log(error.message);
         throw new error.message;
     };
-};
 
-module.exports = generateTokenVerifyMail;
+}
+
+module.exports = generateTokenVerifyPurchase

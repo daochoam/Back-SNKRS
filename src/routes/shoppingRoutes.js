@@ -8,8 +8,9 @@ const shoppingRoutes = Router();
 shoppingRoutes.post('/', validateAuthUserSession("user")
     // , validateAttributes.first, validateAttributes.second, 
     , controller.createShopping);
-shoppingRoutes.get   ('/', controller.getShoppings);
-shoppingRoutes.put   ('/:idShopping', controller.updateByShoppingId);
+shoppingRoutes.get('/', controller.getShoppings);
+shoppingRoutes.put('/:idShopping', controller.updateByShoppingId);
 shoppingRoutes.delete('/:idShopping', controller.deleteByShoppingId);
+// shoppingToutes.get('/:verifyPurchase/:action', controller.verifyPurchase);
 
 module.exports = shoppingRoutes;

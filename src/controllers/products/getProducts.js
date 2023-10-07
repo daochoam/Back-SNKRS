@@ -13,7 +13,9 @@ const getProducts = async (req, res) => {
             limit = 10
         } = req.query;
 
-        const filter = {};
+        const filter = {
+
+        };
 
 
         if (brand) filter.brand = { $regex: new RegExp(brand, "i") };
@@ -23,7 +25,7 @@ const getProducts = async (req, res) => {
         if (category) filter.category = { $regex: new RegExp(category, "i") };
         if (type) filter.type = { $regex: new RegExp(type, "i") };
 
-    
+
         const totalCount = await Product.countDocuments(filter);
 
         const skip = (page - 1) * limit;
