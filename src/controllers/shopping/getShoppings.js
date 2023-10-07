@@ -41,16 +41,16 @@ const filterShoppings = async ( id, typeId = "User_id" ) => {
 
 const getShoppings = async (req, res) => {
     try {
-        // const { User_id, firstName, lastName, role } =  req.locals;
+        const { User_id, firstName, lastName, role } =  req.locals;
         let queriesObj   = req.query;
         let allShoppings = [];
         
         //! ----------------- temporal solo para pruebas en insomnia --------
         // const firstName= "Pepito";
         // const lastName = "Lopez";
-        const role     = "user";
+        // const role     = "user";
         // const role     = "admin";
-        const User_id = "651ad453d7f9aabb0ae5f182"; //
+        // const User_id = "651ad453d7f9aabb0ae5f182"; //
         // const User_id = "65136ebf2360169a3dedb99c"; //
         // const User_id = "651439639eefb47285529a1c"; //
         //! ----------------- temporal solo para pruebas en insomnia --------

@@ -11,9 +11,9 @@ const userRoutes = require('./userRoutes')
 
 snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
-snkrsRoutes.use('/shopping', shoppingRoutes)
 snkrsRoutes.use('/webhooks', webhooks)
-snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
+snkrsRoutes.use('/shopping', validateAuthUserSession("user"), shoppingRoutes)
+snkrsRoutes.use('/trolley',  validateAuthUserSession("user"), trolleyRoutes)
 snkrsRoutes.use('/user', userRoutes)
 
 module.exports = snkrsRoutes
