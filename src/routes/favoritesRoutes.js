@@ -10,10 +10,16 @@ const {
 
 } = require('../controllers/favorites')
 
-favoritesRoutes.get("", searchFavoritesBySearchBar)
-favoritesRoutes.get("/:page", getFavoritesByUserId)
+// favoritesRoutes.get("", searchFavoritesBySearchBar)
+// favoritesRoutes.get("/:page", getFavoritesByUserId)
+// favoritesRoutes.post("/:Product_id", addFavoriteByPrductId)
+// favoritesRoutes.delete("/:id", removeFavoriteById)
+// favoritesRoutes.delete("/", removeAllFavorites)
+
 favoritesRoutes.post("/:Product_id", addFavoriteByPrductId)
-favoritesRoutes.delete("/:id", removeFavoriteById)
+favoritesRoutes.delete("/:Product_id", removeFavoriteById)
+favoritesRoutes.get("/", getFavoritesByUserId)
+
 favoritesRoutes.delete("/", removeAllFavorites)
 
 module.exports = favoritesRoutes

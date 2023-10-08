@@ -1,20 +1,17 @@
-const mongoose = require("mongoose");
 const { Schema, model } = require("mongoose");
 
 const favoritesSchema = new Schema({
-    User_id: {
-        type: Schema.Types.ObjectId,
-        ref: 'User',
-        required: true,
-    },
-    favorites: [{
-        type: {
+        User_id: {
             type: Schema.Types.ObjectId,
-            ref: 'Product',
+            ref: 'User',
             required: true,
-        }
-    }]
-},
+        },
+        favorites: [{
+            type: Schema.Types.ObjectId,
+            ref : 'Product',
+            required: true,    
+        }]
+    },
     {
         timestamps: true
     }
