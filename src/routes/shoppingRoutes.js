@@ -5,8 +5,8 @@ const { validateAttributes, validateAuthUserSession } = require('../middlewares/
 
 const shoppingRoutes = Router();
 
-shoppingRoutes.post('/', validateAuthUserSession("user")
-    // , validateAttributes.first, validateAttributes.second, 
+shoppingRoutes.post('/'
+    // , validateAttributes.first, validateAttributes.second 
     , controller.createShopping);
 shoppingRoutes.get('/', controller.getShoppings);
 shoppingRoutes.put('/:idShopping', controller.updateByShoppingId);

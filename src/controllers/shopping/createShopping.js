@@ -1,15 +1,27 @@
 const { Shopping, Product } = require("../../schemas/index");
 const crypto = require('crypto');
 const createOrderMP = require('../../services/createOrderMP');
+
+//! Ejemplo de datos que deben llegar por body
 // const body = {
-//     "purchase": [{
-//         "Product_id": "6514399dc99185f470cb855e",
-//         "quantity": 9,
-//         "size": 43.5,
-//         "color": "white",
-//         "gender": "male"
-//     }]
-// }
+//     purchase: [{
+//         Product_id: "6514399dc99185f470cb855e",
+//         quantity: 9,
+//         size: 43.5,
+//         color: "white",
+//         gender: "male"
+//     }],
+//     shipping: {
+//         fist_name: "Pepito",
+//         last_name: "Lopez",
+//         country: "Argentina",
+//         state: "Buenos Aires",
+//         city: "CABA",
+//         address: "Calle 123",
+//         email: "correo@gmail.com",
+//         phone: 123456789,
+//     },
+// };
 
 const createShopping = async (req, res) => {
     try {
@@ -27,14 +39,14 @@ const createShopping = async (req, res) => {
         // const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
         //! ----------------- temporal --------  
 
-        const { purchase } = req.body;
-        // console.log(purchase);
+        const { purchase, shipping } = req.body;
+
         const shoppingAtributes = {
-            User_id: req.locals.User_id || "6514b834a7f6a9231e02193b",
+            User_id: req.locals?.User_id || "65207b962199b80571ae2c81",
             purchase: purchase,
             purchase_date: new Date(),
-            shipping: crypto.randomUUID(),
-            payment: 0
+            payment: 0,
+            shipping
         };
 
         const itemsPreference = await Promise.all(purchase.map(async (product) => {
@@ -47,11 +59,9 @@ const createShopping = async (req, res) => {
                 unit_price: price
             }
         }))
-        console.log(itemsPreference, "itemsPreference")
 
         const { init_point, id } = await createOrderMP(itemsPreference);
-
-        shoppingAtributes.preferenceId = id
+        // console.log(init_point) 
 
         const newShopping = new Shopping(shoppingAtributes);
         const shopping = await newShopping.save();
