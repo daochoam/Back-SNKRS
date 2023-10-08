@@ -1,4 +1,3 @@
-const mongoose = require("mongoose");
 const { Schema, model } = require("mongoose");
 
 const shoppingSchema = new Schema({ 
@@ -12,16 +11,15 @@ const shoppingSchema = new Schema({
             enum: [ "approved", "rejected", "inProgress" ],
             default: "inProgress",
         },
-        shipping: { // guía de la empresa de envío
-            type: String,
-        },
         payment: { // valor total de la compra
             type: Number,
             required: true,
         },
-        purchase_date: {
-            type: Date,
-        },
+        shipping     : { type: String },// guía de la empresa de envío
+        purchase_date: { type: Date },    
+        orderId      : { type: Number },
+        preferenceId : { type: String },
+        mercadoPagoId: { type: Number },
         purchase: {
             type: [{
                 Product_id: {
@@ -32,25 +30,14 @@ const shoppingSchema = new Schema({
                 color: { type: String },
                 size : { type: Number },
                 quantity : { type: Number },
-                gener    : { type: String, enum: ["female", "male", "kid"] },
-                image: {
-                    type: [
-                        {
-                          id:  { type: String },
-                          src: { type: String },
-                          size : { type: Number },
-                          color: { type: String },
-                          typeImage: { type: String },
-                        },
-                    ],
+                gener    : { 
+                    type: String, 
+                    enum: ["female", "male", "kid"] 
                 },
             }],
             required : true
         },
-    orderId: { type: Number },
-    preferenceId: { type: String },
-    mercadoPagoId: { type: Number },
-},
+    },
     {
         timestamps: true
     }
