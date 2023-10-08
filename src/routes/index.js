@@ -20,6 +20,7 @@ snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
 snkrsRoutes.use('/user', userRoutes)
 snkrsRoutes.use('/world', worldRoutes)
 snkrsRoutes.use('/bulk', bulkRoutes)
-snkrsRoutes.use('/favorites', validateAuthUserSession("user"), favoritesRoutes)
+// snkrsRoutes.use('/favorites', validateAuthUserSession("user"), favoritesRoutes)
+snkrsRoutes.use('/favorites', favoritesRoutes)
 
 module.exports = snkrsRoutes
