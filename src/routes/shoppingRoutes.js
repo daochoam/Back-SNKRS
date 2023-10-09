@@ -11,6 +11,7 @@ shoppingRoutes.post('/'
 shoppingRoutes.get('/', controller.getShoppings);
 shoppingRoutes.put('/:idShopping', controller.updateByShoppingId);
 shoppingRoutes.delete('/:idShopping', controller.deleteByShoppingId);
-// shoppingToutes.get('/:verifyPurchase/:action', controller.verifyPurchase);
+shoppingRoutes.get('/record', controller.getRecordShoppingsByUsers)
+// shoppingRoutes.get('/:verifyPurchase/:action', controller.verifyPurchase);
 
 module.exports = shoppingRoutes;

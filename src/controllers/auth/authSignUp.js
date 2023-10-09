@@ -2,15 +2,11 @@ const { User } = require("../../schemas");
 const { handlerSendEmailVerify } = require("../../handlers");
 
 const authSignUp = async (req, res) => {
-    const { user, firstName, lastName } = req.body;
+    const { user, signUp } = req.body;
 
     try {
-        const userCreate = new User({
-            firstName,
-            lastName,
-            email: user.email
-        });
-
+        const userCreate = new User(signUp,);
+        userCreate.address.status = 'active';
 
         const userSnkrs = await userCreate.save()
         if (userSnkrs) {

@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 const { Shopping, Product } = require("../../schemas/index");
 
-const filterShoppings = async ( queriesObj ) => {    
+const filterShoppings = async (queriesObj) => {
     const shoppings = await Shopping.aggregate([
         //--------------------**match**--------------------
-        { 
-            $match: queriesObj ,
-                // User_id : new mongoose.Types.ObjectId(id),
-                // queriesObj ? queriesObj : null
+        {
+            $match: queriesObj,
+            // User_id : new mongoose.Types.ObjectId(id),
+            // queriesObj ? queriesObj : null
             // },
         },
         //----------**Descomponiendo el purchase de Shopping**--------------------
@@ -28,37 +28,37 @@ const filterShoppings = async ( queriesObj ) => {
         },
         //--------------------**group**--------------------
         {
-            $group : {
-                _id : {
-                    _id : '$_id',
-                    User_id : '$User_id',
-                    payment : '$payment',
-                    status  : '$status',
+            $group: {
+                _id: {
+                    _id: '$_id',
+                    User_id: '$User_id',
+                    payment: '$payment',
+                    status: '$status',
                     purchase_date: '$purchase_date',
                 },
-            
-                purchase : {
+
+                purchase: {
                     $push: {
-                        _id       : '$purchase._id',
+                        _id: '$purchase._id',
                         Product_id: '$purchase.Product_id',
-                        brand     : '$productDetail.brand',
-                        model     : '$productDetail.model',
-                        price     : '$productDetail.price',
-                        quantity  : '$purchase.quantity',
-                        size      : '$purchase.size',
-                        color     : '$purchase.color',
-                        gener     : '$purchase.gener',
+                        brand: '$productDetail.brand',
+                        model: '$productDetail.model',
+                        price: '$productDetail.price',
+                        quantity: '$purchase.quantity',
+                        size: '$purchase.size',
+                        color: '$purchase.color',
+                        gener: '$purchase.gener',
                         // image     : '$productDetail.image',
                         image: {
                             $arrayElemAt: [
-                              {
-                                $filter: {
-                                  input: '$productDetail.image',
-                                  as: 'imageItem',
-                                  cond: { $eq: ['$$imageItem.color', '$purchase.color'] }
-                                }
-                              },
-                              0 // El índice 0 selecciona el primer elemento
+                                {
+                                    $filter: {
+                                        input: '$productDetail.image',
+                                        as: 'imageItem',
+                                        cond: { $eq: ['$$imageItem.color', '$purchase.color'] }
+                                    }
+                                },
+                                0 // El índice 0 selecciona el primer elemento
                             ]
                         }
                     }
@@ -68,15 +68,15 @@ const filterShoppings = async ( queriesObj ) => {
         //--------------------**project**--------------------
         {
             $project: {
-                _id : 0,
+                _id: 0,
 
-                _id    : "$_id._id",
+                _id: "$_id._id",
                 User_id: "$_id.User_id",
                 payment: "$_id.payment",
-                status : "$_id.status",
+                status: "$_id.status",
                 purchase_date: "$_id.purchase_date",
 
-                purchase : "$purchase"
+                purchase: "$purchase"
             }
         }
     ]);
@@ -86,10 +86,10 @@ const filterShoppings = async ( queriesObj ) => {
 
 const getShoppings = async (req, res) => {
     try {
-        const { User_id, firstName, lastName, role } =  req.locals;
-        let queriesObj   = req.query;
+        const { User_id, firstName, lastName, role } = req.locals;
+        let queriesObj = req.query;
         let allShoppings = [];
-        
+
         //! ----------------- temporal solo para pruebas en insomnia --------
         // const firstName= "Pepito";
         // const lastName = "Lopez";
@@ -100,18 +100,18 @@ const getShoppings = async (req, res) => {
         // const User_id = "651439639eefb47285529a1c"; // 4 total
         //! ----------------- temporal solo para pruebas en insomnia --------
 
-        if(role === "user"){
-            queriesObj.User_id = new mongoose.Types.ObjectId (User_id);
+        if (role === "user") {
+            queriesObj.User_id = new mongoose.Types.ObjectId(User_id);
             allShoppings = await filterShoppings(queriesObj);
-        } 
-        if(role === "admin") allShoppings = await filterShoppings(queriesObj);
+        }
+        if (role === "admin") allShoppings = await filterShoppings(queriesObj);
 
         if (allShoppings.length > 0)
             res.status(200).json(allShoppings)
         else
             // res.status(200).json([])
-            res.status(404).json({ "message": `There are no purchases recorded for ${firstName} ${lastName}, please check it` })        
-        
+            res.status(404).json({ "message": `There are no purchases recorded for ${firstName} ${lastName}, please check it` })
+
     } catch (error) {
         res.status(400).json({ error: error.message });
     }

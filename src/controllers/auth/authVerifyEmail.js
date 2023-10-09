@@ -12,6 +12,8 @@ const authVerifyEmail = async (req, res) => {
             await handlerSendEmailVerify(userSnkrs)
             return res.status(200).json(userSnkrs);
         }
+        return res.status(404).json("User not found");
+
     } catch (error) {
         return res.status(400).json("User not found");
     }
