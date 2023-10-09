@@ -59,8 +59,8 @@ const getFavoritesByUserId = async (req, res) => {
     // const { page } = req.params;
     // const { model, brand, size, color, price, order, itemsXPages } = req.query
     try {
-        // const { User_id, role } =  req.locals;
-        const User_id = "652052d8b9b21219c301202b"; 
+        const { User_id, role } =  req.locals;
+        // const User_id = "652052d8b9b21219c301202b"; 
 
         const allFavorites = await aggregateFavorites(User_id);
 

@@ -6,8 +6,8 @@ const addFavoriteByPrductId = async (req, res) => {
         const isProduct = await Product.findById(Product_id);
             
         if(isProduct){
-            // const { User_id } = req.locals;
-            const User_id = "652052d8b9b21219c301202b"; 
+            const { User_id } = req.locals;
+            // const User_id = "652052d8b9b21219c301202b"; 
             
             let [ favoritesBefore ] = await Favorites.find({ User_id });
             let favoritesAfter = {};
