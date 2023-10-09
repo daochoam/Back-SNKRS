@@ -19,7 +19,6 @@ const {
 favoritesRoutes.post("/:Product_id", addFavoriteByPrductId)
 favoritesRoutes.delete("/:Product_id", removeFavoriteById)
 favoritesRoutes.get("/", getFavoritesByUserId)
-
 favoritesRoutes.delete("/", removeAllFavorites)
 
 module.exports = favoritesRoutes
