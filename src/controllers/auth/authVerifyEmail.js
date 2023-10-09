@@ -2,9 +2,10 @@ const { User } = require("../../schemas");
 const { handlerSendEmailVerify } = require("../../handlers");
 
 const authVerifyEmail = async (req, res) => {
-    const { email } = req.params
     try {
-        const userSnkrs = User.findOne({ email })
+        const { email } = req.params
+        const userSnkrs = await User.findOne({ email })
+
         if (userSnkrs.status === 'active') {
             return res.status(200).json(userSnkrs);
         }

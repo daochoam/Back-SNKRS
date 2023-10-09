@@ -6,7 +6,7 @@ const authSignUp = async (req, res) => {
 
     try {
         const userCreate = new User(signUp,);
-        userCreate.address.status = 'active';
+        userCreate.address[0].status = 'active';
 
         const userSnkrs = await userCreate.save()
         if (userSnkrs) {
