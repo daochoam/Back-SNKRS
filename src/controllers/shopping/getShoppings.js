@@ -110,7 +110,7 @@ const getShoppings = async (req, res) => {
             res.status(200).json(allShoppings)
         else
             // res.status(200).json([])
-            res.status(200).json({ "message": `There are no purchases recorded for ${firstName} ${lastName}, please check it` })        
+            res.status(404).json({ "message": `There are no purchases recorded for ${firstName} ${lastName}, please check it` })        
         
     } catch (error) {
         res.status(400).json({ error: error.message });

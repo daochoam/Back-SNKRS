@@ -13,7 +13,6 @@ const shoppingSchema = new Schema({
     },
     shipping: { // guía de la empresa de envío
         type: {
-            id: { type: String },
             fist_name: { type: String },
             last_name: { type: String },
             country: { type: String },
