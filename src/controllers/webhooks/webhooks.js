@@ -17,7 +17,7 @@ const webhooks = async (req, res) => {
       //el id en este caso corresponde al orderId
       const { response } = await mercadopago.merchant_orders.findById(id)
 
-      await Shopping.findOneAndUpdate(
+      const shopping1 = await Shopping.findOneAndUpdate(
         { preferenceId: response.preference_id },
         {
           orderId: id,
@@ -25,6 +25,7 @@ const webhooks = async (req, res) => {
         },
         { new: true }
       );
+
     }
 
     if (topic === 'payment') {
@@ -36,6 +37,7 @@ const webhooks = async (req, res) => {
         { mercadoPagoId: response.id },
         { new: true }
       );
+
       const findUser = await User.findById(findShopping.User_id)
 
       resend.emails.send({
@@ -51,7 +53,7 @@ const webhooks = async (req, res) => {
             <li>Price: $${findShopping?.payment}</li>
             <li>Purchase Date: ${findShopping?.purchase_date}</li>
             <li>Payment Id: ${findShopping?.id}</li>
-            <li>Shipping guide: ${findShopping?.shipping._id}</li>
+            <li>Shipping guide: </li>
         </ul>
         <p>We will send you a tracking email once your order has been shipped.</p>
         <p>If you have any questions or need further assistance, feel free to contact us.</p>

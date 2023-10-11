@@ -36,13 +36,13 @@ const createShopping = async (req, res) => {
         // const User_id = 6514b834a7f6a9231e02193b; // Dani / 0 shoppings
         // const User_id = "6514587eb7921ff62d216a69"; // 0 shoppings
         // const User_id = "65136ebf2360169a3dedb99c"; // 1 shoppings
-        // const User_id = "651439639eefb47285529a1c"; // 2 shoppings      
-        //! ----------------- temporal --------  
+        // const User_id = "651439639eefb47285529a1c"; // 2 shoppings
+        //! ----------------- temporal --------
 
         const { purchase, shipping } = req.body;
 
         const shoppingAtributes = {
-            User_id: req.locals?.User_id || "65207b962199b80571ae2c81",
+            User_id: req.locals?.User_id,
             purchase: purchase,
             purchase_date: new Date(),
             payment: 0,
@@ -61,7 +61,7 @@ const createShopping = async (req, res) => {
         }))
 
         const { init_point, id } = await createOrderMP(itemsPreference);
-        console.log(init_point)
+
         shoppingAtributes.preferenceId = id;
         const newShopping = new Shopping(shoppingAtributes);
         const shopping = await newShopping.save();
