@@ -16,7 +16,7 @@ const webhooks = async (req, res) => {
       //el id en este caso corresponde al orderId
       const { response } = await mercadopago.merchant_orders.findById(id)
 
-      await Shopping.findOneAndUpdate(
+      const shopping1 = await Shopping.findOneAndUpdate(
         { preferenceId: response.preference_id },
         {
           orderId: id,
@@ -24,6 +24,7 @@ const webhooks = async (req, res) => {
         },
         { new: true }
       );
+
     }
 
     if (topic === 'payment') {
@@ -40,6 +41,7 @@ const webhooks = async (req, res) => {
       const email = findUser.email;
       const name = findUser.firstName + ' ' + findUser.lastName;
       const total = findShopping.payment;
+
 
       const products = await Promise.all(findShopping.purchase.map(async (product) => {
         const item = await Product.findById(product.Product_id);

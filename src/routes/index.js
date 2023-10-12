@@ -16,7 +16,9 @@ const purchaseMailHandler = require('../handlers/purchase/purchaseHandler');
 snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
 snkrsRoutes.use('/webhooks', webhooks)
-snkrsRoutes.use('/shopping', validateAuthUserSession("user"), shoppingRoutes)
+snkrsRoutes.use('/shopping',
+    validateAuthUserSession("user"),
+    shoppingRoutes)
 snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
 snkrsRoutes.use('/user', userRoutes)
 snkrsRoutes.use('/world', worldRoutes)
