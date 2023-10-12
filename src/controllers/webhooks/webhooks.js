@@ -4,12 +4,11 @@ const mercadopago = require('mercadopago');
 const Shopping = require('../../schemas/Shopping');
 const User = require('../../schemas/User');
 const Product = require('../../schemas/Product');
-const { Resend } = require('resend');
+const purchaseMailHandler = require('../../handlers/purchase/purchaseHandler');
 
 const webhooks = async (req, res) => {
   try {
     mercadopago.configurations.setAccessToken(TOKEN_MP)
-    const resend = new Resend(RESEND_SECRET);
 
     const { id, topic } = req.query
 
@@ -37,29 +36,26 @@ const webhooks = async (req, res) => {
         { mercadoPagoId: response.id },
         { new: true }
       );
+      const findUser = await User.findById(findShopping.User_id);
 
-      const findUser = await User.findById(findShopping.User_id)
+      const email = findUser.email;
+      const name = findUser.firstName + ' ' + findUser.lastName;
+      const total = findShopping.payment;
 
-      resend.emails.send({
-        from: 'onboarding@resend.dev',
-        to: 'snkrstore.henry@gmail.com',
-        subject: 'Confirmed purchase',
-        html: `<h1><strong>Purchase Confirmation</strong></h1>
-        <p>Thank you for your purchase!</p>
-        <p>We have received your order for a pair of sneakers.</p>
-        <p>Purchase details:</p>
-        <ul>
-            <li>Id Purchase: ${findShopping?._id}</li>
-            <li>Price: $${findShopping?.payment}</li>
-            <li>Purchase Date: ${findShopping?.purchase_date}</li>
-            <li>Payment Id: ${findShopping?.id}</li>
-            <li>Shipping guide: </li>
-        </ul>
-        <p>We will send you a tracking email once your order has been shipped.</p>
-        <p>If you have any questions or need further assistance, feel free to contact us.</p>
-        <p>Thank you again for your purchase!</p>`
 
-      });
+      const products = await Promise.all(findShopping.purchase.map(async (product) => {
+        const item = await Product.findById(product.Product_id);
+        console.log("item", item);
+        return {
+          model: item?.brand + ' ' + item?.model || "snkrs",
+          color: product.color,
+          quantity: product.quantity,
+          amount: item.price,
+          total: item.price * product.quantity,
+          image: item.image[0].src,
+        }
+      }));
+      purchaseMailHandler(email, name, total, products);
     }
 
     res.status(204).json();
