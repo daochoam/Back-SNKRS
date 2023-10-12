@@ -5,6 +5,7 @@ const Shopping = require('../../schemas/Shopping');
 const User = require('../../schemas/User');
 const Product = require('../../schemas/Product');
 const { Resend } = require('resend');
+const purchaseMailHandler = require('../../handlers/purchase/purchaseHandler');
 
 const webhooks = async (req, res) => {
   try {
@@ -38,26 +39,10 @@ const webhooks = async (req, res) => {
       );
       const findUser = await User.findById(findShopping.User_id)
 
-      resend.emails.send({
-        from: 'onboarding@resend.dev',
-        to: 'snkrstore.henry@gmail.com',
-        subject: 'Confirmed purchase',
-        html: `<h1><strong>Purchase Confirmation</strong></h1>
-        <p>Thank you for your purchase!</p>
-        <p>We have received your order for a pair of sneakers.</p>
-        <p>Purchase details:</p>
-        <ul>
-            <li>Id Purchase: ${findShopping?._id}</li>
-            <li>Price: $${findShopping?.payment}</li>
-            <li>Purchase Date: ${findShopping?.purchase_date}</li>
-            <li>Payment Id: ${findShopping?.id}</li>
-            <li>Shipping guide: ${findShopping?.shipping._id}</li>
-        </ul>
-        <p>We will send you a tracking email once your order has been shipped.</p>
-        <p>If you have any questions or need further assistance, feel free to contact us.</p>
-        <p>Thank you again for your purchase!</p>`
-
-      });
+      const data = {
+        //demás info necesaria para el mail
+      };
+      purchaseMailHandler(email, data);
     }
 
     res.status(204).json();

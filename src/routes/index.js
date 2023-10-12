@@ -11,6 +11,7 @@ const userRoutes = require('./userRoutes')
 const worldRoutes = require('./worldRoutes.js')
 const bulkRoutes = require('./bulkRoutes.js')
 const favoritesRoutes = require('./favoritesRoutes');
+const purchaseMailHandler = require('../handlers/purchase/purchaseHandler');
 
 snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
@@ -21,5 +22,6 @@ snkrsRoutes.use('/user', userRoutes)
 snkrsRoutes.use('/world', worldRoutes)
 snkrsRoutes.use('/bulk', bulkRoutes)
 snkrsRoutes.use('/favorites', validateAuthUserSession("user"), favoritesRoutes)
+snkrsRoutes.get('/mail', purchaseMailHandler)
 
 module.exports = snkrsRoutes
