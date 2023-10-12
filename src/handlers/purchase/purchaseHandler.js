@@ -2,9 +2,9 @@ const { mailTransport, config } = require("../../config");
 const replaceHtmlVar = require("../../services/replaceHtmlVar");
 
 const purchaseMailHandler = async (req, res) => {
-    const { email, products } = req.body
+    const { email, products, name, total } = req.body
 
-    const htmlModified = replaceHtmlVar(products);
+    const htmlModified = replaceHtmlVar({ name, total }, products);
     const mailOptions = {
         from: config.MAIL_SNKRS,
         to: email,
