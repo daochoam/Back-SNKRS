@@ -35,12 +35,16 @@ const webhooks = async (req, res) => {
         { mercadoPagoId: response.id },
         { new: true }
       );
-      const findUser = await User.findById(findShopping.User_id)
+      const findUser = await User.findById(findShopping.User_id);
 
-      const data = {
+      const email = findUser.email;
+      const name = findUser.firstName + ' ' + findUser.lastName;
+      const total = findShopping.payment;
+
+      const products = {
         //demás info necesaria para el mail
       };
-      purchaseMailHandler(email, data);
+      purchaseMailHandler(email, name, total, products);
     }
 
     res.status(204).json();

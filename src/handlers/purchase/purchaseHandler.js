@@ -2,7 +2,7 @@ const { mailTransport, config } = require("../../config");
 const replaceHtmlVar = require("../../services/replaceHtmlVar");
 
 const purchaseMailHandler = async (req, res) => {
-    const { email, products, name, total } = req.body
+    const { email, name, total, products } = req.body
 
     const htmlModified = await replaceHtmlVar({ name, total }, products);
 
