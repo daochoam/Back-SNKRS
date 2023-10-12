@@ -1,21 +1,31 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const path = require('path');
-const fileContent = fs.readFileSync(path.join('src', 'views', 'purchase.html'), 'utf8');
-const productsHtml = fs.readFileSync(path.join('src', 'views', 'product.html'), 'utf8');
 
 const replaceHtmlVar = async (data, products) => {
-    const productsList = products.reduce((replaced, product) => {
-        for (const key in product) {
-            replaced += productsHtml.replace(`{{${key}}}`, product[key]);
+    try {
+        let productsHtml = await fs.readFile(path.join('src', 'views', 'product.html'), 'utf8');
+        let purchaseHtml = await fs.readFile(path.join('src', 'views', 'purchase.html'), 'utf8');
+
+        const productsList = products.reduce((replaced, product) => {
+            let row = productsHtml;
+            for (const key in product) {
+                row = row.replace(`{{${key}}}`, product[key]);
+            }
+            replaced += row;
+            return replaced;
+        }, "");
+
+        data.productsList = productsList;
+
+        for (const key in data) {
+            purchaseHtml = purchaseHtml.replace(`{{${key}}}`, data[key]);
         }
-    }, "");
 
-    data.productsList = productsList;
-
-    for (const key in data) {
-        productsHtml.replace(`{{${key}}}`, data[key]);
+        return purchaseHtml;
     }
-
-    return fileContent;
+    catch (error) {
+        throw Error(error);
+    }
 }
+
 module.exports = replaceHtmlVar;
