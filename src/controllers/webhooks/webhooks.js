@@ -41,9 +41,18 @@ const webhooks = async (req, res) => {
       const name = findUser.firstName + ' ' + findUser.lastName;
       const total = findShopping.payment;
 
-      const products = {
-        //demás info necesaria para el mail
-      };
+      const products = await Promise.all(findShopping.purchase.map(async (product) => {
+        const item = await Product.findById(product.Product_id);
+        console.log("item", item);
+        return {
+          model: item?.brand + ' ' + item?.model || "snkrs",
+          color: product.color,
+          quantity: product.quantity,
+          amount: item.price,
+          total: item.price * product.quantity,
+          image: item.image[0].src,
+        }
+      }));
       purchaseMailHandler(email, name, total, products);
     }
 
