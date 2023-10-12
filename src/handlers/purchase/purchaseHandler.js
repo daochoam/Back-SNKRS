@@ -14,10 +14,8 @@ const purchaseMailHandler = async (email, name, total, products) => {
     };
     mailTransport.sendMail(mailOptions, function (error, info) {
         if (error) {
-            console.log(error);
             res.status(400).json({ message: "Email not sent" });
         } else {
-            console.log('Correo electrónico enviado: ' + info.response);
             res.status(200).json({ message: "Email sent" });
         }
     });
