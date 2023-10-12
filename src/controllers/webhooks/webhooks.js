@@ -4,13 +4,11 @@ const mercadopago = require('mercadopago');
 const Shopping = require('../../schemas/Shopping');
 const User = require('../../schemas/User');
 const Product = require('../../schemas/Product');
-const { Resend } = require('resend');
 const purchaseMailHandler = require('../../handlers/purchase/purchaseHandler');
 
 const webhooks = async (req, res) => {
   try {
     mercadopago.configurations.setAccessToken(TOKEN_MP)
-    const resend = new Resend(RESEND_SECRET);
 
     const { id, topic } = req.query
 
