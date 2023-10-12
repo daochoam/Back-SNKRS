@@ -1,5 +1,5 @@
 const { mailTransport, config } = require("../../config");
-const replaceHtmlVar = require('../../services')
+const replaceHtmlVar = require("../../services/replaceHtmlVar");
 
 const purchaseMailHandler = async (req, res) => {
 
