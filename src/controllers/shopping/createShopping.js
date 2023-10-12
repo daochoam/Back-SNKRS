@@ -67,7 +67,7 @@ const createShopping = async (req, res) => {
         const shopping = await newShopping.save();
 
         if (shopping)
-            res.status(201).send(id);
+            res.status(201).send({ id });
         else
             res.status(400).json({ "error": "The purchasing process failed" });
     } catch (error) {
