@@ -1,9 +1,10 @@
+const multer = require("multer");
 const { Router } = require("express");
 const controllers = require("../controllers/products/index");
 
 const productRouter = Router();
 
-productRouter.post("/", controllers.createProduct);
+productRouter.post("/", multer().array("imagesFiles"), controllers.createProduct);
 productRouter.get("/",  controllers.getProducts);
 productRouter.get("/:id", controllers.getProductByProductId);
 productRouter.put("/:id", controllers.updateProduct);
