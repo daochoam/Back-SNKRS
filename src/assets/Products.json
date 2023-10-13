@@ -1,0 +1,1867 @@
+[
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Air Jordan 1 Mid",
+    "price": 490,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/706996-800-800?v=638233998918970000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/706998-800-800?v=638233998941000000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/707002-800-800?v=638233998968170000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9.5,
+        "color": "blue",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Winflo",
+    "price": 99.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F720dbc8e-4f2e-4610-8eba-00ea04606ff3?alt=media&token=9b4eaa72-8b5a-4669-b2e9-a5b2ce98d19d",
+        "size": 118213,
+        "color": "blue"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/698905-800-800?v=638229603762600000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/698907-800-800?v=638229603822670000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/698907-800-800?v=638229603822670000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 7,
+        "color": "blue",
+        "quantity": 25
+      },
+      {
+        "size": 7,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Zoom Rival",
+    "price": 199.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/604268-800-800?v=638195066397900000&width=800&height=800&aspect=true",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/579971-800-800?v=638167319816170000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/582398-800-800?v=638167357009300000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "green"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/581183-800-800?v=638167339388670000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 7.5,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 7.5,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike React Infinity Run",
+    "price": 199.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/698503-800-800?v=638229588664330000&width=800&height=800&aspect=true",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699114-800-800?v=638229611335400000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699116-800-800?v=638229611443030000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699115-800-800?v=638229611395600000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 4,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 4,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Run Swift 3",
+    "price": 199.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/659593-800-800?v=638221823049770000&width=800&height=800&aspect=true",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/664810-800-800?v=638222627140670000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/670005-800-800?v=638222704584930000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/667417-800-800?v=638222666507600000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Dunk Low SE",
+    "price": 89.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/702359-800-800?v=638233920121000000&width=800&height=800&aspect=true",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/707135-800-800?v=638234000129730000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/709467-800-800?v=638234034308600000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/708361-800-800?v=638234017972970000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 10,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 10,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS DURAMO",
+    "price": 89.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a20c3f1f1f9d474ca9bcdf9fd7f61bd0_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_06_standard.jpg",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ef974bb0716a4eed8c40a964a082f029_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_01_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1addd737f15a42ebb96b1c1c2f8a87be_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_02_standard_hover.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0818fe0884274f51aeaa313c27c080e8_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_09_standard.jpg",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS NMD_R1",
+    "price": 189.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e7b9199a7b82484cbc6cad6a00f91d5f_9366/Zapatillas_NMD_R1_Blanco_GZ9261_06_standard.jpg",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e03e7a2a9cb44dfac2bad6a00f95888_9366/Zapatillas_NMD_R1_Blanco_GZ9261_01_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dc1564178d9f40fabfd4ad6a00f93dbb_9366/Zapatillas_NMD_R1_Blanco_GZ9261_02_standard_hover.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7be8bcd9895f4e1c8171ad6a00f86f7d_9366/Zapatillas_NMD_R1_Blanco_GZ9261_09_standard.jpg",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS ADIZERO SL",
+    "price": 189.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f955310d2fdf4622bb9514144eddfb1d_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_06_standard.jpg",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ebe6d1d474e94afb8d4e6f95ab3ba7b1_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_01_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c06bad1446ee410e9a6e91cfabe79e86_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_09_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1edb6d9ec97d4a19b0300f887474d047_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_02_standard_hover.jpg",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS DURAMO",
+    "price": 189.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3a28c57591f418ab40aaf35010499d3_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_06_standard.jpg",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/615492a8cb4e4f1f9e79af3501048a6b_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_01_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dc65760f6be74e798816af350104a9dd_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_02_standard_hover.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b278c8ebdef8435c8d7eaf3701702f91_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_09_standard.jpg",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS LITE RACER",
+    "price": 109.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ffa1509ae4db4a199543af350136418f_9366/Zapatillas_Lite_Racer_3.0_Violeta_HP6102_06_standard.jpg",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ffa1509ae4db4a199543af350136418f_9366/Zapatillas_Lite_Racer_3.0_Violeta_HP6102_06_standard.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e1994bef56640e69f79af3501364d36_9366/Zapatillas_Lite_Racer_3.0_Violeta_HP6102_02_standard_hover.jpg",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00bf5106c38541ed8950af3501368f35_9366/Zapatillas_Lite_Racer_3.0_Violeta_HP6102_09_standard.jpg",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Air Jordan 1 Mid SE Craft Men",
+    "price": 534.95,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fd0271a72-87f8-4d8d-be18-b9fd611eae2d?alt=media&token=0320e473-2b34-48f1-bb7f-0d8d1ee0cbcf",
+        "size": 138217,
+        "color": "white"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F9ed9a430-b0a7-47cc-bd3a-83e5f8bc1ae4?alt=media&token=0b48f0c4-4477-463b-a79c-6f8681345d6d",
+        "size": 131424,
+        "color": "white"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F279a1376-83ce-4baf-8a14-ff933d165f98?alt=media&token=d76466d0-c248-4e9c-acd2-02102ce50b2f",
+        "size": 143614,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8.5,
+        "color": "pink",
+        "quantity": 15
+      },
+      {
+        "size": 8.5,
+        "color": "white",
+        "quantity": 15
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Air Jordan 1 Retro High OG Men",
+    "price": 434.95,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F0f1813c2-aab1-4c4b-a508-9f23bb8963d4?alt=media&token=de40b772-b9d0-4f78-8b3e-2141c02fba0a",
+        "size": 117032,
+        "color": "red"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F4fcf6041-f7df-438b-9b83-48a9dae0a76e?alt=media&token=23b3aa51-f9d4-47a6-95a4-787578657d67",
+        "size": 115403,
+        "color": "red"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F41a08bdf-a4e4-4093-8864-fe922b439528?alt=media&token=d5b5af7f-05ee-4838-899d-2c63884dbd66",
+        "size": 128436,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8.5,
+        "color": "red",
+        "quantity": 35
+      },
+      {
+        "size": 8.5,
+        "color": "white",
+        "quantity": 35
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Force 1 '07 LV8 Men",
+    "price": 634.95,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fb1133de6-d1a8-42ce-95ae-ce30fb374439?alt=media&token=646df43d-4dcd-4ee9-8cd9-2fa087696c3b",
+        "size": 84543,
+        "color": "white"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fd7b1f678-59c3-46c5-9fa3-ad4d7b7f1c89?alt=media&token=ee2cf70e-6fba-4122-a262-09e8495afbbb",
+        "size": 79132,
+        "color": "white"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F0948ad75-d1c6-4bc9-a5af-bf965fe66cf1?alt=media&token=c63c5f79-2cca-4c95-84ec-71e64240034f",
+        "size": 101568,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 10.5,
+        "color": "white",
+        "quantity": 23
+      },
+      {
+        "size": 10.5,
+        "color": "black",
+        "quantity": 23
+      },
+      {
+        "size": 7.5,
+        "color": "white",
+        "quantity": 19
+      },
+      {
+        "size": 7.5,
+        "color": "black",
+        "quantity": 19
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Force 1 '07 Premium Men",
+    "price": 434.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fc2b46b39-8ad1-46f2-9536-7d7d93270eb1?alt=media&token=a5b97ff0-c77d-473f-9905-8b0553beaae1",
+        "size": 112806,
+        "color": "red"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F2791738a-8dda-4f08-a54b-b1b7a728f23b?alt=media&token=0741a1ec-85b7-438d-96c4-9158f320ee8b",
+        "size": 107987,
+        "color": "red"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F8f21471e-08a5-4954-b00b-113f2c1e1913?alt=media&token=88fdc82d-abc2-4cd6-9305-500e1c652253",
+        "size": 132404,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 13.5,
+        "color": "red",
+        "quantity": 20
+      },
+      {
+        "size": 10,
+        "color": "red",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Force 1 Low Retro Men",
+    "price": 334.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F499054c3-387d-491a-9101-3bb069e86451?alt=media&token=7626a2ec-10cd-4f73-9665-2838a46d6bf6",
+        "size": 99911,
+        "color": "grey"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F64cbfb45-cf39-4dca-81ce-e22ea274dbc9?alt=media&token=dff7a088-3fd0-43ee-955a-803cbe645032",
+        "size": 105258,
+        "color": "grey"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F4ca30542-4537-44fa-a5aa-42d0b95ed39b?alt=media&token=247fba86-5f5f-4e72-8901-da256870dc65",
+        "size": 94982,
+        "color": "grey"
+      }
+    ],
+    "stock": [
+      {
+        "size": 12.5,
+        "color": "grey",
+        "quantity": 10
+      },
+      {
+        "size": 7.5,
+        "color": "grey",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Max 1 Premium Men",
+    "price": 194.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fcc69f003-2575-49eb-abe5-9bc159ec6367?alt=media&token=c81d57b9-8a1b-48e2-9878-8f938e4e9035",
+        "size": 119652,
+        "color": "brown"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F83572303-9aba-45d9-b067-d46d9a45d699?alt=media&token=49da4616-c782-43c0-82d2-fdd7444c9775",
+        "size": 115271,
+        "color": "brown"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F0f0d7569-e35d-403c-94a4-9ddb4832d5ae?alt=media&token=4e6486df-359d-419b-b8b6-8a312b3b8cd3",
+        "size": 134605,
+        "color": "brown"
+      }
+    ],
+    "stock": [
+      {
+        "size": 13.5,
+        "color": "brown",
+        "quantity": 30
+      },
+      {
+        "size": 10.5,
+        "color": "brown",
+        "quantity": 22
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Max Pulse Men",
+    "price": 584.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F4b93f749-086c-4d04-b303-73d6f07f6c5c?alt=media&token=0aba262d-44d9-4646-904d-b283b9fd068b",
+        "size": 100927,
+        "color": "grey"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fde1db9d0-c722-4b76-a897-f8237a1bd401?alt=media&token=b3a6411e-72d0-46fa-becf-1cd3489b19f5",
+        "size": 96406,
+        "color": "grey"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F7d6c7fc0-6601-47d7-8cc1-12b48f711f77?alt=media&token=8bfcc5f0-0238-424c-81a9-f446e3c92c4d",
+        "size": 108257,
+        "color": "grey"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "grey",
+        "quantity": 22
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 22
+      },
+      {
+        "size": 9.5,
+        "color": "grey",
+        "quantity": 25
+      },
+      {
+        "size": 9.5,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 6.5,
+        "color": "grey",
+        "quantity": 12
+      },
+      {
+        "size": 6.5,
+        "color": "white",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Presto",
+    "price": 1.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701103-800-800?v=638233823003070000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701190-800-800?v=638233833861700000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701191-800-800?v=638233833880470000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Presto",
+    "price": 1.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701103-800-800?v=638233823003070000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701190-800-800?v=638233833861700000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/701191-800-800?v=638233833880470000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "red",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "ZAPATILLAS DURAMO",
+    "price": 89.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/422888-800-800?v=638143982897030000&width=800&height=800&aspect=true",
+        "size": 1200,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/426535-800-800?v=638144089558700000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/428126-800-800?v=638144116368130000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/424796-800-800?v=638144019994800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "white"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Air Force 1",
+    "price": 1.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699339-800-800?v=638229667560530000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699968-800-800?v=638229703516670000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699969-800-800?v=638229703533500000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/699970-800-800?v=638229703556170000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "red",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Dunk Low",
+    "price": 990.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/604537-800-800?v=638197637751600000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/604539-800-800?v=638197637972100000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/604540-800-800?v=638197638130570000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/604541-800-800?v=638197638312800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "red",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Court Borough",
+    "price": 1090.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/327546-800-800?v=638134641766230000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/336467-800-800?v=638134778407800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/340904-800-800?v=638137109671800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/345314-800-800?v=638137195323430000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Force 1 Low SE",
+    "price": 1690.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/455908-800-800?v=638149332847800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/336467-800-800?v=638134778407800000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/609237-800-800?v=638199568589470000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/613976-800-800?v=638200114672230000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "green",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Dunk Low",
+    "price": 990.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/681905-800-800?v=638224575847830000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/686377-800-800?v=638225202425200000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/688589-800-800?v=638225239791100000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/690725-800-800?v=638225272052130000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "green",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Dunk Low",
+    "price": 890.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/658811-800-800?v=638221812247330000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/664028-800-800?v=638222616185500000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/666635-800-800?v=638222654497070000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/669230-800-800?v=638222693124030000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9,
+        "color": "orange",
+        "quantity": 25
+      },
+      {
+        "size": 9,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Force 1 LE",
+    "price": 890.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/702710-800-800?v=638233931002700000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705482-800-800?v=638233982176000000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705483-800-800?v=638233982197030000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705484-800-800?v=638233982217300000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Nike Force 1 LE",
+    "price": 890.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/702710-800-800?v=638233931002700000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705482-800-800?v=638233982176000000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705483-800-800?v=638233982197030000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705484-800-800?v=638233982217300000&width=800&height=800&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed3",
+    "model": "Zapatillas Suede Classic",
+    "price": 890.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/sv01/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/bv/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/sv02/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "blue",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed3",
+    "model": "Zapatillas Suede Classic",
+    "price": 890.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9b",
+    "image": [
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv01/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv03/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv02/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv02/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "green",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed3",
+    "model": "Zapatillas Suede Classic",
+    "price": 890.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9b",
+    "image": [
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/06/sv01/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/06/sv03/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/06/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/06/bv/fnd/ARG",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "red",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed3",
+    "model": "Zapatillas Suede Classic",
+    "price": 890.99,
+    "gender": "women",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9b",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240927-800-auto?v=638320197471770000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240928-800-auto?v=638320197548370000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240929-150-auto?v=638320197618000000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240930-150-auto?v=638320197681530000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "red",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 5,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ecf",
+    "model": "Zapatillas adidas NMD 360 Bebes",
+    "price": 890.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9b",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237809-800-auto?v=638285894694800000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237806-150-auto?v=638285894371130000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237807-150-auto?v=638285894470930000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237808-150-auto?v=638285894585970000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 4,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65286196936dbf2bec93434e",
+    "model": "Mujer Lecoq Alpha",
+    "price": 1790.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241107-800-auto?v=638322060675100000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241110-800-auto?v=638322061227330000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241108-800-auto?v=638322060791270000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241109-800-auto?v=638322060897670000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 4,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed7",
+    "model": "Mujer Reebok Club C Extra",
+    "price": 1090.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240959-800-auto?v=638320358582430000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240957-800-auto?v=638320358359300000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240958-150-auto?v=638320358428230000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/240960-150-auto?v=638320358691000000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 4,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65286196936dbf2bec93434e",
+    "model": "Hombre Lecoq Veloce Gum",
+    "price": 1090.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce9a",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241136-800-auto?v=638322067484930000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241137-800-auto?v=638322067608300000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241139-150-auto?v=638322067869430000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/241138-150-auto?v=638322067729870000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 8,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 8,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 11,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed5",
+    "model": "Botas Hombre Fila Arcade",
+    "price": 189.99,
+    "gender": "men",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/239241-800-auto?v=638306579383570000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/239240-800-auto?v=638306579168470000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/239243-800-auto?v=638306579717330000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/239242-800-auto?v=638306579585770000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 13,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 13,
+        "color": "pink",
+        "quantity": 25
+      },
+      {
+        "size": 11,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed5",
+    "model": "Fila Renno Hombre",
+    "price": 989.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce96",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/238819-800-auto?v=638301393500670000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/238818-800-auto?v=638301393387100000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/238820-150-auto?v=638301393647830000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/238821-150-auto?v=638301393789230000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 11.5,
+        "color": "brown",
+        "quantity": 25
+      },
+      {
+        "size": 11.5,
+        "color": "blue",
+        "quantity": 25
+      },
+      {
+        "size": 11,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed5",
+    "model": "Fila Renno Hombre",
+    "price": 989.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237294-800-auto?v=638279765270800000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237293-800-auto?v=638279765153130000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237296-150-auto?v=638279765489970000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237295-150-auto?v=638279765371700000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9.5,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 9.5,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 11,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "Brand_id": "65285e5d5cafc49b72b61ed9",
+    "model": "Converse Botas Rival Hombre",
+    "price": 989.99,
+    "gender": "kids",
+    "Category_id": "652618dddcf51c3902490762",
+    "Type_id": "65261a72b889414c8a91ce95",
+    "image": [
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237294-800-auto?v=638279765270800000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237293-800-auto?v=638279765153130000&width=800&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237296-150-auto?v=638279765489970000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      },
+      {
+        "src": "https://celadasa.vtexassets.com/arquivos/ids/237295-150-auto?v=638279765371700000&width=150&height=auto&aspect=true",
+        "size": 800,
+        "color": "red"
+      }
+    ],
+    "stock": [
+      {
+        "size": 9.5,
+        "color": "black",
+        "quantity": 25
+      },
+      {
+        "size": 9.5,
+        "color": "white",
+        "quantity": 25
+      },
+      {
+        "size": 11,
+        "color": "white",
+        "quantity": 10
+      }
+    ]
+  }
+]

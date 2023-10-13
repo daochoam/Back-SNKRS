@@ -1,34 +1,52 @@
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({
-  sku: { type: String },
   model: { type: String },
-  brand: { type: String },
-  category: { type: String },
-  type: { type: String },
+  Brand_id: {
+    type: Schema.Types.ObjectId,
+    ref: 'Brand',
+    required: true,
+  },
+  Category_id: {
+    type: Schema.Types.ObjectId,
+    ref: 'Category',
+    required: true,
+  },
+  Type_id: {
+    type: Schema.Types.ObjectId,
+    ref: 'Type',
+    required: true,
+  },
   price: { type: Number },
   gender: {
-    type: { type: String },
-    enum: { type: ["male", "female", "girl", "boy"] },
+    type: String,
+    enum: ["men", "women", "kids"],
+  },
+  rating: {
+    type: Number,
+    min: 0,
+    max: 5,
+  },
+  stock: {
+    type: [
+      {
+        size: { type: Number },
+        quantity: { type: Number },
+        color: {
+          type: {
+            name: { type: String },
+            html: { type: String }
+          }
+        },
+      },
+    ],
   },
   image: {
     type: [
       {
         id: { type: String },
         src: { type: String },
-        typeImage: { type: String },
-        size: { type: Number },
         color: { type: String },
-      },
-    ],
-  },
-  stock: {
-    type: [
-      {
-        size: { type: Number },
-        color: { type: String },
-        quantity: { type: Number },
-        image: { type: String },
       },
     ],
   },
