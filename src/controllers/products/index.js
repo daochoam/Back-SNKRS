@@ -2,6 +2,7 @@ const createProduct = require("./createProduct");
 const getProducts   = require("./getProducts");
 const deleteProduct = require("./deleteProduct");
 const updateProduct = require("./updateProduct");
+const updateImageProduct = require("./updateImageProduct");
 const getProductByProductId = require("./getProductByProductId");
 
 const controllers = {
@@ -9,7 +10,8 @@ const controllers = {
   getProducts,
   createProduct,
   deleteProduct,
-  updateProduct
+  updateProduct,
+  updateImageProduct,
 }
 
 module.exports = controllers;
