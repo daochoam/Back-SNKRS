@@ -10,6 +10,7 @@ const trolleyRoutes = require('./trolleyRoutes')
 const userRoutes = require('./userRoutes')
 const worldRoutes = require('./worldRoutes.js')
 const bulkRoutes = require('./bulkRoutes.js')
+const newsLetterRoute = require("./newsLetterRoute") 
 const favoritesRoutes = require('./favoritesRoutes');
 const purchaseMailHandler = require('../handlers/purchase/purchaseHandler');
 
@@ -25,5 +26,6 @@ snkrsRoutes.use('/world', worldRoutes)
 snkrsRoutes.use('/bulk', bulkRoutes)
 snkrsRoutes.use('/favorites', validateAuthUserSession("user"), favoritesRoutes)
 snkrsRoutes.get('/mail', purchaseMailHandler)
+snkrsRoutes.use("/newsletter", newsLetterRoute)
 
 module.exports = snkrsRoutes
