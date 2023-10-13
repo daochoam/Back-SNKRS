@@ -7,6 +7,7 @@ const Country = require("./Country");
 const State = require("./State");
 const City = require("./City");
 const Favorites = require("./Favorites");
+const Review = require("./Review");
 
 module.exports = {
     City,
@@ -17,5 +18,6 @@ module.exports = {
     Product,
     Shopping,
     Trolley,
-    Favorites
+    Favorites,
+    Review
 }

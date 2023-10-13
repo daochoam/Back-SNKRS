@@ -1,5 +1,4 @@
 const { Shopping, Product } = require("../../schemas/index");
-const crypto = require('crypto');
 const createOrderMP = require('../../services/createOrderMP');
 
 //! Ejemplo de datos que deben llegar por body
