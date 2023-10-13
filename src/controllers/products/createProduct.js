@@ -12,9 +12,13 @@ const createProduct = async (req, res) => {
     // if (!errors.isEmpty()) {
     //   return res.status(400).json({ errors: errors.array() });
     // }
+   
+    const colorImages = [ req.body.colorA, req.body.colorB, req.body.colorC ];
     
+    console.log("colorImages", colorImages);
+
     const imagesFiles = req.files;    
-    const imagesShoes = await addImageStorage(imagesFiles);    
+    const imagesShoes = await addImageStorage(imagesFiles, colorImages);    
 
     res.status(200).json({"image": imagesShoes});
 

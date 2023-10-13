@@ -5,7 +5,7 @@ const { ref, getStorage, uploadBytes, getDownloadURL } = require("firebase/stora
 // const { firebase } = require("../../config/firebaseConfig");
 // const { applicationDefault } = require('firebase-admin/app');
 
-const addImageStorage = async ( imagesFiles, colorImage, refFileStorage = "images" ) => {
+const addImageStorage = async ( imagesFiles, colorImages, refFileStorage = "images" ) => {
     try {                    
         const firebaseConfig = {
             apiKey: "AIzaSyBqdSo4w-A-p3icO9Ru4ZRBO4eEY68FCsM",
@@ -20,6 +20,7 @@ const addImageStorage = async ( imagesFiles, colorImage, refFileStorage = "image
         const storage    = getStorage(app);        
 
         let image = {};
+        let indexColor = 0;
         let imagesResponse = [];
 
         for (const file of imagesFiles) {
@@ -36,10 +37,11 @@ const addImageStorage = async ( imagesFiles, colorImage, refFileStorage = "image
             image = {
                 id   : idImage,
                 src  : urlFirebase,
-                color: colorImage,
+                color: colorImages[ indexColor ],
             };
 
             imagesResponse.push(image);
+            indexColor = indexColor + 1;
         }            
         
         return imagesResponse;
