@@ -1,0 +1,560 @@
+[
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 6,
+        "EUR": 39,
+        "UK": 5,
+        "cm": 24.0,
+        "inch": 9.45
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 6.5,
+        "EUR": 39.5,
+        "UK": 5.5,
+        "cm": 24.5,
+        "inch": 9.65
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 7,
+        "EUR": 40,
+        "UK": 6,
+        "cm": 25.0,
+        "inch": 9.84
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 7.5,
+        "EUR": 40.5,
+        "UK": 6.5,
+        "cm": 25.5,
+        "inch": 10.04
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 8,
+        "EUR": 41,
+        "UK": 7,
+        "cm": 26.0,
+        "inch": 10.24
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 8.5,
+        "EUR": 41.5,
+        "UK": 7.5,
+        "cm": 26.5,
+        "inch": 10.43
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 9,
+        "EUR": 42,
+        "UK": 8,
+        "cm": 27.0,
+        "inch": 10.63
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 9.5,
+        "EUR": 42.5,
+        "UK": 8.5,
+        "cm": 27.5,
+        "inch": 10.83
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 10,
+        "EUR": 43,
+        "UK": 9,
+        "cm": 28.0,
+        "inch": 11.02
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 10.5,
+        "EUR": 43.5,
+        "UK": 9.5,
+        "cm": 28.5,
+        "inch": 11.22
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 11,
+        "EUR": 44,
+        "UK": 10,
+        "cm": 29.0,
+        "inch": 11.42
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 11.5,
+        "EUR": 44.5,
+        "UK": 10.5,
+        "cm": 29.5,
+        "inch": 11.61
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 12,
+        "EUR": 45,
+        "UK": 11,
+        "cm": 30.0,
+        "inch": 11.81
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 12.5,
+        "EUR": 45.5,
+        "UK": 11.5,
+        "cm": 30.5,
+        "inch": 12.01
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 13,
+        "EUR": 46,
+        "UK": 12,
+        "cm": 31.0,
+        "inch": 12.20
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 13.5,
+        "EUR": 46.5,
+        "UK": 12.5,
+        "cm": 31.5,
+        "inch": 12.40
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 14,
+        "EUR": 47,
+        "UK": 13,
+        "cm": 32.0,
+        "inch": 12.60
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 14.5,
+        "EUR": 47.5,
+        "UK": 13.5,
+        "cm": 32.5,
+        "inch": 12.80
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 15,
+        "EUR": 48,
+        "UK": 14,
+        "cm": 33.0,
+        "inch": 12.99
+    },
+    {
+        "gender": "men",
+        "category": "shoes",
+        "US": 15.5,
+        "EUR": 48.5,
+        "UK": 14.5,
+        "cm": 33.5,
+        "inch": 13.19
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 5,
+        "EUR": 35,
+        "UK": 2.5,
+        "cm": 22.5,
+        "inch": 8.86
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 5.5,
+        "EUR": 35.5,
+        "UK": 3,
+        "cm": 23.0,
+        "inch": 9.06
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 6,
+        "EUR": 36,
+        "UK": 3.5,
+        "cm": 23.5,
+        "inch": 9.25
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 6.5,
+        "EUR": 37,
+        "UK": 4,
+        "cm": 24.0,
+        "inch": 9.45
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 7,
+        "EUR": 37.5,
+        "UK": 4.5,
+        "cm": 24.5,
+        "inch": 9.65
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 7.5,
+        "EUR": 38,
+        "UK": 5,
+        "cm": 25.0,
+        "inch": 9.84
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 8,
+        "EUR": 38.5,
+        "UK": 5.5,
+        "cm": 25.5,
+        "inch": 10.04
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 8.5,
+        "EUR": 39,
+        "UK": 6,
+        "cm": 26.0,
+        "inch": 10.24
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 9,
+        "EUR": 40,
+        "UK": 6.5,
+        "cm": 26.5,
+        "inch": 10.43
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 9.5,
+        "EUR": 40.5,
+        "UK": 7,
+        "cm": 27.0,
+        "inch": 10.63
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 10,
+        "EUR": 41,
+        "UK": 7.5,
+        "cm": 27.5,
+        "inch": 10.83
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 10.5,
+        "EUR": 41.5,
+        "UK": 8,
+        "cm": 28.0,
+        "inch": 11.02
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 11,
+        "EUR": 42,
+        "UK": 8.5,
+        "cm": 28.5,
+        "inch": 11.22
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 11.5,
+        "EUR": 42.5,
+        "UK": 9,
+        "cm": 29.0,
+        "inch": 11.42
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 12,
+        "EUR": 43,
+        "UK": 9.5,
+        "cm": 29.5,
+        "inch": 11.61
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 12.5,
+        "EUR": 43.5,
+        "UK": 10,
+        "cm": 30.0,
+        "inch": 11.81
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 13,
+        "EUR": 44,
+        "UK": 10.5,
+        "cm": 30.5,
+        "inch": 12.01
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 13.5,
+        "EUR": 44.5,
+        "UK": 11,
+        "cm": 31.0,
+        "inch": 12.20
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 14,
+        "EUR": 45,
+        "UK": 11.5,
+        "cm": 31.5,
+        "inch": 12.40
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 14.5,
+        "EUR": 45.5,
+        "UK": 12,
+        "cm": 32.0,
+        "inch": 12.60
+    },
+    {
+        "gender": "women",
+        "category": "shoes",
+        "US": 15,
+        "EUR": 46,
+        "UK": 12.5,
+        "cm": 32.5,
+        "inch": 12.99
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 1,
+        "EUR": 16,
+        "UK": 0.5,
+        "cm": 8.3,
+        "inch": 3.27
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 1.5,
+        "EUR": 17,
+        "UK": 1,
+        "cm": 8.9,
+        "inch": 3.5
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 2,
+        "EUR": 18,
+        "UK": 1.5,
+        "cm": 9.5,
+        "inch": 3.74
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 2.5,
+        "EUR": 18.5,
+        "UK": 2,
+        "cm": 10.2,
+        "inch": 4.02
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 3,
+        "EUR": 19,
+        "UK": 2.5,
+        "cm": 10.8,
+        "inch": 4.25
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 3.5,
+        "EUR": 20,
+        "UK": 3,
+        "cm": 11.4,
+        "inch": 4.49
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 4,
+        "EUR": 20.5,
+        "UK": 3.5,
+        "cm": 12.1,
+        "inch": 4.76
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 4.5,
+        "EUR": 21,
+        "UK": 4,
+        "cm": 12.7,
+        "inch": 5.0
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 5,
+        "EUR": 22,
+        "UK": 4.5,
+        "cm": 13.3,
+        "inch": 5.24
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 5.5,
+        "EUR": 22.5,
+        "UK": 5,
+        "cm": 14.0,
+        "inch": 5.51
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 6,
+        "EUR": 23,
+        "UK": 5.5,
+        "cm": 14.6,
+        "inch": 5.75
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 6.5,
+        "EUR": 23.5,
+        "UK": 6,
+        "cm": 15.2,
+        "inch": 5.98
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 7,
+        "EUR": 24,
+        "UK": 6.5,
+        "cm": 15.9,
+        "inch": 6.26
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 7.5,
+        "EUR": 25,
+        "UK": 7,
+        "cm": 16.5,
+        "inch": 6.50
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 8,
+        "EUR": 25.5,
+        "UK": 7.5,
+        "cm": 17.1,
+        "inch": 6.73
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 8.5,
+        "EUR": 26,
+        "UK": 8,
+        "cm": 17.8,
+        "inch": 7.01
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 9,
+        "EUR": 27,
+        "UK": 8.5,
+        "cm": 18.4,
+        "inch": 7.24
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 9.5,
+        "EUR": 27.5,
+        "UK": 9,
+        "cm": 19.0,
+        "inch": 7.48
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 10,
+        "EUR": 28,
+        "UK": 9.5,
+        "cm": 19.7,
+        "inch": 7.76
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 10.5,
+        "EUR": 29,
+        "UK": 10,
+        "cm": 20.3,
+        "inch": 8.0
+    },
+    {
+        "gender": "kids",
+        "category": "shoes",
+        "US": 11,
+        "EUR": 30,
+        "UK": 10.5,
+        "cm": 20.9,
+        "inch": 8.23
+    }
+]

@@ -8,6 +8,11 @@ const State = require("./State");
 const City = require("./City");
 const Favorites = require("./Favorites");
 const Review = require("./Review");
+const Colors = require("./Colors");
+const Sizes = require("./Sizes");
+const Category = require("./Category");
+const Type = require("./Type");
+const Brand = require("./Brand");
 
 module.exports = {
     City,
@@ -19,5 +24,10 @@ module.exports = {
     Shopping,
     Trolley,
     Favorites,
-    Review
+    Review,
+    Category,
+    Type,
+    Colors,
+    Sizes,
+    Brand
 }
