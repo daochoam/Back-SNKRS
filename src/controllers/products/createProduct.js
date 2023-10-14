@@ -15,10 +15,8 @@ const createProduct = async (req, res) => {
    
     const colorImages = [ req.body.colorA, req.body.colorB, req.body.colorC ];
     
-    console.log("colorImages", colorImages);
-
-    const imagesFiles = req.files;    
-    const imagesShoes = await addImageStorage(imagesFiles, colorImages);    
+    const imagesFiles = req.files;
+    const imagesShoes = await addImageStorage(imagesFiles, colorImages, "createProduct");
 
     res.status(200).json({"image": imagesShoes});
 

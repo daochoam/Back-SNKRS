@@ -5,6 +5,8 @@ const changeStatusAddressByUserId = require('./changeStatusAddressByUserId.js');
 const updateUserById = require('./updateUserById.js');
 const addAddressByUserId = require('./addAddressByUserId.js');
 const deleteAddressByUserId = require('./deleteAddressByUserId.js');
+const updateImage = require('./updateImage.js');
+
 const controller = {
     getAllUser,
     getUserById,
@@ -12,7 +14,8 @@ const controller = {
     changeStatusAddressByUserId,
     updateUserById,
     addAddressByUserId,
-    deleteAddressByUserId
+    deleteAddressByUserId,
+    updateImage,
 };
 
 module.exports = controller;
