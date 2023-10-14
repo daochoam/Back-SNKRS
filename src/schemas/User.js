@@ -45,7 +45,7 @@ const userSchema = new Schema({
     },
     status: {
         type: String,
-        enum: ["active", "inactive"],
+        enum: ["active", "inactive", "banned"],
         default: "inactive",
     },
     // reviews: [{
