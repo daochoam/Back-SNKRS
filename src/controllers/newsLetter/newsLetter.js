@@ -4,6 +4,10 @@ const config = require('../../config/config');
 const newsletter = async (req, res) => {
     const { email } = req.body
     try {
+        const foundEmail = await NewsLetter.findOne({ email })
+        if (foundEmail) {
+            return res.status(400).json({ error: 'Email already subscribed' })
+        }   
         const newSubscriber = new NewsLetter({email});
         await newSubscriber.save()
 
