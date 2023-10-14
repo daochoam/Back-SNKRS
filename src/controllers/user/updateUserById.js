@@ -1,24 +1,28 @@
+const { addImageStorage } = require("../firebaseStorage/index");
 const { User } = require("../../schemas/index");
 
 const updateUserById = async (req, res) => {
     try {
         const { User_id } = req.locals;
-        const { firstName, lastName, nit, email, image, birthday, address } = req.body;
+        // const User_id = "6520581e26b4e6e173fe621f";
+
+        const newImageUser= req.file;
+        const { firstName, lastName, nit, email, birthday, address } = req.body;
 
         const user = await User.findById(User_id);
         if (!user) return res.status(404).json({ message: "User not found" });
 
+        if (nit)       user.nit       = nit;
+        if (email)     user.email     = email;
+        if (address)   user.address   = address;
+        if (birthday)  user.birthday  = birthday;
+        if (lastName)  user.lastName  = lastName;
         if (firstName) user.firstName = firstName;
-        if (lastName) user.lastName = lastName;
-        if (nit) user.nit = nit;
-        if (email) user.email = email;
-        if (image) user.image = image;
-        if (birthday) user.birthday = birthday;
-        if (address) user.address = address;
+        if (newImageUser) user.image  = await addImageStorage(newImageUser, User_id, "changeImageUser");
 
-        await user.save();
+        const userUpdated = await user.save();
 
-        res.status(200).json({ message: 'User updated' });
+        res.status(200).json(userUpdated);
 
     } catch (error) {
         res.status(400).json({ error: error.message });
