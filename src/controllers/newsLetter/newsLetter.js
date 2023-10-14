@@ -1,5 +1,6 @@
 const NewsLetter = require("../../schemas/NewsLetter")
 const mailTransport = require("../../config/mailTransportConfig")
+const config = require('../../config/config');
 const newsletter = async (req, res) => {
     const { email } = req.body
     try {
@@ -7,7 +8,7 @@ const newsletter = async (req, res) => {
         await newSubscriber.save()
 
         const mailOptions = {
-            from: "kaiserriosdiaz@gmail.com",
+            from: config.MAIL_SNKRS,
             to: email,
             subject: 'Subscription to Newsletter confirmation',
             html: `<!DOCTYPE html>

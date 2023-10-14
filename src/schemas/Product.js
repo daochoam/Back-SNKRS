@@ -30,6 +30,11 @@ const productSchema = new mongoose.Schema({
       },
     ],
   },
+  // reviews: [{
+  //   type: Schema.Types.ObjectId,
+  //   ref: 'Review',
+  //   required: true
+  // }]
 });
 
 const Product = mongoose.model("Product", productSchema);
