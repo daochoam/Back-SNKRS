@@ -1,9 +1,7 @@
 const { v4 } = require("uuid");
+const { app } = require("../../config/index");
 const { initializeApp } = require("firebase/app");
 const { ref, getStorage, uploadBytes, getDownloadURL } = require("firebase/storage");
-
-// const { firebase } = require("../../config/firebaseConfig");
-// const { applicationDefault } = require('firebase-admin/app');
 
 const imagesToProduct = async ( imagesFiles, colorImages, storage ) => {
     let image = {};
@@ -49,16 +47,6 @@ const changeImage = async ( imageFile, Ref_id, storage, refFileStorage ) => {
 
 const addImageStorage = async ( files, infoExtra, typeImageOperation ) => {
     try {                    
-        const firebaseConfig = {
-            apiKey: "AIzaSyBqdSo4w-A-p3icO9Ru4ZRBO4eEY68FCsM",
-            authDomain: "snkrs-4a559.firebaseapp.com",
-            projectId: "snkrs-4a559",
-            storageBucket: "snkrs-4a559.appspot.com",
-            messagingSenderId: "341444316031",
-            appId: "1:341444316031:web:3e6b273044504ca58aa84a"
-        };
-          
-        const app = initializeApp(firebaseConfig);
         const storage = getStorage(app);
         let refFileStorage = ""; 
         let responseFirebase;
