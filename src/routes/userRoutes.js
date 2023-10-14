@@ -4,7 +4,6 @@ const controller = require('../controllers/user/index');
 
 const userRoutes = Router();
 
-// userRoutes.get('/', controller.getAllUser);
 userRoutes.get('/', controller.getUserById);
 userRoutes.patch('/', controller.changeStatusByUserId);
 userRoutes.patch('/address/:idAddress', controller.changeStatusAddressByUserId);

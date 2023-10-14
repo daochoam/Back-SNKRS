@@ -1,6 +1,6 @@
 const { User } = require("../../schemas/index");
 
-const getTrolleyByUserId = async (req, res) => {
+const getAllUser = async (req, res) => {
     try {
         const users = await User.find();
         res.status(200).json(users);
@@ -9,4 +9,4 @@ const getTrolleyByUserId = async (req, res) => {
     }
 };
 
-module.exports = getTrolleyByUserId;
+module.exports = getAllUser;
