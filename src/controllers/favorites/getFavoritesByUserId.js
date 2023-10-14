@@ -1,17 +1,17 @@
 const mongoose = require("mongoose");
 const { Favorites, Product } = require('../../schemas')
 
-const aggregateFavorites = async ( User_id ) => {
-    const [ searchFavorites ] = await Favorites.aggregate([
+const aggregateFavorites = async (User_id) => {
+    const [searchFavorites] = await Favorites.aggregate([
         //--------------------**match**--------------------
         {
-            $match: { 
-                User_id : new mongoose.Types.ObjectId(User_id) 
-            } 
+            $match: {
+                User_id: new mongoose.Types.ObjectId(User_id)
+            }
         },
         //-----**Descomponiendo el array favorites **------
-        {   
-            $unwind : '$favorites'
+        {
+            $unwind: '$favorites'
         },
         //--------------------**Product**------------------
         {
@@ -27,17 +27,16 @@ const aggregateFavorites = async ( User_id ) => {
         },
         //--------------------**group**--------------------
         {
-            $group : {
-                _id : '$_id',
-
-                favorites : {
+            $group: {
+                _id: '$_id',
+                favorites: {
                     $push: {
-                        _id   : '$productDetail._id',
-                        price : '$productDetail.price',
-                        brand : '$productDetail.brand',
-                        model : '$productDetail.model',
-                        type  : '$productDetail.type',
-                        category : '$productDetail.category',
+                        _id: '$productDetail._id',
+                        price: '$productDetail.price',
+                        brand: '$productDetail.brand',
+                        model: '$productDetail.model',
+                        type: '$productDetail.type',
+                        category: '$productDetail.category',
                         // image    : '$productDetail.image',
                     }
                 }
@@ -45,29 +44,27 @@ const aggregateFavorites = async ( User_id ) => {
         },
         //--------------------**project**------------------
         {
-            $project : {
-                _id : 0,
-                favorites : '$favorites',
+            $project: {
+                _id: 0,
+                favorites: '$favorites',
             }
         }
     ]);
 
-    return ( searchFavorites.favorites );
+    return (searchFavorites.favorites);
 };
 
 const getFavoritesByUserId = async (req, res) => {
     // const { page } = req.params;
-    // const { model, brand, size, color, price, order, itemsXPages } = req.query
     try {
-        const { User_id, role } =  req.locals;
-        // const User_id = "652052d8b9b21219c301202b"; 
+        const { User_id, role } = req.locals;
 
         const allFavorites = await aggregateFavorites(User_id);
 
-        if(allFavorites){
+        if (allFavorites) {
             res.status(200).json(allFavorites);
         }
-        else{
+        else {
             res.status(404).json(["Empty"]);
         }
 

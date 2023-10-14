@@ -1,5 +1,5 @@
 const { City } = require("../../schemas/index");
-const cities = require("../../../City.json");
+const cities = require("../../assets/City.json");
 
 const bulkCities = async (req, res) => {
     try {

@@ -2,9 +2,9 @@ const { User } = require("../../schemas/index");
 
 const addAddressByUserId = async (req, res) => {
     try {
-        const { id } = req.params;
+        const { User_id } = req.locals;
         const { address } = req.body;
-        const user = await User.findById(id);
+        const user = await User.findById(User_id);
 
         if (!user) return res.status(404).json({ message: "User not found" });
 

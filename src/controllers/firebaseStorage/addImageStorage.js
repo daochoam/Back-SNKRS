@@ -64,7 +64,7 @@ const addImageStorage = async ( files, infoExtra, typeImageOperation ) => {
             refFileStorage = "avatar"
             responseFirebase = await changeImage( files, infoExtra, storage, refFileStorage )
         }
-
+          
         return responseFirebase;
  
     } catch (error) {

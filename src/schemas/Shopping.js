@@ -40,7 +40,7 @@ const shoppingSchema = new Schema({
             color: { type: String },
             size: { type: Number },
             quantity: { type: Number },
-            gener: { type: String, enum: ["female", "male", "kid"] },
+            gender: { type: String, enum: ["female", "male", "kid"] },
         }],
         required: true
     },

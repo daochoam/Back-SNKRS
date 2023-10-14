@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "Snkrs",
+    "image": {
+      "id": "05eb1041-589a-49df-9001-545486d68787",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F05eb1041-589a-49df-9001-545486d68787.png?alt=media&token=8ecbdfb3-969c-4d44-b413-adca7e56b140&_gl=1*s8ahg9*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDM3NzcuMTQuMC4w"
+    },
+    "website": "",
+    "email": "",
+    "phone": ""
+  },
+  {
+    "brand": "Adidas",
+    "image": {
+      "id": "2824c485-6f91-4b90-ada2-91241c0adacb",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F2824c485-6f91-4b90-ada2-91241c0adacb.png?alt=media&token=c3558d33-f711-488a-a867-fa2b381ed38c&_gl=1*1g3o0fk*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDIyNTguNDQuMC4w"
+    },
+    "website": "https://www.adidas.com",
+    "email": "contact@adidas.com",
+    "phone": "+1-800-123-4567"
+  },
+  {
+    "brand": "Nike",
+    "image": {
+      "id": "9be68a24-20a4-48c8-b1e2-86f77465fbe9",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F9be68a24-20a4-48c8-b1e2-86f77465fbe9.png?alt=media&token=cc4d92a0-9b85-4558-9a38-7f9bdf2e48fd&_gl=1*kzebap*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI3MTkuNTEuMC4w"
+    },
+    "website": "https://www.nike.com",
+    "email": "contact@nike.com",
+    "phone": "+1-800-987-6543"
+  },
+  {
+    "brand": "Puma",
+    "image": {
+      "id": "81e0767d-5ba4-441c-969b-f2de16f13293",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F81e0767d-5ba4-441c-969b-f2de16f13293.png?alt=media&token=e8d279cf-9642-4f64-95cb-db376b5d443e&_gl=1*ex5xsn*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI2NzEuMzMuMC4w"
+    },
+    "website": "https://www.puma.com",
+    "email": "contact@puma.com",
+    "phone": "+1-800-555-5555"
+  },
+  {
+    "brand": "Fila",
+    "image": {
+      "id": "fa205ff1-1c3c-479b-96bb-4d481f7c9c51",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2Ffa205ff1-1c3c-479b-96bb-4d481f7c9c51.png?alt=media&token=2b0ebff8-c5a7-4de2-9e42-6ac271485043&_gl=1*20oysd*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI4MzYuMjAuMC4w"
+    },
+    "website": "https://www.fila.com",
+    "email": "contact@fila.com",
+    "phone": "+1-800-123-4567"
+  },
+  {
+    "brand": "Reebok",
+    "image": {
+      "id": "2ade0a73-6089-41ca-8b2d-736efc5842ee",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F2ade0a73-6089-41ca-8b2d-736efc5842ee.png?alt=media&token=cb51f75f-3109-4a6c-9c7d-cd51650fa6f8&_gl=1*1oggr05*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI0NTIuNDkuMC4w"
+    },
+    "website": "https://www.reebok.com",
+    "email": "contact@reebok.com",
+    "phone": "+1-800-987-6543"
+  },
+  {
+    "brand": "Converse",
+    "image": {
+      "id": "797a33ac-6a75-42de-a1a6-fcd3b872eb1b",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F797a33ac-6a75-42de-a1a6-fcd3b872eb1b.png?alt=media&token=ff8c4326-1215-4046-ba32-13a0a45e6e60&_gl=1*15rwixb*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI2MjUuMTguMC4w"
+    },
+    "website": "https://www.converse.com",
+    "email": "contact@converse.com",
+    "phone": "+1-800-555-5555"
+  },
+  {
+    "brand": "Under Armour",
+    "image": {
+      "id": "a72c7260-66f5-47f2-a80a-fd66a9d47d0e",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2Fa72c7260-66f5-47f2-a80a-fd66a9d47d0e.png?alt=media&token=b5988822-250d-4640-8e76-5a573f078eab&_gl=1*1pzmxdp*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI3NjMuNy4wLjA."
+    },
+    "website": "https://www.underarmour.com",
+    "email": "contact@underarmour.com",
+    "phone": "+1-800-123-4567"
+  },
+  {
+    "brand": "Umbro",
+    "image": {
+      "id": "cfc6647e-bd44-4975-9eb9-8567f38cd424",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2Fcfc6647e-bd44-4975-9eb9-8567f38cd424.png?alt=media&token=4e07aadd-d87b-4c32-b10e-46a7c6ed1810&_gl=1*daubo8*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI4MDIuNTQuMC4w"
+    },
+    "website": "https://www.umbro.com",
+    "email": "contact@umbro.com",
+    "phone": "+1-800-987-6543"
+  },
+  {
+    "brand": "Taylormade",
+    "image": {
+      "id": "3227040e-c83e-4b8a-b6a5-817b902b46b0",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F3227040e-c83e-4b8a-b6a5-817b902b46b0.png?alt=media&token=73e28cee-62f2-4a6d-8f43-4e76c1359772&_gl=1*1b4mj8p*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI1MDUuNjAuMC4w"
+    },
+    "website": "https://www.taylormade.com",
+    "email": "contact@taylormade.com",
+    "phone": "+1-800-555-5555"
+  },
+  {
+    "brand": "New Balance",
+    "image": {
+      "id": "46960259-c9c2-488e-b3ff-2735f95a269b",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F46960259-c9c2-488e-b3ff-2735f95a269b.png?alt=media&token=1db44a38-d066-42f8-af24-d3af8cfe8b11&_gl=1*z4w01p*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDI1NDIuMjMuMC4w"
+    },
+    "website": "https://www.newbalance.com",
+    "email": "contact@newbalance.com",
+    "phone": "+1-800-123-4567"
+  },
+  {
+    "brand": "Skechers",
+    "image": {
+      "id": "127facda-3ea6-4531-842c-532768de004c",
+      "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F127facda-3ea6-4531-842c-532768de004c.png?alt=media&token=20bd6474-e898-4835-bd30-a4a5ac40db0a&_gl=1*13g7s0h*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzE0MTYzMy4zMy4xLjE2OTcxNDMwMjguMjQuMC4w"
+    },
+    "website": "https://www.skechers.com",
+    "email": "contact@skechers.com",
+    "phone": "+1-800-777-7777"
+  }
+]

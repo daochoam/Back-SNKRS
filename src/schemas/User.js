@@ -48,6 +48,11 @@ const userSchema = new Schema({
         enum: ["active", "inactive"],
         default: "inactive",
     },
+    // reviews: [{
+    //     type: Schema.Types.ObjectId,
+    //     ref: 'Review',
+    //     required: true
+    // }]
 
 }, { timestamps: true });
 

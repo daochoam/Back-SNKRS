@@ -1,0 +1,72 @@
+[
+    {
+        "type": "basketball",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "running",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "hiking & climbing",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "soccer",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "climbing",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "casual",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    },
+    {
+        "type": "classic",
+        "category": "shoes",
+        "gender": [
+            "men",
+            "women",
+            "kids"
+        ],
+        "Category_id": "652618dddcf51c3902490762"
+    }
+]
