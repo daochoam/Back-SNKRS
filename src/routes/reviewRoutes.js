@@ -1,5 +1,6 @@
 const { Router } = require('express');
 const controller = require('../controllers/review/index');
+const { validateAuthUserSession } = require('../middlewares/index');
 
 const reviewRoutes = Router();
 
