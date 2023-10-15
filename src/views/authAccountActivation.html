@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			@font-face {
+				font-family: 'MontHeavy';
+				src: url('gs://snkrs-4a559.appspot.com/interface/Back/MontHeavy.woff2')
+						format('woff2'),
+					url('gs://snkrs-4a559.appspot.com/interface/Back/MontHeavy.woff')
+						format('woff');
+			}
+			@font-face {
+				font-family: 'Mont';
+				src: url('gs://snkrs-4a559.appspot.com/interface/Back/MontHeavy.woff2')
+						format('woff2'),
+					url('gs://snkrs-4a559.appspot.com/interface/Back/MontHeavy.woff')
+						format('woff');
+			}
+
+			body {
+				font-family: MontHeavy;
+				background-color: #d9d9d9;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				max-width: 550px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #fff;
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+				border-radius: 25px;
+				text-align: center;
+				margin-top: 10px;
+				border-bottom: #424242 solid 5px;
+				border-left: #424242 solid 5px;
+			}
+
+			.logo {
+				width: 300px;
+				height: 50px;
+				margin: 0;
+				background-image: url('https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/brands%2F05eb1041-589a-49df-9001-545486d68787.png?alt=media&token=8ecbdfb3-969c-4d44-b413-adca7e56b140&_gl=1*iz41nm*_ga*MTg5Nzc0NTk2NS4xNjk1MTgzNzc0*_ga_CW55HF8NVT*MTY5NzIzOTg2MC4zOS4xLjE2OTcyNDA5MjIuNTMuMC4w');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.line {
+				border-bottom: 5px dashed #424242;
+				margin-top: 10px;
+				margin-left: 20px;
+				width: 90%;
+			}
+			.header {
+				font-family: MontHeavy;
+				color: #2d2d2d;
+				font-size: 25px;
+				margin-top: 5px;
+			}
+
+			p {
+				font-family: Mont;
+				color: #2d2d2d;
+				font-size: 18px;
+			}
+
+			.button-container {
+				margin-top: 20px;
+			}
+
+			.btn {
+				display: inline-block;
+				padding: 10px 20px;
+				font-size: 16px;
+				background-color: #2d2d2d;
+				border: none;
+				border-radius: 10px;
+				cursor: pointer;
+				transition: 0.3s ease-out;
+			}
+			.btn a {
+				font-family: Mont;
+				font-size: 20px;
+				text-decoration: none;
+				color: #fff;
+			}
+
+			.btn:hover {
+				transform: scale(1.1);
+				background-color: #135553;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo"></div>
+			<div class="line"></div>
+			<div class="header">
+				<h1>Welcome to Snkrs</h1>
+				<h3>Move, walk, run with us!</h3>
+			</div>
+			<p>Thanks for signing up!, Activate your account,</p>
+			<p>Please press the activation button below</p>
+			<div class="button-container">
+				<button class="btn">
+					<a href="_ACTIVATION__PATH_/_ACCOUNT_ACTIVATION_">
+						Activate account
+					</a>
+				</button>
+			</div>
+		</div>
+	</body>
+</html>

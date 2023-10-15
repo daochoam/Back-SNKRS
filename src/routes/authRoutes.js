@@ -10,6 +10,8 @@ const {
     authUpdateSession,
     authVerifyEmail,
     authVerifySession,
+    authResetPassword,
+    authUpdatePassword
 } = require('../controllers/auth')
 
 
@@ -21,5 +23,7 @@ authRoutes.get("/session", authVerifySession)
 authRoutes.put("/session", authUpdateSession)
 authRoutes.post("/verify-email/:email", authVerifyEmail)
 authRoutes.get("/:userActive", authActiveAccount);
+authRoutes.get('/reset-password', authResetPassword)
+authRoutes.post("/reset-password", authUpdatePassword)
 
 module.exports = authRoutes

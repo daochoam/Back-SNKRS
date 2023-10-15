@@ -2,18 +2,15 @@ const mongoose = require("mongoose");
 const { Favorites, Product } = require('../../schemas')
 
 const aggregateFavorites = async (User_id) => {
-    const [searchFavorites] = await Favorites.aggregate([
-        //--------------------**match**--------------------
+    const searchFavorites = await Favorites.aggregate([
         {
             $match: {
                 User_id: new mongoose.Types.ObjectId(User_id)
             }
         },
-        //-----**Descomponiendo el array favorites **------
         {
             $unwind: '$favorites'
         },
-        //--------------------**Product**------------------
         {
             $lookup: {
                 from: 'products',
@@ -25,52 +22,76 @@ const aggregateFavorites = async (User_id) => {
         {
             $unwind: '$productDetail'
         },
-        //--------------------**group**--------------------
+        {
+            $lookup: {
+                from: 'brands',
+                localField: 'productDetail.Brand_id',
+                foreignField: '_id',
+                as: 'brand'
+            }
+        },
+        { $unwind: '$brand' },
+        {
+            $lookup: {
+                from: 'categories',
+                localField: 'productDetail.Category_id',
+                foreignField: '_id',
+                as: 'category'
+            }
+        },
+        { $unwind: '$category' },
+        {
+            $lookup: {
+                from: 'types',
+                localField: 'productDetail.Type_id',
+                foreignField: '_id',
+                as: 'type'
+            }
+        },
+        { $unwind: '$type' },
         {
             $group: {
                 _id: '$_id',
                 favorites: {
                     $push: {
                         _id: '$productDetail._id',
-                        price: '$productDetail.price',
-                        brand: '$productDetail.brand',
                         model: '$productDetail.model',
-                        type: '$productDetail.type',
-                        category: '$productDetail.category',
-                        // image    : '$productDetail.image',
+                        price: '$productDetail.price',
+                        'brand.brand': '$brand.brand',
+                        'brand.image': '$brand.image.src',
+                        category: '$category.category',
+                        type: '$type.type',
+                        image: { $arrayElemAt: ['$productDetail.image.src', 0] },
                     }
                 }
             }
         },
-        //--------------------**project**------------------
         {
             $project: {
                 _id: 0,
                 favorites: '$favorites',
-            }
+            },
         }
     ]);
 
-    return (searchFavorites.favorites);
+    return searchFavorites.length > 0 ? searchFavorites[0].favorites : [];
 };
 
 const getFavoritesByUserId = async (req, res) => {
-    // const { page } = req.params;
     try {
         const { User_id, role } = req.locals;
 
         const allFavorites = await aggregateFavorites(User_id);
 
-        if (allFavorites) {
+        if (allFavorites.length > 0) {
             res.status(200).json(allFavorites);
-        }
-        else {
-            res.status(404).json(["Empty"]);
+        } else {
+            res.status(404).json([]);
         }
 
     } catch (error) {
-        res.status(404).json({ error: error.message });
+        res.status(500).json({ error: 'Error al obtener favoritos' });
     }
 }
 
-module.exports = getFavoritesByUserId
+module.exports = getFavoritesByUserId;

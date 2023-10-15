@@ -26,6 +26,15 @@ const filterShoppings = async (queriesObj) => {
         {
             $unwind: '$productDetail'
         },
+        {
+            $lookup: {
+                from: 'brands',
+                localField: 'productDetail.Brand_id',
+                foreignField: '_id',
+                as: 'brand'
+            }
+        },
+        { $unwind: '$brand' },
         //--------------------**group**--------------------
         {
             $group: {
@@ -41,13 +50,13 @@ const filterShoppings = async (queriesObj) => {
                     $push: {
                         _id: '$purchase._id',
                         Product_id: '$purchase.Product_id',
-                        brand: '$productDetail.brand',
+                        brand: '$brand.brand',
                         model: '$productDetail.model',
                         price: '$productDetail.price',
                         quantity: '$purchase.quantity',
                         size: '$purchase.size',
                         color: '$purchase.color',
-                        gener: '$purchase.gener',
+                        gender: '$purchase.gender',
                         // image     : '$productDetail.image',
                         image: {
                             $arrayElemAt: [

@@ -1,11 +1,13 @@
 const handlerDateFinishSession = require("./handlerDateFinishSession");
 const handlerDecodeTokenIDSession = require("./handlerDecodeTokenIDSession");
-const handlerSendEmailVerify = require("./handlerSendEmailVerify");
+const handlerMailResetPassword = require("./handlerMailResetPassword");
+const handlerMailVerifyAccount = require("./handlerMailVerifyAccount");
 const handlerTokenIdSession = require("./handlerTokenIDSession");
 
 module.exports = {
     handlerDateFinishSession,
     handlerDecodeTokenIDSession,
-    handlerSendEmailVerify,
-    handlerTokenIdSession
+    handlerTokenIdSession,
+    handlerMailResetPassword,
+    handlerMailVerifyAccount
 }

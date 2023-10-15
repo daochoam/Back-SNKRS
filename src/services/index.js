@@ -1,6 +1,6 @@
 const generateTokenVerifyMail = require('./generateTokenVerifyMail')
-const sendVerifyMail = require('./sendVerifyEmail')
+const sendMail = require('./sendMail')
 module.exports = {
     generateTokenVerifyMail,
-    sendVerifyMail
+    sendMail
 };

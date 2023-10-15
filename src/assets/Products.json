@@ -26,12 +26,18 @@
     "stock": [
       {
         "size": 9.5,
-        "color": "blue",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -52,33 +58,42 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/698905-800-800?v=638229603762600000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "black"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/698907-800-800?v=638229603822670000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "black"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/698907-800-800?v=638229603822670000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "black"
       }
     ],
     "stock": [
       {
         "size": 7,
-        "color": "blue",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
         "size": 7,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -94,12 +109,12 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/604268-800-800?v=638195066397900000&width=800&height=800&aspect=true",
         "size": 1200,
-        "color": "white"
+        "color": "green"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/579971-800-800?v=638167319816170000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "green"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/582398-800-800?v=638167357009300000&width=800&height=800&aspect=true",
@@ -109,23 +124,32 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/581183-800-800?v=638167339388670000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "green"
       }
     ],
     "stock": [
       {
         "size": 7.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 7.5,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "green",
+          "html": "#008000"
+        },
         "quantity": 10
       }
     ]
@@ -162,17 +186,26 @@
     "stock": [
       {
         "size": 4,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 4,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 10
       }
     ]
@@ -209,17 +242,26 @@
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -235,45 +277,54 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/702359-800-800?v=638233920121000000&width=800&height=800&aspect=true",
         "size": 1200,
-        "color": "white"
+        "color": "green"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/707135-800-800?v=638234000129730000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "green"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/709467-800-800?v=638234034308600000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "green"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/708361-800-800?v=638234017972970000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "green"
       }
     ],
     "stock": [
       {
         "size": 10,
-        "color": "white",
+        "color": {
+          "name": "green",
+          "html": "#008000"
+        },
         "quantity": 25
       },
       {
         "size": 10,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS DURAMO",
+    "model": "Sneakers Duramo Men",
     "price": 89.99,
     "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
@@ -282,45 +333,54 @@
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a20c3f1f1f9d474ca9bcdf9fd7f61bd0_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_06_standard.jpg",
         "size": 1200,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ef974bb0716a4eed8c40a964a082f029_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_01_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1addd737f15a42ebb96b1c1c2f8a87be_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_02_standard_hover.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0818fe0884274f51aeaa313c27c080e8_9366/Zapatillas_Duramo_SL_Turquesa_IF7884_09_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS NMD_R1",
+    "model": "Sneakers NMD_R1",
     "price": 189.99,
     "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
@@ -350,24 +410,33 @@
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS ADIZERO SL",
+    "model": "Sneakers Adizero SL",
     "price": 189.99,
     "gender": "women",
     "Category_id": "652618dddcf51c3902490762",
@@ -376,45 +445,54 @@
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f955310d2fdf4622bb9514144eddfb1d_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_06_standard.jpg",
         "size": 1200,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ebe6d1d474e94afb8d4e6f95ab3ba7b1_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_01_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c06bad1446ee410e9a6e91cfabe79e86_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_09_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1edb6d9ec97d4a19b0300f887474d047_9366/Zapatillas_Adizero_SL_Turquesa_ID6933_02_standard_hover.jpg",
         "size": 800,
-        "color": "white"
+        "color": "blue"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS DURAMO",
+    "model": "Sneakers Duramo Women",
     "price": 189.99,
     "gender": "women",
     "Category_id": "652618dddcf51c3902490762",
@@ -423,45 +501,54 @@
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3a28c57591f418ab40aaf35010499d3_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_06_standard.jpg",
         "size": 1200,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/615492a8cb4e4f1f9e79af3501048a6b_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_01_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dc65760f6be74e798816af350104a9dd_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_02_standard_hover.jpg",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b278c8ebdef8435c8d7eaf3701702f91_9366/Zapatillas_Duramo_SL_2.0_Naranja_HP2387_09_standard.jpg",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "orange",
+          "html": "#FFA500"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS LITE RACER",
+    "model": "Sneakers Lite Racer",
     "price": 109.99,
     "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
@@ -491,17 +578,26 @@
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -510,7 +606,7 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Air Jordan 1 Mid SE Craft Men",
     "price": 534.95,
-    "gender": "kids",
+    "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
@@ -533,12 +629,18 @@
     "stock": [
       {
         "size": 8.5,
-        "color": "pink",
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 15
       },
       {
         "size": 8.5,
-        "color": "white",
+        "color": {
+          "name": "brown",
+          "html": "#8B4513"
+        },
         "quantity": 15
       }
     ]
@@ -547,7 +649,7 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Air Jordan 1 Retro High OG Men",
     "price": 434.95,
-    "gender": "kids",
+    "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
@@ -570,12 +672,18 @@
     "stock": [
       {
         "size": 8.5,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 35
       },
       {
-        "size": 8.5,
-        "color": "white",
+        "size": 6.5,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 35
       }
     ]
@@ -607,22 +715,34 @@
     "stock": [
       {
         "size": 10.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 23
       },
       {
         "size": 10.5,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 23
       },
       {
         "size": 7.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 19
       },
       {
         "size": 7.5,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 19
       }
     ]
@@ -654,12 +774,18 @@
     "stock": [
       {
         "size": 13.5,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 20
       },
       {
         "size": 10,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 5
       }
     ]
@@ -675,28 +801,34 @@
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F499054c3-387d-491a-9101-3bb069e86451?alt=media&token=7626a2ec-10cd-4f73-9665-2838a46d6bf6",
         "size": 99911,
-        "color": "grey"
+        "color": "gray"
       },
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F64cbfb45-cf39-4dca-81ce-e22ea274dbc9?alt=media&token=dff7a088-3fd0-43ee-955a-803cbe645032",
         "size": 105258,
-        "color": "grey"
+        "color": "gray"
       },
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F4ca30542-4537-44fa-a5aa-42d0b95ed39b?alt=media&token=247fba86-5f5f-4e72-8901-da256870dc65",
         "size": 94982,
-        "color": "grey"
+        "color": "gray"
       }
     ],
     "stock": [
       {
         "size": 12.5,
-        "color": "grey",
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 10
       },
       {
         "size": 7.5,
-        "color": "grey",
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 12
       }
     ]
@@ -705,7 +837,7 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Nike Air Max 1 Premium Men",
     "price": 194.99,
-    "gender": "women",
+    "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
@@ -728,19 +860,25 @@
     "stock": [
       {
         "size": 13.5,
-        "color": "brown",
+        "color": {
+          "name": "brown",
+          "html": "#8B4513"
+        },
         "quantity": 30
       },
       {
         "size": 10.5,
-        "color": "brown",
+        "color": {
+          "name": "brown",
+          "html": "#8B4513"
+        },
         "quantity": 22
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed1",
-    "model": "Nike Air Max Pulse Men",
+    "model": "Nike Air Max Pulse Kids",
     "price": 584.99,
     "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
@@ -749,48 +887,66 @@
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F4b93f749-086c-4d04-b303-73d6f07f6c5c?alt=media&token=0aba262d-44d9-4646-904d-b283b9fd068b",
         "size": 100927,
-        "color": "grey"
+        "color": "gray"
       },
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2Fde1db9d0-c722-4b76-a897-f8237a1bd401?alt=media&token=b3a6411e-72d0-46fa-becf-1cd3489b19f5",
         "size": 96406,
-        "color": "grey"
+        "color": "gray"
       },
       {
         "src": "https://firebasestorage.googleapis.com/v0/b/snkrs-4a559.appspot.com/o/images%2F7d6c7fc0-6601-47d7-8cc1-12b48f711f77?alt=media&token=8bfcc5f0-0238-424c-81a9-f446e3c92c4d",
         "size": 108257,
-        "color": "grey"
+        "color": "gray"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "grey",
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 22
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 22
       },
       {
         "size": 9.5,
-        "color": "grey",
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 25
       },
       {
         "size": 9.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 6.5,
-        "color": "grey",
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 12
       },
       {
         "size": 6.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 12
       }
     ]
@@ -806,34 +962,49 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701103-800-800?v=638233823003070000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "pink"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701190-800-800?v=638233833861700000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "pink"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701191-800-800?v=638233833880470000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
-      },
-      {
-        "size": 800,
-        "color": "red"
+        "color": "pink"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 10
+      },
+      {
+        "size": 9,
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
+        "quantity": 40
+      },
+      {
+        "size": 8.5,
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
+        "quantity": 15
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed1",
-    "model": "Nike Air Presto",
+    "model": "Nike Air Presto kids",
     "price": 1.99,
     "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
@@ -842,21 +1013,17 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701103-800-800?v=638233823003070000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "pink"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701190-800-800?v=638233833861700000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "pink"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/701191-800-800?v=638233833880470000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
-      },
-      {
-        "size": 800,
-        "color": "red"
+        "color": "pink"
       }
     ],
     "stock": [
@@ -867,59 +1034,90 @@
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
+      },
+      {
+        "size": 9,
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
+        "quantity": 40
+      },
+      {
+        "size": 8.5,
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
+        "quantity": 15
       }
     ]
   },
   {
-    "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "ZAPATILLAS DURAMO",
+    "Brand_id": "65285e5d5cafc49b72b61ed1",
+    "model": "Sneakers Duramo Kids",
     "price": 89.99,
-    "gender": "women",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/422888-800-800?v=638143982897030000&width=800&height=800&aspect=true",
         "size": 1200,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/426535-800-800?v=638144089558700000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/428126-800-800?v=638144116368130000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/424796-800-800?v=638144019994800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "white"
+        "color": "orange"
       }
     ],
     "stock": [
       {
-        "size": 9,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "orange",
+          "html": "#FFA500"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "orange",
+          "html": "#FFA500"
+        },
         "quantity": 10
       }
     ]
@@ -935,38 +1133,47 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/699339-800-800?v=638229667560530000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/699968-800-800?v=638229703516670000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/699969-800-800?v=638229703533500000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/699970-800-800?v=638229703556170000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -982,38 +1189,47 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/604537-800-800?v=638197637751600000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "blue"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/604539-800-800?v=638197637972100000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "blue"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/604540-800-800?v=638197638130570000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "blue"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/604541-800-800?v=638197638312800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "blue"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "red",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1029,38 +1245,47 @@
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/327546-800-800?v=638134641766230000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "kids"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/336467-800-800?v=638134778407800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "kids"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/340904-800-800?v=638137109671800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "kids"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/345314-800-800?v=638137195323430000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "kids"
       }
     ],
     "stock": [
       {
-        "size": 9,
-        "color": "white",
+        "size": 6,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
-        "size": 9,
-        "color": "black",
+        "size": 5,
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
-        "size": 8,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1069,45 +1294,54 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Nike Force 1 Low SE",
     "price": 1690.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/455908-800-800?v=638149332847800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/336467-800-800?v=638134778407800000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/609237-800-800?v=638199568589470000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/613976-800-800?v=638200114672230000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
-        "size": 9,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
-        "size": 9,
-        "color": "green",
+        "size": 7,
+        "color": {
+          "name": "green",
+          "html": "#008000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1116,45 +1350,54 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Nike Dunk Low",
     "price": 990.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/681905-800-800?v=638224575847830000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/686377-800-800?v=638225202425200000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/688589-800-800?v=638225239791100000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/690725-800-800?v=638225272052130000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
         "size": 9,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "green",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1191,17 +1434,26 @@
     "stock": [
       {
         "size": 9,
-        "color": "orange",
+        "color": {
+          "name": "orange",
+          "html": "#FFA500"
+        },
         "quantity": 25
       },
       {
         "size": 9,
-        "color": "pink",
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 10
       }
     ]
@@ -1210,92 +1462,78 @@
     "Brand_id": "65285e5d5cafc49b72b61ed1",
     "model": "Nike Force 1 LE",
     "price": 890.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/702710-800-800?v=638233931002700000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/705482-800-800?v=638233982176000000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/705483-800-800?v=638233982197030000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://nikearprod.vtexassets.com/arquivos/ids/705484-800-800?v=638233982217300000&width=800&height=800&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "pink",
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
-      }
-    ]
-  },
-  {
-    "Brand_id": "65285e5d5cafc49b72b61ed1",
-    "model": "Nike Force 1 LE",
-    "price": 890.99,
-    "gender": "men",
-    "Category_id": "652618dddcf51c3902490762",
-    "Type_id": "65261a72b889414c8a91ce95",
-    "image": [
-      {
-        "src": "https://nikearprod.vtexassets.com/arquivos/ids/702710-800-800?v=638233931002700000&width=800&height=800&aspect=true",
-        "size": 800,
-        "color": "red"
       },
       {
-        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705482-800-800?v=638233982176000000&width=800&height=800&aspect=true",
-        "size": 800,
-        "color": "red"
-      },
-      {
-        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705483-800-800?v=638233982197030000&width=800&height=800&aspect=true",
-        "size": 800,
-        "color": "red"
-      },
-      {
-        "src": "https://nikearprod.vtexassets.com/arquivos/ids/705484-800-800?v=638233982217300000&width=800&height=800&aspect=true",
-        "size": 800,
-        "color": "red"
-      }
-    ],
-    "stock": [
-      {
-        "size": 8,
-        "color": "black",
+        "size": 7,
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
-        "size": 8,
-        "color": "pink",
+        "size": 6,
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 25
       },
       {
-        "size": 8,
-        "color": "white",
+        "size": 6,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1304,45 +1542,54 @@
     "Brand_id": "65285e5d5cafc49b72b61ed3",
     "model": "Zapatillas Suede Classic",
     "price": 890.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/sv01/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/bv/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/380007/01/sv02/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "black"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "blue",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "pink",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1351,45 +1598,54 @@
     "Brand_id": "65285e5d5cafc49b72b61ed3",
     "model": "Zapatillas Suede Classic",
     "price": 890.99,
-    "gender": "women",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9b",
     "image": [
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv01/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "green"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv03/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "green"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv02/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "green"
       },
       {
         "src": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_706,h_706/global/388981/81/sv02/fnd/ARG",
         "size": 800,
-        "color": "red"
+        "color": "green"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "green",
+        "color": {
+          "name": "green",
+          "html": "#008000"
+        },
+        "quantity": 25
+      },
+      {
+        "size": 7.5,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
-        "quantity": 25
-      },
-      {
-        "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1426,17 +1682,26 @@
     "stock": [
       {
         "size": 8,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
+        "quantity": 25
+      },
+      {
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
-        "quantity": 25
-      },
-      {
-        "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
@@ -1445,7 +1710,7 @@
     "Brand_id": "65285e5d5cafc49b72b61ed3",
     "model": "Zapatillas Suede Classic",
     "price": 890.99,
-    "gender": "women",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9b",
     "image": [
@@ -1473,259 +1738,313 @@
     "stock": [
       {
         "size": 8,
-        "color": "red",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ecf",
-    "model": "Zapatillas adidas NMD 360 Bebes",
+    "model": "Zapatillas Adidas NMD 360 Bebes",
     "price": 890.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9b",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237809-800-auto?v=638285894694800000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "gray"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237806-150-auto?v=638285894371130000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "gray"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237807-150-auto?v=638285894470930000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "gray"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237808-150-auto?v=638285894585970000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "gray"
       }
     ],
     "stock": [
       {
-        "size": 8,
-        "color": "pink",
-        "quantity": 25
-      },
-      {
-        "size": 8,
-        "color": "white",
+        "size": 4.5,
+        "color": {
+          "name": "gray",
+          "html": "#808080"
+        },
         "quantity": 25
       },
       {
         "size": 4,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
+        "quantity": 25
+      },
+      {
+        "size": 4,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65286196936dbf2bec93434e",
-    "model": "Mujer Lecoq Alpha",
+    "model": "Women Lecoq Alpha",
     "price": 1790.99,
-    "gender": "men",
+    "gender": "women",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241107-800-auto?v=638322060675100000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241110-800-auto?v=638322061227330000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241108-800-auto?v=638322060791270000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241109-800-auto?v=638322060897670000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "pink",
+        "color": {
+          "name": "red",
+          "html": "#FF0000"
+        },
         "quantity": 25
       },
       {
         "size": 4,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed7",
-    "model": "Mujer Reebok Club C Extra",
+    "model": "Girl Reebok Club C Extra",
     "price": 1090.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/240959-800-auto?v=638320358582430000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/240957-800-auto?v=638320358359300000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/240958-150-auto?v=638320358428230000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/240960-150-auto?v=638320358691000000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "pink",
+        "color": {
+          "name": "pink",
+          "html": "#FFC0CB"
+        },
         "quantity": 25
       },
       {
-        "size": 4,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65286196936dbf2bec93434e",
-    "model": "Hombre Lecoq Veloce Gum",
+    "model": "Boy Lecoq Veloce Gum",
     "price": 1090.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce9a",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241136-800-auto?v=638322067484930000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241137-800-auto?v=638322067608300000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241139-150-auto?v=638322067869430000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/241138-150-auto?v=638322067729870000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
         "size": 8,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 8,
-        "color": "pink",
+        "color": {
+          "name": "blue",
+          "html": "#0000FF"
+        },
         "quantity": 25
       },
       {
-        "size": 11,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed5",
-    "model": "Botas Hombre Fila Arcade",
+    "model": "Bots Men Fila Arcade",
     "price": 189.99,
-    "gender": "men",
+    "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/239241-800-auto?v=638306579383570000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/239240-800-auto?v=638306579168470000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/239243-800-auto?v=638306579717330000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/239242-800-auto?v=638306579585770000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "white"
       }
     ],
     "stock": [
       {
         "size": 13,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 13,
-        "color": "pink",
+        "color": {
+          "name": "orange",
+          "html": "#FFA500"
+        },
         "quantity": 25
       },
       {
         "size": 11,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed5",
-    "model": "Fila Renno Hombre",
+    "model": "Fila Renno Boy",
     "price": 989.99,
     "gender": "kids",
     "Category_id": "652618dddcf51c3902490762",
@@ -1734,132 +2053,127 @@
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/238819-800-auto?v=638301393500670000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "brown"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/238818-800-auto?v=638301393387100000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "brown"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/238820-150-auto?v=638301393647830000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "brown"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/238821-150-auto?v=638301393789230000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "brown"
       }
     ],
     "stock": [
       {
-        "size": 11.5,
-        "color": "brown",
+        "size": 7.5,
+        "color": {
+          "name": "brown",
+          "html": "#8B4513"
+        },
         "quantity": 25
       },
       {
-        "size": 11.5,
-        "color": "blue",
+        "size": 6.5,
+        "color": {
+          "name": "brown",
+          "html": "#8B4513"
+        },
         "quantity": 25
       },
       {
-        "size": 11,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
   },
   {
     "Brand_id": "65285e5d5cafc49b72b61ed5",
-    "model": "Fila Renno Hombre",
+    "model": "Converse Bots Rival Men",
     "price": 989.99,
-    "gender": "kids",
+    "gender": "men",
     "Category_id": "652618dddcf51c3902490762",
     "Type_id": "65261a72b889414c8a91ce95",
     "image": [
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237294-800-auto?v=638279765270800000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237293-800-auto?v=638279765153130000&width=800&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237296-150-auto?v=638279765489970000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       },
       {
         "src": "https://celadasa.vtexassets.com/arquivos/ids/237295-150-auto?v=638279765371700000&width=150&height=auto&aspect=true",
         "size": 800,
-        "color": "red"
+        "color": "black"
       }
     ],
     "stock": [
       {
         "size": 9.5,
-        "color": "black",
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
         "size": 9.5,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
         "size": 11,
-        "color": "white",
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
-      }
-    ]
-  },
-  {
-    "Brand_id": "65285e5d5cafc49b72b61ed9",
-    "model": "Converse Botas Rival Hombre",
-    "price": 989.99,
-    "gender": "kids",
-    "Category_id": "652618dddcf51c3902490762",
-    "Type_id": "65261a72b889414c8a91ce95",
-    "image": [
-      {
-        "src": "https://celadasa.vtexassets.com/arquivos/ids/237294-800-auto?v=638279765270800000&width=800&height=auto&aspect=true",
-        "size": 800,
-        "color": "red"
       },
       {
-        "src": "https://celadasa.vtexassets.com/arquivos/ids/237293-800-auto?v=638279765153130000&width=800&height=auto&aspect=true",
-        "size": 800,
-        "color": "red"
-      },
-      {
-        "src": "https://celadasa.vtexassets.com/arquivos/ids/237296-150-auto?v=638279765489970000&width=150&height=auto&aspect=true",
-        "size": 800,
-        "color": "red"
-      },
-      {
-        "src": "https://celadasa.vtexassets.com/arquivos/ids/237295-150-auto?v=638279765371700000&width=150&height=auto&aspect=true",
-        "size": 800,
-        "color": "red"
-      }
-    ],
-    "stock": [
-      {
-        "size": 9.5,
-        "color": "black",
+        "size": 11.5,
+        "color": {
+          "name": "black",
+          "html": "#000000"
+        },
         "quantity": 25
       },
       {
-        "size": 9.5,
-        "color": "white",
+        "size": 7.5,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 25
       },
       {
-        "size": 11,
-        "color": "white",
+        "size": 7,
+        "color": {
+          "name": "white",
+          "html": "#FFFFFF"
+        },
         "quantity": 10
       }
     ]
