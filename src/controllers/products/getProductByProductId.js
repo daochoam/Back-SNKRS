@@ -48,8 +48,10 @@ const getProductByProductId = async (req, res) => {
                 rating: 1,
                 image: 1,
                 stock: 1,
-                'brand.brand': '$brand.brand',
-                'brand.image': '$brand.image.src',
+                brand: {
+                    brand: '$brand.brand',
+                    image: '$brand.image.src'
+                },
                 category: '$category.category',
                 type: '$type.type',
             }

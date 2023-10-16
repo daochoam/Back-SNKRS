@@ -1,3 +1,4 @@
+const mongoose = require("mongoose");
 const { Shopping, Product } = require("../../schemas/index");
 const createOrderMP = require('../../services/createOrderMP');
 
@@ -26,7 +27,7 @@ const createShopping = async (req, res) => {
     try {
         // const { User_id, firstName, lastName, role } =  req.session.auth;
         // const attributes  = req.body;
-
+        const { purchase, shipping } = req.body;
         //! ----------------- temporal --------
         // const firstName= "Pepito";
         // const lastName = "Lopez";
@@ -38,7 +39,49 @@ const createShopping = async (req, res) => {
         // const User_id = "651439639eefb47285529a1c"; // 2 shoppings
         //! ----------------- temporal --------
 
-        const { purchase, shipping } = req.body;
+        //! -----------------         Solve Agreggate               -----------------
+        //! ----------------- CAMBIE EL MODELO PRODCTO MIGUEL  ----------------------
+        //! ------   CON ESTO DEBERIAS OBTENER CADA PRODUCTO CON SU STOCK     -------
+        const Parameters = [
+            {
+                $match: {
+                    _id: new mongoose.Types.ObjectId(Product_id)
+                }
+            },
+            {
+                $unwind: '$products'
+            },
+            {
+                $lookup: {
+                    from: 'brands',
+                    localField: 'Brand_id',
+                    foreignField: '_id',
+                    as: 'brand'
+                }
+            },
+            { $unwind: '$stock' },
+            {
+                $match: { //? REVISAR FILRO
+                    $and: [
+                        color ? { 'stock.color.name': new RegExp(color, 'i') } : {},
+                        size ? { 'stock.size': parseFloat(size) } : {}
+                    ]
+                }
+            },
+            {
+                $project: {
+                    'brand.brand': '$brand.brand',               //? Brand
+                    model: 1,                                    //? Modelo
+                    price: 1,                                    //? Precio
+                    gender: 1,                                   //? Genero
+                    image: { $arrayElemAt: ['$image.src', 0] },  //? Primer imagen almacenada
+                    stock: 1,                                    //? Stock Filtado, (VER FILTRO)
+                }
+            }
+        ]
+
+        //?? NOTA: SE OBTIENEN LAS PROPIEDADES DESCRITAS EN PROJECT DE TODOS LOS PRODUCTOS ADQUIRIDOS POR EL USUARIO, DE CADA MODELO RETORNA SOLA LA COINCIDENCIA COLOR TALLA, ASIGNARLA CAMBIANDO EL VALOR DEL REGEX, METER LO SIGUIENTE EN UN .MAP 
+        const purchaseProducts = await Product.aggregate(Parameters)
 
         const shoppingAtributes = {
             User_id: req.locals?.User_id,

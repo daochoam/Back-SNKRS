@@ -1,4 +1,4 @@
-const { Product, Brand } = require("../../schemas/index");
+const { Product } = require("../../schemas/index");
 
 const getProducts = async (req, res) => {
     try {
@@ -67,7 +67,7 @@ const getProducts = async (req, res) => {
                         { 'brand.brand': new RegExp(search, 'i') },
                         { 'type.type': new RegExp(search, 'i') },
                         { 'category.category': new RegExp(search, 'i') },
-                        { 'rating': parseFloat(rating) },
+                        { 'rating': parseFloat(search) },
                         { 'price': { $gte: parseFloat(search) } },
                         { 'price': { $lte: parseFloat(search) } },
                         { 'stock.color.name': new RegExp(search, 'i') },
@@ -80,17 +80,13 @@ const getProducts = async (req, res) => {
             Parameters.push({
                 $match: {
                     $and: [
-                        model ? { 'model': new RegExp(model, 'i') } : {},
                         gender ? { 'gender': gender.toLowerCase() } : {},
                         brand ? { 'brand.brand': new RegExp(brand, 'i') } : {},
                         type ? { 'type.type': new RegExp(type, 'i') } : {},
                         category ? { 'category.category': new RegExp(category, 'i') } : {},
                         rating ? { 'rating': parseFloat(rating) } : {},
-                        minPrice ? { 'price': { $gte: parseFloat(minPrice) } } : {},
-                        maxPrice ? { 'price': { $lte: parseFloat(maxPrice) } } : {},
                         color ? { 'stock.color.name': new RegExp(color, 'i') } : {},
                         size ? { 'stock.size': parseFloat(size) } : {},
-                        quantity ? { 'stock.quantity': parseInt(quantity) } : {}
                     ]
                 }
             });
@@ -98,8 +94,8 @@ const getProducts = async (req, res) => {
 
         // Agregación para contar el número de productos totales encontrados
         const countPipeline = [...Parameters, { $count: 'totalProducts' }];
-        const totalProductsResult = await Product.aggregate(countPipeline);
-        const totalProducts = totalProductsResult.length > 0 ? totalProductsResult[0].totalProducts : 0;
+        const totalProductsFound = await Product.aggregate(countPipeline);
+        const totalProducts = totalProductsFound.length > 0 ? totalProductsFound[0].totalProducts : 0;
 
         // Aplica la paginación
         Parameters.push({ $skip: skip }, { $limit: itemXPage });
@@ -111,9 +107,12 @@ const getProducts = async (req, res) => {
                 price: 1,
                 gender: 1,
                 rating: 1,
+                stock: 1,
                 image: { $arrayElemAt: ['$image.src', 0] },
-                'brand.brand': '$brand.brand',
-                'brand.image': '$brand.image.src',
+                brand: {
+                    brand: '$brand.brand',
+                    image: '$brand.image.src'
+                },
                 category: '$category.category',
                 type: '$type.type',
             }
@@ -128,7 +127,7 @@ const getProducts = async (req, res) => {
             totalProducts: totalProducts,
             pages: {
                 currentPage: parseInt(page),
-                itemsPage: { min: skip, max: skip + (products.length - 1) },
+                itemRange: { min: skip, max: skip + (products.length - 1) },
                 totalPages: totalPages,
             },
         });
