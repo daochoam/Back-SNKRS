@@ -21,7 +21,9 @@ snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
 snkrsRoutes.use('/webhooks', webhooks)
 snkrsRoutes.use('/review', reviewRoutes)
-snkrsRoutes.use('/shopping', validateAuthUserSession("user"), shoppingRoutes)
+snkrsRoutes.use('/shopping',
+    // validateAuthUserSession("user"), 
+    shoppingRoutes)
 snkrsRoutes.use('/trolley', validateAuthUserSession("user"), trolleyRoutes)
 snkrsRoutes.use('/user', validateAuthUserSession("user"), userRoutes)
 snkrsRoutes.use('/admin', validateAuthUserSession("admin"), adminRoutes)
