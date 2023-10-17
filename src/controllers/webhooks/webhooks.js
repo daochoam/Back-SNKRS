@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { TOKEN_MP, RESEND_SECRET } = process.env
+const { TOKEN_MP } = process.env
 const mercadopago = require('mercadopago');
 const Shopping = require('../../schemas/Shopping');
 const User = require('../../schemas/User');
@@ -16,7 +16,7 @@ const webhooks = async (req, res) => {
       //el id en este caso corresponde al orderId
       const { response } = await mercadopago.merchant_orders.findById(id)
 
-      const shopping1 = await Shopping.findOneAndUpdate(
+      await Shopping.findOneAndUpdate(
         { preferenceId: response.preference_id },
         {
           orderId: id,
@@ -24,7 +24,6 @@ const webhooks = async (req, res) => {
         },
         { new: true }
       );
-
     }
 
     if (topic === 'payment') {
@@ -44,10 +43,14 @@ const webhooks = async (req, res) => {
 
 
       const products = await Promise.all(findShopping.purchase.map(async (product) => {
-        const item = await Product.findById(product.Product_id);
-        console.log("item", item);
+        const item = await Product.findById(product.Product_id).populate('Brand_id', '-_id brand');
+        Product.findOneAndUpdate(
+          { _id: product.Product_id, "stock.size": product.size, "stock.color.name": product.color },
+          { $inc: { "stock.$.quantity": -product.quantity } },
+          { new: true })
+
         return {
-          model: item?.brand + ' ' + item?.model || "snkrs",
+          model: item?.Brand_id.brand + ' ' + item?.model,
           color: product.color,
           quantity: product.quantity,
           amount: item.price,
