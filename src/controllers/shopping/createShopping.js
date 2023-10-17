@@ -27,7 +27,7 @@ const createShopping = async (req, res) => {
         const { purchase, shipping } = req.body;
 
         const shoppingAtributes = {
-            User_id: req.locals?.User_id || "652ad4959d86982a4774e2dd",
+            User_id: req.locals?.User_id,
             purchase: purchase,
             purchase_date: new Date(),
             payment: 0,
