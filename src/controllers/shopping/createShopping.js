@@ -62,9 +62,6 @@ const createShopping = async (req, res) => {
 
 
         const { init_point, id } = await createOrderMP(itemsPreference);
-        console.log(init_point);
-
-        shoppingAtributes.preferenceId = id;
 
         const newShopping = new Shopping(shoppingAtributes);
         const shopping = await newShopping.save();

@@ -56,20 +56,20 @@ const filterShoppings = async (queriesObj) => {
                         quantity: '$purchase.quantity',
                         size: '$purchase.size',
                         color: '$purchase.color',
-                        gender: '$purchase.gender',
+                        image: { $arrayElemAt: ['$productDetail.image.src', 0] },
                         // image     : '$productDetail.image',
-                        image: {
-                            $arrayElemAt: [
-                                {
-                                    $filter: {
-                                        input: '$productDetail.image',
-                                        as: 'imageItem',
-                                        cond: { $eq: ['$$imageItem.color', '$purchase.color'] }
-                                    }
-                                },
-                                0 // El índice 0 selecciona el primer elemento
-                            ]
-                        }
+                        // image: {
+                        //     $arrayElemAt: [
+                        //         {
+                        //             $filter: {
+                        //                 input: '$productDetail.image',
+                        //                 as: 'imageItem',
+                        //                 cond: { $eq: ['$$imageItem.color.name', '$purchase.color.name'] }
+                        //             }
+                        //         },
+                        //         0 // El índice 0 selecciona el primer elemento
+                        //     ]
+                        // }
                     }
                 }
             }
