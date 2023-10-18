@@ -1,30 +1,43 @@
+const mongoose = require("mongoose");
 const { Shopping, Product } = require("../../schemas/index");
 const createOrderMP = require('../../services/createOrderMP');
 
-//! Ejemplo de datos que deben llegar por body
-// const body = {
-//     purchase: [{
-//         Product_id: "6514399dc99185f470cb855e",
-//         quantity: 9,
-//         size: 43.5,
-//         color: "white",
-//         gender: "male"
-//     }],
-//     shipping: {
-//         fist_name: "Pepito",
-//         last_name: "Lopez",
-//         country: "Argentina",
-//         state: "Buenos Aires",
-//         city: "CABA",
-//         address: "Calle 123",
-//         email: "correo@gmail.com",
-//         phone: 123456789,
-//     },
-// };
-
 const createShopping = async (req, res) => {
     try {
+
+        ////!! MODELO AJUSTADO /////
         const { purchase, shipping } = req.body;
+
+        const purchFeatures = purchase.map(({ Product_id, color, size }) => { return { _id: Product_id, color: color, size: size } });
+        console.log("🚀 ~ file: createShopping.js:11 ~ createShopping ~ purchFeatures:", purchFeatures)
+        const allPurchaseProducts = await Promise.all(purchFeatures.map(async ({ _id, size, color }) => {
+            return await Product.aggregate([
+                { $match: { _id: new mongoose.Types.ObjectId(_id) } },
+                {
+                    $lookup: {
+                        from: 'brands',
+                        localField: 'Brand_id',
+                        foreignField: '_id',
+                        as: 'brand',
+                    },
+                },
+                { $unwind: '$brand' },
+                { $unwind: '$stock' },
+                {
+                    $match: { $and: [{ 'stock.size': size }, { 'stock.color.name': color.name }] }
+                },
+                {
+                    $project: {
+                        brand: '$brand.brand',
+                        model: 1,
+                        price: 1,
+                        gender: 1,
+                        stock: 1,
+                        image: { $arrayElemAt: ['$image.src', 0] },
+                    },
+                }
+            ]);
+        }))
 
         const shoppingAtributes = {
             User_id: req.locals?.User_id,
@@ -34,40 +47,25 @@ const createShopping = async (req, res) => {
             shipping
         };
 
-        const validationStockPurchase = await Promise.all(purchase.map(async ({ Product_id, color, quantity, gender, size }) => {
-            const product = await Product.findOne({
-                _id: Product_id,
-                "stock.quantity": { $gte: quantity },
-                "stock.color.name": color,
-                "stock.size": size,
-                gender,
-            }, "model price")
-                .populate('Brand_id', '-_id brand')
-                .lean();
-
-            shoppingAtributes.payment += product.price * quantity;
-
-            if (product) return {
-                title: `${product.Brand_id.brand} - ${product.model}`,
+        const products = allPurchaseProducts.flat(1)
+        const itemsPreference = purchase.map(({ Product_id, quantity }) => {
+            const { brand, model, stock, price } = products.find(({ _id }) => Product_id == _id)
+            if (stock.quantity < quantity) res.status(400).json(`There is not a stock by ${model} model`)
+            shoppingAtributes.payment += price * quantity;
+            return {
+                title: `${brand} - ${model}`,
                 quantity: quantity,
                 currency_id: 'USD',
-                unit_price: product.price
+                unit_price: price
             }
-        }));
+        })
 
-        const errorStock = validationStockPurchase.reduce((acc, product, index) => {
-            !product && acc.push(purchase[index].Product_id);
-            return acc;
-        }, []);
 
-        if (errorStock.length) {
-            throw Error(`No se cuenta con stock de alguno de los productos seleccionados: ${errorStock}`);
-        };
-
-        const { init_point, id } = await createOrderMP(validationStockPurchase);
+        const { init_point, id } = await createOrderMP(itemsPreference);
         console.log(init_point);
 
         shoppingAtributes.preferenceId = id;
+
         const newShopping = new Shopping(shoppingAtributes);
         const shopping = await newShopping.save();
 
@@ -81,48 +79,3 @@ const createShopping = async (req, res) => {
 };
 
 module.exports = createShopping;
-
-
-//! -----------------         Solve Agreggate               -----------------
-//! ----------------- CAMBIE EL MODELO PRODCTO MIGUEL  ----------------------
-//! ------   CON ESTO DEBERIAS OBTENER CADA PRODUCTO CON SU STOCK     -------
-// const Parameters = [
-//     {
-//         $match: {
-//             _id: new mongoose.Types.ObjectId(purchase.Product_id)
-//         }
-//     },
-//     {
-//         $unwind: '$products'
-//     },
-//     {
-//         $lookup: {
-//             from: 'brands',
-//             localField: 'Brand_id',
-//             foreignField: '_id',
-//             as: 'brand'
-//         }
-//     },
-//     { $unwind: '$stock' },
-//     {
-//         $match: { //? REVISAR FILRO
-//             $and: [
-//                 color ? { 'stock.color.name': new RegExp(purchase.color, 'i') } : {},
-//                 size ? { 'stock.size': parseFloat(purchase.size) } : {}
-//             ]
-//         }
-//     },
-//     {
-//         $project: {
-//             'brand.brand': '$brand.brand',               //? Brand
-//             model: 1,                                    //? Modelo
-//             price: 1,                                    //? Precio
-//             gender: 1,                                   //? Genero
-//             image: { $arrayElemAt: ['$image.src', 0] },  //? Primer imagen almacenada
-//             stock: 1,                                    //? Stock Filtado, (VER FILTRO)
-//         }
-//     }
-// ]
-
-//?? NOTA: SE OBTIENEN LAS PROPIEDADES DESCRITAS EN PROJECT DE TODOS LOS PRODUCTOS ADQUIRIDOS POR EL USUARIO, DE CADA MODELO RETORNA SOLA LA COINCIDENCIA COLOR TALLA, ASIGNARLA CAMBIANDO EL VALOR DEL REGEX, METER LO SIGUIENTE EN UN .MAP
-// const purchaseProducts = await Product.aggregate(Parameters)
