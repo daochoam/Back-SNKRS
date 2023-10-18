@@ -105,15 +105,10 @@ const newsletter = async (req, res) => {
                     <div class="logo"></div>
                     <div class="line"></div>
                     <div class="header">
-                        <h1>Latest News</h1>
-                        <h3>Stay up-to-date with our updates!</h3>
+                        <h1>Subscription Successful</h1>
+                        <h3>Thank You for Subscribing!</h3>
                     </div>
-                    <p>Discover our special offers, new products, and exciting events in our newsletter. Don't miss out, subscribe now.</p>
-                    <div class="button-container">
-                        <button class="btn">
-                            <a href="SUBSCRIPTION_URL">Subscribe</a>
-                        </button>
-                    </div>
+                    <p>You have successfully subscribed to our newsletter. Stay up-to-date with our special offers and new products.</p>
                 </div>
             </body>
             </html>
