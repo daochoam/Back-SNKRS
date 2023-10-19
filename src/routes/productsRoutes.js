@@ -4,11 +4,11 @@ const controllers = require("../controllers/products/index");
 
 const productRouter = Router();
 
-productRouter.post("/", multer().array("imagesFiles"), controllers.createProduct);
+productRouter.post("/", controllers.createProduct);
 productRouter.get("/", controllers.getProducts);
 productRouter.get("/:id", controllers.getProductByProductId);
-productRouter.put("/:id/", controllers.updateProduct);
+productRouter.put("/:id", multer().array("imagesFiles"),controllers.updateProduct);
 productRouter.delete("/:id", controllers.deleteProduct);
-productRouter.put("/:Product_id/:Image_id/", multer().single("newImageProduct"), controllers.updateImageProduct);
+productRouter.put("/images/:id", multer().array("imagesFiles"), controllers.updateImageProduct);
 
 module.exports = productRouter
