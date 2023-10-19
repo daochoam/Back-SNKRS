@@ -11,7 +11,7 @@ const createReview = async (req, res) => {
             update.User_id = User_id;
             update.Product_id = Product_id;
             if (rating) update.rating = rating;
-            if (recommend) update.recommend = recommend;
+            if (recommend !== undefined && recommend !== null) update.recommend = recommend;
             if (aboutSize) update.aboutSize = aboutSize;
             if (opinion) update.opinion = opinion;
             if (serviceComment) update.serviceComment = serviceComment;
