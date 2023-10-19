@@ -50,7 +50,7 @@ const webhooks = async (req, res) => {
           { new: true })
         return {
           model: item?.Brand_id.brand + ' ' + item?.model,
-          color: product.color,
+          color: product.color?.name,
           quantity: product.quantity,
           amount: item.price,
           total: item.price * product.quantity,
