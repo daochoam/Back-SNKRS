@@ -45,7 +45,7 @@ const webhooks = async (req, res) => {
         const item = await Product.findById(product.Product_id).populate('Brand_id', '-_id brand');
 
         await Product.findOneAndUpdate(
-          { _id: product.Product_id.toString(), "stock.size": product.size, "stock.color.name": product.color },
+          { _id: product.Product_id.toString(), "stock.size": product.size, "stock.color.name": product.color.name },
           { $inc: { "stock.$.quantity": -product.quantity } },
           { new: true })
         return {
