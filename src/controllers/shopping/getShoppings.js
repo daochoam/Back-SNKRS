@@ -52,6 +52,7 @@ const filterShoppings = async (queriesObj) => {
                         Product_id: '$purchase.Product_id',
                         brand: '$brand.brand',
                         model: '$productDetail.model',
+                        gender: '$productDetail.gender',
                         price: '$productDetail.price',
                         quantity: '$purchase.quantity',
                         size: '$purchase.size',
