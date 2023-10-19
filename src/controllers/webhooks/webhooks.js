@@ -41,7 +41,6 @@ const webhooks = async (req, res) => {
       const name = findUser.firstName + ' ' + findUser.lastName;
       const total = findShopping.payment;
 
-
       const products = await Promise.all(findShopping.purchase.map(async (product) => {
         const item = await Product.findById(product.Product_id).populate('Brand_id', '-_id brand');
 
