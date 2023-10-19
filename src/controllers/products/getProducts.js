@@ -15,6 +15,7 @@ const getProducts = async (req, res) => {
             minPrice,
             search,
             quantity,
+            sortPrice,
             page = 1,
             itemXPage = 9,
         } = req.query;
@@ -57,6 +58,14 @@ const getProducts = async (req, res) => {
             }
         ];
 
+        // ascending order (1) by "price" field
+        if (sortPrice == 'ascending') {
+            Parameters.push({ $sort: { price: 1 } })
+        }
+        // descenden order (1) by "price" field
+        if (sortPrice == 'descending') {
+            Parameters.push({ $sort: { price: -1 } })
+        }
         // Aplica los filtros según los parámetros proporcionados
         if (search) {
             Parameters.push({
@@ -67,12 +76,9 @@ const getProducts = async (req, res) => {
                         { 'brand.brand': new RegExp(search, 'i') },
                         { 'type.type': new RegExp(search, 'i') },
                         { 'category.category': new RegExp(search, 'i') },
-                        { 'rating': parseFloat(search) },
-                        { 'price': { $gte: parseFloat(search) } },
                         { 'price': { $lte: parseFloat(search) } },
                         { 'stock.color.name': new RegExp(search, 'i') },
-                        { 'stock.size': parseFloat(search) },
-                        { 'stock.quantity': parseFloat(search) },
+                        // { 'stock.size': parseFloat(search) },
                     ]
                 }
             });

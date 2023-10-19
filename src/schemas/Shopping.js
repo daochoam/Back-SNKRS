@@ -37,7 +37,10 @@ const shoppingSchema = new Schema({
                 ref: 'Product',
                 required: true,
             },
-            color: { type: String },
+            color: {
+                name: { type: String },
+                html: { type: String }
+            },
             size: { type: Number },
             quantity: { type: Number },
             gender: { type: String, enum: ["women", "men", "kids"] },

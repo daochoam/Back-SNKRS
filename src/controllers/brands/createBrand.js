@@ -2,7 +2,7 @@ const { Brand } = require('../../schemas')
 
 const createBrand = async (req, res) => {
     try {
-        const brand = req.body
+        const { brand } = req.body
         const newBrand = new Brand(brand)
         const brands = await newBrand.save()
         if (brands) res.status(200).json(brands)
