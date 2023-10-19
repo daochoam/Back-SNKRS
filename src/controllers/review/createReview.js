@@ -1,4 +1,4 @@
-const { Review, Product, User } = require("../../schemas/index");
+const { Review } = require("../../schemas/index");
 
 const createReview = async (req, res) => {
     try {
@@ -7,19 +7,22 @@ const createReview = async (req, res) => {
 
         const reviewed = await Review.findOne({ User_id, Product_id });
         if (reviewed) {
-            return res.status(400).json({ error: "You have already reviewed this product" });
+            const update = {}
+            update.User_id = User_id;
+            update.Product_id = Product_id;
+            if (rating) update.rating = rating;
+            if (recommend !== undefined && recommend !== null) update.recommend = recommend;
+            if (aboutSize) update.aboutSize = aboutSize;
+            if (opinion) update.opinion = opinion;
+            if (serviceComment) update.serviceComment = serviceComment;
+            const reviewed = await Review.findOneAndUpdate({ User_id, Product_id }, update, { new: true });
+            return res.status(201).json({ reviewed });
+
         }
 
         const review = await Review.create({
             User_id, Product_id, rating, recommend, aboutSize, opinion, serviceComment
         });
-
-        // const product = await Product.findById(Product_id);
-        // const user = await User.findById(User_id);
-        // product.reviews.push(review._id);
-        // user.reviews.push(review._id);
-        // await product.save();
-        // await user.save();
         res.status(201).json({ review });
     } catch (error) {
         console.log(error);
