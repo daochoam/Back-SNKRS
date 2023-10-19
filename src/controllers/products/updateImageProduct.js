@@ -3,18 +3,16 @@ const { Product } = require("../../schemas/index");
 
 const updateImageProduct = async (req, res) => {
   try {
-    const isImage = req.file;
+    const imagesFiles = req.files;
+    const { imagesColors } = req.body;
+    
+    if(imagesFiles.length>0){
+      const imagesShoes   = await addImageStorage(imagesFiles, imagesColors, "createProduct");      
+      const productBefore = await Product.findById(req.params.id);
+      productBefore.image = imagesShoes;
 
-    if(isImage){
-      const newImageUrl = await addImageStorage(isImage, req.params.Image_id, "changeImageProduct");
-      
-      // let productBefore = Product.findById(req.params.Product_id);
-      // productBefore.image.map((imageObj)=>{
-      //   if( imageObj.id === req.params.Image_id ) imageObj.src = newImageUrl;
-      // })
-
-      res.status(200).json(newImageUrl);
-    }
+      const productAfter = await productBefore.save();    
+    } 
     else{
       res.status(400).json({ "error": "The image file was not received" });
     }

@@ -1,5 +1,6 @@
-const { validationResult } = require("express-validator");
 const { Product } = require("../../schemas/index");
+const { addImageStorage } = require('../firebaseStorage/index');
+const { validationResult } = require("express-validator");
 const { updateProductValidationRules } = require("../validators/productValidator");
 
 const updateProduct = async (req, res) => {
@@ -10,17 +11,19 @@ const updateProduct = async (req, res) => {
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
-
-    const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-    });
+    
+    const product = await Product.findByIdAndUpdate(
+      req.params.id, 
+      req.body, 
+      { new: true }
+    );   
 
     if (!product) {
       return res.status(404).json({ message: "Product not found" });
     }
-    
-    res.status(200).json(product);
-
+    else{
+      res.status(200).json(product);
+    }
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
