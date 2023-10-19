@@ -10,6 +10,9 @@ const getProducts = async (req, res) => {
             color,
             size,
             type,
+            rating,
+            maxPrice,
+            minPrice,
             search,
             quantity,
             sortPrice,
@@ -57,11 +60,11 @@ const getProducts = async (req, res) => {
 
         // ascending order (1) by "price" field
         if (sortPrice == 'ascending') {
-            Parameters.push({ $sort: { precio: 1 } })
+            Parameters.push({ $sort: { price: 1 } })
         }
-        // descending order (-1) by "price" field
+        // descenden order (1) by "price" field
         if (sortPrice == 'descending') {
-            Parameters.push({ $sort: { precio: -1 } })
+            Parameters.push({ $sort: { price: -1 } })
         }
         // Aplica los filtros según los parámetros proporcionados
         if (search) {
@@ -73,8 +76,9 @@ const getProducts = async (req, res) => {
                         { 'brand.brand': new RegExp(search, 'i') },
                         { 'type.type': new RegExp(search, 'i') },
                         { 'category.category': new RegExp(search, 'i') },
+                        { 'price': { $lte: parseFloat(search) } },
                         { 'stock.color.name': new RegExp(search, 'i') },
-                        { 'stock.size': parseFloat(search) },
+                        // { 'stock.size': parseFloat(search) },
                     ]
                 }
             });
@@ -89,8 +93,6 @@ const getProducts = async (req, res) => {
                         rating ? { 'rating': parseFloat(rating) } : {},
                         color ? { 'stock.color.name': new RegExp(color, 'i') } : {},
                         size ? { 'stock.size': parseFloat(size) } : {},
-                        quantity ? { 'stock.quantity': parseFloat(quantity) } : {},
-
                     ]
                 }
             });
