@@ -44,11 +44,11 @@ const webhooks = async (req, res) => {
 
       const products = await Promise.all(findShopping.purchase.map(async (product) => {
         const item = await Product.findById(product.Product_id).populate('Brand_id', '-_id brand');
-        Product.findOneAndUpdate(
-          { _id: product.Product_id, "stock.size": product.size, "stock.color.name": product.color },
+
+        await Product.findOneAndUpdate(
+          { _id: product.Product_id.toString(), "stock.size": product.size, "stock.color.name": product.color },
           { $inc: { "stock.$.quantity": -product.quantity } },
           { new: true })
-
         return {
           model: item?.Brand_id.brand + ' ' + item?.model,
           color: product.color,
