@@ -5,12 +5,12 @@ const searchSales = async (queriesObj) => {
     console.log("queriesObj", queriesObj)
     const shoppings = await Shopping.aggregate([
         //--------------------**match**--------------------
-        {
-            $match: queriesObj,
-            // User_id : new mongoose.Types.ObjectId(id),
-            // queriesObj ? queriesObj : null
-            // },
-        },
+        // {
+        //     $match: queriesObj,
+        //     // User_id : new mongoose.Types.ObjectId(id),
+        //     // queriesObj ? queriesObj : null
+        //     // },
+        // },
         //--------------------**User**--------------------
         {
             $lookup: {
