@@ -1,10 +1,9 @@
 const { Category } = require("../../schemas")
 
 const createCategory = async (req, res) => {
-    const category = req.body
-    console.log("🚀 ~ file: createCategory.js:5 ~ createCategory ~ category:", category)
     try {
 
+        const { category } = req.body
         const newCategory = new Category(category);
         const createdCategory = await newCategory.save();
         if (createdCategory) res.status(200).json(createdCategory);

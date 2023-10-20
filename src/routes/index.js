@@ -16,6 +16,8 @@ const newsLetterRoute = require("./newsLetterRoute")
 const favoritesRoutes = require('./favoritesRoutes');
 const featuresRoutes = require('./featuresRoutes');
 const brandRoutes = require('./brandRoutes');
+const categoryRoutes = require('./categoryRoutes');
+const typesRoutes = require('./typeRoutes');
 
 snkrsRoutes.use("/auth", authRoutes);
 snkrsRoutes.use("/products", productRoutes)
@@ -29,6 +31,8 @@ snkrsRoutes.use('/world', worldRoutes)
 snkrsRoutes.use('/features', featuresRoutes)
 snkrsRoutes.use('/bulk', bulkRoutes)
 snkrsRoutes.use('/brand', brandRoutes)
+snkrsRoutes.use('/category', categoryRoutes)
+snkrsRoutes.use('/type', typesRoutes)
 snkrsRoutes.use('/favorites', validateAuthUserSession("user"), favoritesRoutes)
 snkrsRoutes.use("/newsletter", newsLetterRoute)
 

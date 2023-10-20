@@ -6,7 +6,6 @@ const typeSchema = new Schema({
         ref: 'Type',
         required: true,
     },
-    category: { type: String },
     type: {
         type: String,
     },
