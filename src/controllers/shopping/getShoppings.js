@@ -6,9 +6,6 @@ const filterShoppings = async (queriesObj) => {
         //--------------------**match**--------------------
         {
             $match: queriesObj,
-            // User_id : new mongoose.Types.ObjectId(id),
-            // queriesObj ? queriesObj : null
-            // },
         },
         //----------**Descomponiendo el purchase de Shopping**--------------------
         {
@@ -99,16 +96,6 @@ const getShoppings = async (req, res) => {
         const { User_id, firstName, lastName, role } = req.locals;
         let queriesObj = req.query;
         let allShoppings = [];
-
-        //! ----------------- temporal solo para pruebas en insomnia --------
-        // const firstName= "Pepito";
-        // const lastName = "Lopez";
-        // const role     = "user";
-        // const role     = "admin";
-        // const User_id = "651ad453d7f9aabb0ae5f182"; // 115 total
-        // const User_id = "6520581e26b4e6e173fe621f"; // 20 total
-        // const User_id = "651439639eefb47285529a1c"; // 4 total
-        //! ----------------- temporal solo para pruebas en insomnia --------
 
         if (role === "user") {
             queriesObj.User_id = new mongoose.Types.ObjectId(User_id);

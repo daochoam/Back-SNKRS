@@ -15,12 +15,14 @@ const getProducts = async (req, res) => {
             minPrice,
             search,
             quantity,
+            sortSales,
             sortPrice,
             page = 1,
             itemXPage = 9,
         } = req.query;
+        console.log("🚀 ~ file: getProducts.js:23 ~ getProducts ~ req.query:", req.query)
 
-        const skip = (page - 1) * itemXPage;
+        const skip = (parseInt(page) - 1) * parseInt(itemXPage);
 
         // Define la etapa de agregación inicial
         const Parameters = [
@@ -58,14 +60,16 @@ const getProducts = async (req, res) => {
             }
         ];
 
+        //! @params SORT{ Price, Sales}
         // ascending order (1) by "price" field
-        if (sortPrice == 'ascending') {
-            Parameters.push({ $sort: { price: 1 } })
-        }
+        if (sortPrice == 'ascending') Parameters.push({ $sort: { price: 1 } })
         // descenden order (1) by "price" field
-        if (sortPrice == 'descending') {
-            Parameters.push({ $sort: { price: -1 } })
-        }
+        if (sortPrice == 'descending') Parameters.push({ $sort: { price: -1 } })
+        // ascending order (1) by "sales" field
+        if (sortSales == 'ascending') Parameters.push({ $sort: { sales: 1 } })
+        // descenden order (1) by "sales" field
+        if (sortSales == 'descending') Parameters.push({ $sort: { sales: -1 } })
+
         // Aplica los filtros según los parámetros proporcionados
         if (search) {
             Parameters.push({
@@ -104,7 +108,7 @@ const getProducts = async (req, res) => {
         const totalProducts = totalProductsFound.length > 0 ? totalProductsFound[0].totalProducts : 0;
 
         // Aplica la paginación
-        Parameters.push({ $skip: skip }, { $limit: itemXPage });
+        Parameters.push({ $skip: skip }, { $limit: parseInt(itemXPage) });
 
         // Proyecta las propiedades deseadas
         Parameters.push({
@@ -114,6 +118,7 @@ const getProducts = async (req, res) => {
                 gender: 1,
                 rating: 1,
                 stock: 1,
+                sales: 1,
                 image: { $arrayElemAt: ['$image.src', 0] },
                 brand: {
                     brand: '$brand.brand',
@@ -123,10 +128,9 @@ const getProducts = async (req, res) => {
                 type: '$type.type',
             }
         });
-
         const products = await Product.aggregate(Parameters);
 
-        const totalPages = Math.ceil(totalProducts / itemXPage);
+        const totalPages = Math.ceil(totalProducts / parseInt(itemXPage));
 
         res.json({
             products,

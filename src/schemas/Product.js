@@ -46,6 +46,10 @@ const productSchema = new Schema({
       },
     ],
   },
+  sales: {
+    type: Number,
+    defaultValue: 0,
+  },
 });
 
 const Product = model("Product", productSchema);

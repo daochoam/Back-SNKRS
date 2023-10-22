@@ -23,16 +23,6 @@ const getRecordShoppingsByUsers = async (req, res) => {
             matchFilters.User_id = userId;
         }
 
-        // if (search) {
-        //     matchFilters.status = status;
-        //     matchFilters['user.email'] = email;
-        //     matchFilters['user.firstName'] = firstName;
-        //     matchFilters['user.lastName'] = lastName;
-        //     matchFilters['user._id'] = mongoose.Types.ObjectId(id);
-        //     matchFilters['user.nit'] = nit;
-        //     matchFilters.payment = parseFloat(payment)
-        // }
-        // else {
         if (status) matchFilters.status = status;
         if (color) matchFilters['purchase.color'] = color;
         if (type) matchFilters['purchase.type'] = type;
